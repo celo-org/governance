@@ -1,3 +1,19 @@
-# Celo Governance
+# Celo Governance Repository
 
-This repository will lay the foundations for the new Celo Governance repository.
+This is the Celo Governance repository used for coordination by the community members.
+
+The CGP Editors are
+* Elizabeth Barnes (@ebethbarnes)
+* Ronan McGovern (@Pinotio)
+* Yaz Khoury (@YazzyYaz)
+* Will Kraft (@willkraft)
+
+## CGP Process For Submission
+
+### CGP Template
+
+Template by Will
+
+## CGP Editor Responsibilities
+
+## Meeting Notes
