@@ -7,6 +7,7 @@ The CGP Editors are
 * Ronan McGovern (@Pinotio)
 * Yaz Khoury (@YazzyYaz)
 * Will Kraft (@willkraft)
+* Chris Wilson (@calicokittencat)
 
 ## CGP Process For Submission
 
