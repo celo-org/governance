@@ -1,6 +1,6 @@
 # Technical Guide: Nuts & Bolts of the CGP Process
 
-This article explains the minimum steps you should take at each stage in the governance process. There are several best practices that go beyond these minimum steps in order to ensure alignment with the community. Those best practices can be found in the *Best Practices for Proposal Creators* section of the ==Main Article==.
+This article explains the minimum steps you should take at each stage in the governance process. There are several best practices that go beyond these minimum steps in order to ensure alignment with the community. Those best practices can be found in the *Best Practices for Proposal Creators* section of the [Governance Overview Article](https://github.com/celo-org/governance/blob/main/README.md).
 
 ## Creating & Submitting a Proposal
 **Creating a Governance Proposal**
