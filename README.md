@@ -11,19 +11,18 @@ The CGP Editors are:
 
 We regularly hold governance calls to discuss proposals. See below for a summary of past calls.
 
-**[WIP]**
 |  №  |      Date       | Agenda | Notes | Recording |
 |:---:|:---------------:|:------:|:-----:|:---------:|
-| 10  | August 19, 2021 | Agenda | Notes |   Video   |
-|  9  | August 19, 2021 | Agenda | Notes |   Video   |
-|  8  | August 19, 2021 | Agenda | Notes |   Video   |
-|  7  | August 19, 2021 | Agenda | Notes |   Video   |
-|  6  | August 19, 2021 | Agenda | Notes |   Video   |
-|  5  | August 19, 2021 | Agenda | Notes |   Video   |
-|  4  | August 19, 2021 | Agenda | Notes |   Video   |
-|  3  | August 19, 2021 | Agenda | Notes |   Video   |
-|  2  | August 19, 2021 | Agenda | Notes |   Video   |
-|  1  | August 19, 2021 | Agenda | Notes |   Video   |
+| 10  | August 19, 2021 | [Agenda](https://github.com/celo-org/governance/issues/17) | [Notes](https://github.com/celo-org/governance/files/7018216/Celo.Governance.Call.10_2021.08.19.pdf) |   [Video](https://www.youtube.com/watch?v=YKYKuQZvUbo)   |
+|  9  | August 5, 2021 | [Agenda](https://github.com/celo-org/governance/issues/15) | [Notes](https://github.com/celo-org/celo-proposals/files/6942270/Celo.Governance.Call.9_2021.08.05.pdf) |   [Video](https://www.youtube.com/watch?v=pIx38y6Ytw0)   |
+|  8  | June 17, 2021 | [Agenda](https://github.com/celo-org/governance/issues/14) | [Notes](https://github.com/celo-org/celo-proposals/files/6678620/Celo.Governance.Call.8.pdf) |   [Video](https://www.youtube.com/watch?v=xFl5uXWgbso)   |
+|  7  | April 29, 2021 | [Agenda](https://github.com/celo-org/governance/issues/13) | [Notes](https://github.com/celo-org/celo-proposals/files/6402756/Celo.Governance.Call.7_2021.04.29.pdf) |   [Video](https://www.youtube.com/watch?v=PC7AZrZKkd4)   |
+|  6  | April 8, 2021 | [Agenda](https://github.com/celo-org/governance/issues/12) | [Notes](https://github.com/celo-org/celo-proposals/files/6282634/Celo.Governance.Call.6_2021.04.08.pdf) |   [Video](https://www.youtube.com/watch?v=SuefN6rlD2A)   |
+|  5  | March 25, 2021 | [Agenda](https://github.com/celo-org/governance/issues/11) | [Notes](https://github.com/celo-org/celo-proposals/files/6209191/Celo.Governance.Call.5_2021.03.25.pdf) |   [Video](https://www.youtube.com/watch?v=ZT-L--xhiU0)   |
+|  4  | February 4, 2021 | [Agenda](https://github.com/celo-org/governance/issues/10) | NA |   [Video](https://www.youtube.com/watch?v=jqOdLCHqc1A)   |
+|  3  | January 5, 2021 | [Agenda](https://github.com/celo-org/governance/issues/9) | NA |   [Video](https://www.youtube.com/watch?v=FOP3FyGqft4)   |
+|  2  | December 3, 2020 | [Agenda](https://github.com/celo-org/governance/issues/8) | NA |   [Video](https://www.youtube.com/watch?v=BUXFL86P63U)   |
+|  1  | November 6, 2020 | [Agenda](https://github.com/celo-org/governance/issues/7) | NA |   [Video](https://www.youtube.com/watch?v=Z6PsB4cYLEo)   |
 
 
 # Governance Overview
