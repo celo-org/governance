@@ -4,20 +4,23 @@ This article explains the minimum steps you should take at each stage in the gov
 
 ## Creating & Submitting a Proposal
 **Creating a Governance Proposal**
-Creating a governance proposal involves creating two documents:
+
+&nbsp;Creating a governance proposal involves creating two documents:
 1. JSON File
 2. Celo Governance Proposal
 
-++JSON File++
+*JSON File*
+
+&nbsp;
 When a governance proposal passes, the Celo network runs a list of methods to implement the changes that are proposed. The parameters used in those methods are specified in a JSON file—this file is the list of method calls that would be made if the proposal passes (See an example JSON file [here](https://github.com/celo-org/celo-proposals/blob/master/CGPs/0024/mainnet.json)). To ensure your JSON file is not buggy, you can message the #​​general-core in Discord to ask someone to review the file.
 
 Each transaction step (or method call) should include the following parameters:
-- ++Transaction Number++: This is the index of the transaction in the list, so it’s not actually listed.  Transactions will run in order.
-- ++Contract++: The contract with the desired function call for the transaction.
-- ++Function++: The function in the above contract that will be called.
-- ++Args++: Arguments that will be passed as the parameters to the above function.
-- ++Params++: For parameter changes, `Params` will be the same as `Args`.
-- ++Value++: The value of native token transferred with the transaction.
+- **Transaction Number**: This is the index of the transaction in the list, so it’s not actually listed.  Transactions will run in order.
+- **Contract**: The contract with the desired function call for the transaction.
+- **Function**: The function in the above contract that will be called.
+- **Args**: Arguments that will be passed as the parameters to the above function.
+- **Params**: For parameter changes, `Params` will be the same as `Args`.
+- **Value**: The value of native token transferred with the transaction.
 
 Here’s an example:
 > [
@@ -31,14 +34,17 @@ Here’s an example:
 
 **Note:** A JSON file is only needed for on-chain changes. Some governance proposals - such as General Governance Proposals and Changes - don’t affect the Celo blockchain (e.g. changing name from Celo Gold to CELO).
 
-++Celo Governance Proposal++
-In addition to creating the JSON file, you should create a Celo Governance Proposal (CGP) using the [CGP Template](https://github.com/celo-org/celo-proposals/blob/master/CGPs/template.md) and submit a pull request in the Celo Governance repo. Make sure to include enough detail that anybody who’s reasonably knowledgeable about Celo can understand why the proposal is needed and what the proposal will do. When submitted, the CGP Editors will review and may reach out to you with feedback to incorporate. When your CGP pull request has been merged, submit a post in the [Governance section](https://forum.celo.org/c/governance/12) of the Celo forum to allow the community to comment on it. It’s also helpful to include the JSON file in the Github repo as well so others can review—you can create a folder in the top level of the repo named for the CGP number and put the file in it.
+*Celo Governance Proposal*
+
+&nbsp;In addition to creating the JSON file, you should create a Celo Governance Proposal (CGP) using the [CGP Template](https://github.com/celo-org/celo-proposals/blob/master/CGPs/template.md) and submit a pull request in the Celo Governance repo. Make sure to include enough detail that anybody who’s reasonably knowledgeable about Celo can understand why the proposal is needed and what the proposal will do. When submitted, the CGP Editors will review and may reach out to you with feedback to incorporate. When your CGP pull request has been merged, submit a post in the [Governance section](https://forum.celo.org/c/governance/12) of the Celo forum to allow the community to comment on it. It’s also helpful to include the JSON file in the Github repo as well so others can review—you can create a folder in the top level of the repo named for the CGP number and put the file in it.
 
 **Testing a Governance Proposal**
-When a Governance Proposal intends to change smart contract parameters, a CGP should be tested on Alfajores and Baklava Testnet before proposing on mainnet. This ensures that the testnets keep up to date with mainnet and that your parameter changes work as intended. Testing has been mostly done by cLabs so far. You can ask on #general-core or #celo-governance on Discord to find out who can help you.
+
+&nbsp;When a Governance Proposal intends to change smart contract parameters, a CGP should be tested on Alfajores and Baklava Testnet before proposing on mainnet. This ensures that the testnets keep up to date with mainnet and that your parameter changes work as intended. Testing has been mostly done by cLabs so far. You can ask on #general-core or #celo-governance on Discord to find out who can help you.
 
 **Submitting a Governance Proposal**
-Your proposal consists of the JSON file (if required) and a Celo Governance Proposal.
+
+&nbsp;Your proposal consists of the JSON file (if required) and a Celo Governance Proposal.
 
 Before actually submitting the proposal, the community should have sufficient time to discuss in the forum, and you should have discussed the proposal on a governance call. See the Best Practices for Proposal Creators section of the ==
 == for all best practices for championing a proposal.
@@ -51,10 +57,10 @@ Governance proposals are submitted through the Celo Command Line Interface (CLI)
 command. See [here](https://docs.celo.org/command-line-interface/introduction) to get started with Celo CLI.
 
 This command has several parameters:
-- ++--deposit++: The amount of Celo to attach to Celo as a deposit. All amounts are given as wei, i.e units of 10^-18 CELO. For example, 1 CELO = 1000000000000000000. The minimum deposit is 100 CELO.
-- ++--descriptionURL++: A URL where people can go to learn more about the proposal. In general, this should be the link to the CGP.
-- ++--from++: Your address
-- ++--jsonTransactions++: The path to the JSON file containing all of the transactions that are involved in the proposal.
+- **deposit** The amount of Celo to attach to Celo as a deposit. All amounts are given as wei, i.e units of 10^-18 CELO. For example, 1 CELO = 1000000000000000000. The minimum deposit is 100 CELO.
+- **descriptionURL**: A URL where people can go to learn more about the proposal. In general, this should be the link to the CGP.
+- **from**: Your address
+- **jsonTransactions**: The path to the JSON file containing all of the transactions that are involved in the proposal.
 
 Here’s an example:
 > propose --jsonTransactions ./transactions.json --deposit 100000000000000000000 --from
