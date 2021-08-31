@@ -127,7 +127,7 @@ Celo governance is community-driven, and because of that, a lot of the tips belo
 
 1. **Evaluate Whether Necessary:** Before doing any work, make sure the proposal is needed and isn’t already being worked on by checking on celo.forum.org and asking on Discord. Skim through active CGP proposals and the Celo forum to ensure that the idea isn’t already being discussed or proposed and warrants its own CGP.
 1. **Initial Community Feedback:** Get high-level feedback from the community to improve and gauge your idea’s support. Create a forum post summarizing your idea and share it in the [Governance section of the Celo forum](https://forum.celo.org/c/governance/12) to get initial feedback.
-1. **Targeted Feedback:** Reach out to stakeholders who would be impacted to get their opinion. Reach out to people with established reputations in the community for feedback (e.g., validators, cLabbers - reachable on the Discord), especially if the proposal would impact them. This can help build support among community members that will be helpful in later stages in the process.
+1. **Targeted Feedback:** Reach out to stakeholders who would be impacted to get their opinion. Reach out to people with established reputations in the community for feedback (e.g. validators, cLabbers - reachable on the Discord), especially if the proposal would impact them. This can help build support among community members that will be helpful in later stages in the process.
 </details>
 
 <details>
