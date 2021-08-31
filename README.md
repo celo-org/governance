@@ -26,9 +26,14 @@ We regularly hold governance calls to discuss proposals. See below for a summary
 |  1  | August 19, 2021 | Agenda | Notes |   Video   |
 
 
-## Governance Overview
-Governance is, at its core, all about how a group of people working together makes decisions. Celo has an on-chain governance mechanism for working as a community to make decisions. This documentation is designed for proposal creators and people interested in creating proposals, and it aims to give them the base of knowledge necessary for creating and championing a proposal.
+# Governance Overview
+Governance is, at its core, all about how a group of people working together makes decisions. Celo has an on-chain governance mechanism for working as a community to make decisions. This documentation is designed for proposal creators and people interested in creating proposals, and it aims to give them the base of knowledge necessary for creating and championing a proposal. This article summarizes the most important details proposal creators should be aware of, and the following links provide additional details:
+* [Governance Process](https://github.com/celo-org/governance/blob/main/Governance%20Process.md)
+* [Types of Celo Governance Proposals](https://github.com/celo-org/governance/blob/main/Types%20of%20Celo%20Governance%20Proposals.md)
+* [Technical Guide - Nuts & Bolts of CGP Process](https://github.com/celo-org/governance/blob/main/Technical%20Guide%20-%20Nuts%20%26%20Bolts%20of%20the%20CGP%20Process.md)
 
+
+The following points summarize the key context for Celo governance:
 <details>
 	<summary>What is Celo Governance?</summary>
 
@@ -67,7 +72,7 @@ Once a proposal is submitted on Github, it can be submitted on-chain along with 
 &nbsp;
 
 ## Governance Process & Steps for Proposal Creators
-This is an abbreviated description of the governance process and the steps needed to move the proposal through each phase. See the Governance Process and Technical Guide articles for more details.
+This is an abbreviated description of the governance process and the steps needed to move the proposal through each phase. See the [Governance Process](https://github.com/celo-org/governance/blob/main/Governance%20Process.md) and [Technical Guide](https://github.com/celo-org/governance/blob/main/Technical%20Guide%20-%20Nuts%20%26%20Bolts%20of%20the%20CGP%20Process.md) articles for more details.
 
 These are the minimum steps needed to move a proposal through the governance process. There are several best practices that are strongly encouraged in order to ensure adequate community buy-in, and these are covered in the Best Practices for Proposal Creators section below.
 
