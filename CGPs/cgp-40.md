@@ -2,7 +2,7 @@
 cgp: 40
 title: Reduce Exchange Spreads for cUSD and cEUR
 date-created: 2021-09-30
-author: Roman Croessmann (@rcroessmann), Martin Volpe (@martinvol), Zviad Metreveli (@zviadm)
+author: Roman Croessmann (@rcroessmann), Martin Volpe (@martinvol), Nadiem Sissouno (sissnad), Zviad Metreveli (@zviadm), Markus Franke (@MarkusBerlin)
 status: DRAFT
 date-executed: [if executed] <date created on, in ISO 8601 (yyyy-mm-dd) format>
 governance-proposal-id: [if submitted]
