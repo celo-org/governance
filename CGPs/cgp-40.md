@@ -9,9 +9,9 @@ governance-proposal-id: [if submitted]
 ---
 ## Overview
 
-This governance proposal proses to reduce the fee charged for cEUR and cUSD exchanges via Mento, the Celo stability protocol.
+This governance proposal suggests a reduction of the fee charged for cEUR and cUSD exchanges via Mento, the Celo stability protocol.
 
-Since the activation of cUSD and cEUR via governance proposals [CGP007](https://github.com/celo-org/governance/blob/main/CGPs/cgp-0007.md) and [CGP24](https://github.com/celo-org/governance/blob/main/CGPs/cgp-0024.md), the Celo Reserve has charged a fee of 0.5%, a value controlled via the spread parameter, on all trades with the Celo Reserve. This fee is supposed to compensate the Celo Reserve for taking on price risk as a liquidity provider.
+Since the activation of cUSD and cEUR via governance proposals [CGP007](https://github.com/celo-org/governance/blob/main/CGPs/cgp-0007.md) and [CGP24](https://github.com/celo-org/governance/blob/main/CGPs/cgp-0024.md), the Celo Reserve has charged a fee of 0.5%, a value controlled via the `spread` parameter in the Exchange contract, on all trades with the Celo Reserve. This fee is supposed to compensate the Celo Reserve for taking on price risk as a liquidity provider.
 
 ### Status
 - DRAFT = Feedback collection
