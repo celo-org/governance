@@ -1,0 +1,15 @@
+
+[
+    {
+        "contract": "Exchange",
+        "function": "setSpread",
+        "args": ["2500000000000000000000"], 
+        "value": "0"
+      },
+      {
+        "contract": "ExchangeEUR",
+        "function": "setSpread",
+        "args": ["2500000000000000000000"],
+        "value": "0"
+      }
+]
