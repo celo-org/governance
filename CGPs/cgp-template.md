@@ -4,8 +4,8 @@ title: <CGP title>
 date-created: <date created on, in ISO 8601 (yyyy-mm-dd) format>
 author: <a list of the author's or authors' name(s) and/or username(s), or name(s) and email(s), e.g. (use with the parentheses or triangular brackets): FirstName LastName (@GitHubUsername), FirstName LastName <foo@bar.com>, FirstName (@GitHubUsername) and GitHubUsername (@GitHubUsername)>
 status: <DRAFT | PROPOSED | EXECUTED | EXPIRED | WITHDRAWN>
-date-executed: [if executed] <date created on, in ISO 8601 (yyyy-mm-dd) format>
 governance-proposal-id: [if submitted]
+date-executed: [if executed] <date created on, in ISO 8601 (yyyy-mm-dd) format>
 ---
 ## Overview
 
