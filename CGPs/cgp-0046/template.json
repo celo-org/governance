@@ -1,0 +1,93 @@
+[
+    {
+        "contract": "Freezer",
+        "function": "freeze",
+        "args": ["TBD StableTokenBRL address"],
+        "value": "0"
+      },
+      {
+        "contract": "Freezer",
+        "function": "freeze",
+        "args": ["TBD ExchangeBRL address"],
+        "value": "0"
+      },
+      {
+        "contract": "SortedOracles",
+        "function": "addOracle",
+        "args": ["TBD StableTokenBRL address", "TBD oracle address"],
+        "value": "0"
+      },
+      {
+        "contract": "GoldToken",
+        "function": "transfer",
+        "args": ["TBD oracle address", "1000000000000000000000"],
+        "value": "0"
+      },
+      {
+        "contract": "Governance",
+        "function": "setConstitution",
+        "args": ["TBD ExchangeBRL address", "0xa91ee0dc", "900000000000000000000000"], 
+        "value": "0"
+      },
+      {
+        "contract": "Governance",
+        "function": "setConstitution",
+        "args": ["TBD ExchangeBRL address", "0x4a1be6cb", "800000000000000000000000"],
+        "value": "0"
+      },
+      {
+        "contract": "Governance",
+        "function": "setConstitution",
+        "args": ["TBD ExchangeBRL address", "0xd404f7f8", "800000000000000000000000"],
+        "value": "0"
+      },
+      {
+        "contract": "Governance",
+        "function": "setConstitution",
+        "args": ["TBD ExchangeBRL address", "0xdb1bc87b", "800000000000000000000000"],
+        "value": "0"
+      },
+      {
+        "contract": "Governance",
+        "function": "setConstitution",
+        "args": ["TBD ExchangeBRL address", "0xb66a261c", "800000000000000000000000"],
+        "value": "0"
+      },
+      {
+        "contract": "Governance",
+        "function": "setConstitution",
+        "args": ["TBD ExchangeBRL address", "0x6a5eaf47", "800000000000000000000000"],
+        "value": "0"
+      },
+      {
+        "contract": "Governance",
+        "function": "setConstitution",
+        "args": ["TBD StableTokenBRL address", "0xa91ee0dc", "900000000000000000000000"],
+        "value": "0"
+      },
+      {
+        "contract": "Governance",
+        "function": "setConstitution",
+        "args": ["TBD StableTokenBRL address", "0x222836ad", "600000000000000000000000"],
+        "value": "0"
+      },
+      {
+        "contract": "Governance",
+        "function": "setConstitution",
+        "args": ["TBD StableTokenBRL address", "0xa9059cbb", "600000000000000000000000"],
+        "value": "0"
+      },
+      {
+        "contract": "Governance",
+        "function": "setConstitution",
+        "args": ["TBD StableTokenBRL address", "0xe1d6aceb", "600000000000000000000000"],
+        "value": "0"
+      },
+      {
+        "contract": "Governance",
+        "function": "setConstitution",
+        "args": ["TBD StableTokenBRL address", "0x095ea7b3", "600000000000000000000000"],
+        "value": "0"
+      }
+
+]
