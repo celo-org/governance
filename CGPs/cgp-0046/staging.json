@@ -1,0 +1,156 @@
+[
+    {
+        "contract": "Freezer",
+        "function": "freeze",
+        "args": ["0xe40E69bc74F59f2Fd8E8fe10Ba94CCbb0A1EC333"],
+        "value": "0"
+      },
+      {
+        "contract": "Freezer",
+        "function": "freeze",
+        "args": ["0x7d76327DA2D46439c711434eEe8670d5b8b6f7FF"],
+        "value": "0"
+      },
+      {
+        "contract": "SortedOracles",
+        "function": "addOracle",
+        "args": ["0xe40E69bc74F59f2Fd8E8fe10Ba94CCbb0A1EC333", "0x4e3D385eCdEE402DA395a3b18575B05Cc5e8Ff21"],
+        "value": "0"
+      },
+      {
+        "contract": "GoldToken",
+        "function": "transfer",
+        "args": ["0x4e3D385eCdEE402DA395a3b18575B05Cc5e8Ff21", "1000000000000000000000"],
+        "value": "0"
+      },
+
+      {
+        "contract": "SortedOracles",
+        "function": "addOracle",
+        "args": ["0xe40E69bc74F59f2Fd8E8fe10Ba94CCbb0A1EC333", "0x4D169C0Ec17D3dEcB250701Aa64e966bE98a696B"],
+        "value": "0"
+      },
+      {
+        "contract": "GoldToken",
+        "function": "transfer",
+        "args": ["0x4D169C0Ec17D3dEcB250701Aa64e966bE98a696B", "1000000000000000000000"],
+        "value": "0"
+      },
+      
+
+      {
+        "contract": "SortedOracles",
+        "function": "addOracle",
+        "args": ["0xe40E69bc74F59f2Fd8E8fe10Ba94CCbb0A1EC333", "0x034217fB0C08dec29a6beA99e75aAC39baf7459A"],
+        "value": "0"
+      },
+      {
+        "contract": "GoldToken",
+        "function": "transfer",
+        "args": ["0x034217fB0C08dec29a6beA99e75aAC39baf7459A", "1000000000000000000000"],
+        "value": "0"
+      },
+      {
+        "contract": "SortedOracles",
+        "function": "addOracle",
+        "args": ["0xe40E69bc74F59f2Fd8E8fe10Ba94CCbb0A1EC333", "0xD20f803a1489849031725479Df27741c3326eD15"],
+        "value": "0"
+      },
+      {
+        "contract": "GoldToken",
+        "function": "transfer",
+        "args": ["0xD20f803a1489849031725479Df27741c3326eD15", "1000000000000000000000"],
+        "value": "0"
+      },
+      {
+        "contract": "SortedOracles",
+        "function": "addOracle",
+        "args": ["0xe40E69bc74F59f2Fd8E8fe10Ba94CCbb0A1EC333", "0x26412103865Be3F80152EA10E61E6294ed0e0DC9"],
+        "value": "0"
+      },
+      {
+        "contract": "GoldToken",
+        "function": "transfer",
+        "args": ["0x26412103865Be3F80152EA10E61E6294ed0e0DC9", "1000000000000000000000"],
+        "value": "0"
+      },
+      {
+        "contract": "SortedOracles",
+        "function": "addOracle",
+        "args": ["0xe40E69bc74F59f2Fd8E8fe10Ba94CCbb0A1EC333", "0x7Ba21D1f769Ae9feCF58dEfB5bD08905Bd3B707B"],
+        "value": "0"
+      },
+      {
+        "contract": "GoldToken",
+        "function": "transfer",
+        "args": ["0x7Ba21D1f769Ae9feCF58dEfB5bD08905Bd3B707B", "1000000000000000000000"],
+        "value": "0"
+      },
+      {
+        "contract": "Governance",
+        "function": "setConstitution",
+        "args": ["0x7d76327DA2D46439c711434eEe8670d5b8b6f7FF", "0xa91ee0dc", "900000000000000000000000"], 
+        "value": "0"
+      },
+      {
+        "contract": "Governance",
+        "function": "setConstitution",
+        "args": ["0x7d76327DA2D46439c711434eEe8670d5b8b6f7FF", "0x4a1be6cb", "800000000000000000000000"],
+        "value": "0"
+      },
+      {
+        "contract": "Governance",
+        "function": "setConstitution",
+        "args": ["0x7d76327DA2D46439c711434eEe8670d5b8b6f7FF", "0xd404f7f8", "800000000000000000000000"],
+        "value": "0"
+      },
+      {
+        "contract": "Governance",
+        "function": "setConstitution",
+        "args": ["0x7d76327DA2D46439c711434eEe8670d5b8b6f7FF", "0xdb1bc87b", "800000000000000000000000"],
+        "value": "0"
+      },
+      {
+        "contract": "Governance",
+        "function": "setConstitution",
+        "args": ["0x7d76327DA2D46439c711434eEe8670d5b8b6f7FF", "0xb66a261c", "800000000000000000000000"],
+        "value": "0"
+      },
+      {
+        "contract": "Governance",
+        "function": "setConstitution",
+        "args": ["0x7d76327DA2D46439c711434eEe8670d5b8b6f7FF", "0x6a5eaf47", "800000000000000000000000"],
+        "value": "0"
+      },
+      {
+        "contract": "Governance",
+        "function": "setConstitution",
+        "args": ["0xe40E69bc74F59f2Fd8E8fe10Ba94CCbb0A1EC333", "0xa91ee0dc", "900000000000000000000000"],
+        "value": "0"
+      },
+      {
+        "contract": "Governance",
+        "function": "setConstitution",
+        "args": ["0xe40E69bc74F59f2Fd8E8fe10Ba94CCbb0A1EC333", "0x222836ad", "600000000000000000000000"],
+        "value": "0"
+      },
+      {
+        "contract": "Governance",
+        "function": "setConstitution",
+        "args": ["0xe40E69bc74F59f2Fd8E8fe10Ba94CCbb0A1EC333", "0xa9059cbb", "600000000000000000000000"],
+        "value": "0"
+      },
+      {
+        "contract": "Governance",
+        "function": "setConstitution",
+        "args": ["0xe40E69bc74F59f2Fd8E8fe10Ba94CCbb0A1EC333", "0xe1d6aceb", "600000000000000000000000"],
+        "value": "0"
+      },
+      {
+        "contract": "Governance",
+        "function": "setConstitution",
+        "args": ["0xe40E69bc74F59f2Fd8E8fe10Ba94CCbb0A1EC333", "0x095ea7b3", "600000000000000000000000"],
+        "value": "0"
+      }
+
+]
