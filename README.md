@@ -13,6 +13,7 @@ We regularly hold governance calls to discuss proposals. See below for a summary
 
 |  №  |      Date       | Agenda | Notes | Recording |
 |:---:|:---------------:|:------:|:-----:|:---------:|
+| 14  | November 18, 2021 | [Agenda](https://github.com/celo-org/governance/issues/101) | [Notes](https://github.com/celo-org/governance/files/7571588/Celo.Governance.Call.14_2021.11.18.pdf) |   [Video](https://www.youtube.com/watch?v=eOlshpjh6rQ)   |
 | 13  | October 14, 2021 | [Agenda](https://github.com/celo-org/governance/issues/55) | [Notes](https://github.com/celo-org/governance/files/7348084/Celo.Governance.Call.13.pdf) |   [Video](https://www.youtube.com/watch?v=Q0GDS3qkkLI)   |
 | 12  | September 23, 2021 | [Agenda](https://github.com/celo-org/governance/issues/36) | [Notes](https://github.com/celo-org/governance/files/7230171/Celo.Governance.Call.12_2021.09.23.pdf) |   [Video](https://www.youtube.com/watch?v=ecqAUeTsY-Y&feature=youtu.be)   |
 | 11  | September 9, 2021 | [Agenda](https://github.com/celo-org/governance/issues/30) | [Notes](https://github.com/celo-org/governance/files/7140911/Celo.Governance.Call.11_2021.09.09.pdf) |   [Video](https://www.youtube.com/watch?v=wsvF7pM5y3c)   |
