@@ -1,0 +1,42 @@
+[
+    {
+        "contract": "Freezer",
+        "function": "unfreeze",
+        "args": ["TBD ADD STABLE TOKEN"],
+        "value": "0"
+      },
+      {
+        "contract": "Freezer",
+        "function": "unfreeze",
+        "args": ["TBD ADD EXCHANGE"],
+        "value": "0"
+      },
+      {
+        "contract": "Reserve",
+        "function": "addExchangeSpender",
+        "args": ["TBD ADD EXCHANGE"],
+        "value": "0"
+      },
+      {
+        "contract": "Reserve",
+        "function": "addToken",
+        "args": ["TBD ADD STABLE TOKEN"],
+        "value": "0"
+      },
+      {
+        "contract": "FeeCurrencyWhitelist",
+        "function": "addToken",
+        "args": ["TBD ADD STABLE TOKEN"],
+        "value": "0"
+      },
+      {
+        "contract": "GrandaMento",
+        "function": "setStableTokenExchangeLimits",
+        "args": [
+          "StableTokenBRL",
+          "MIN AMOUNT",
+          "MAX AMOUNT"
+        ],
+        "value":"0"
+      }
+]

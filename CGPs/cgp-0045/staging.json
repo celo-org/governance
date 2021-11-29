@@ -1,0 +1,48 @@
+[
+    {
+        "contract": "Freezer",
+        "function": "unfreeze",
+        "args": ["0xe40E69bc74F59f2Fd8E8fe10Ba94CCbb0A1EC333"],
+        "value": "0"
+      },
+      {
+        "contract": "Freezer",
+        "function": "unfreeze",
+        "args": ["0x7d76327DA2D46439c711434eEe8670d5b8b6f7FF"],
+        "value": "0"
+      },
+      {
+        "contract": "Reserve",
+        "function": "addExchangeSpender",
+        "args": ["0x7d76327DA2D46439c711434eEe8670d5b8b6f7FF"],
+        "value": "0"
+      },
+      {
+        "contract": "Reserve",
+        "function": "addToken",
+        "args": ["0xe40E69bc74F59f2Fd8E8fe10Ba94CCbb0A1EC333"],
+        "value": "0"
+      },
+      {
+        "contract": "FeeCurrencyWhitelist",
+        "function": "addToken",
+        "args": ["0xe40E69bc74F59f2Fd8E8fe10Ba94CCbb0A1EC333"],
+        "value": "0"
+      },
+      {
+        "contract": "GrandaMento",
+        "function": "setStableTokenExchangeLimits",
+        "args": [
+          "StableTokenBRL",
+          "500000000000000000000000",
+          "50000000000000000000000000"
+        ],
+        "value":"0"
+      },
+      {
+        "contract": "ExchangeBRL",
+        "function": "setMinimumReports",
+        "args": ["1"],
+        "value":"0"
+      }
+]
