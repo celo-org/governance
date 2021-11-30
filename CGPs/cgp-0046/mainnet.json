@@ -51,13 +51,13 @@
       {
         "contract": "SortedOracles",
         "function": "addOracle",
-        "args": ["TBD StableTokenBRL address", "0x6404d7e494bc7f700ffaeb96909a96c3f9214ed2"],
+        "args": ["TBD StableTokenBRL address", "0x554ba7f4d200c7b233b93b7f2223bc1ea7c467fd"],
         "value": "0"
       },
       {
         "contract": "GoldToken",
         "function": "transfer",
-        "args": ["0x6404d7e494bc7f700ffaeb96909a96c3f9214ed2", "1000000000000000000000"],
+        "args": ["0x554ba7f4d200c7b233b93b7f2223bc1ea7c467fd", "1000000000000000000000"],
         "value": "0"
       },
       {
