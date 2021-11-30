@@ -2,20 +2,19 @@
     {
         "contract": "Freezer",
         "function": "freeze",
-        "args": ["TBD StableTokenBRL address"],
+        "args": ["0xe8537a3d056DA446677B9E9d6c5dB704EaAb4787"],
         "value": "0"
       },
       {
         "contract": "Freezer",
         "function": "freeze",
-        "args": ["TBD ExchangeBRL address"],
+        "args": ["0x8f2cf9855C919AFAC8Bd2E7acEc0205ed568a4EA"],
         "value": "0"
       },
       {
-        TODO double check oracle addresses 
         "contract": "SortedOracles",
         "function": "addOracle",
-        "args": ["TBD StableTokenBRL address", "0xc3994b2af0e82490e432d49e9f2246cdfd84da8f"],
+        "args": ["0xe8537a3d056DA446677B9E9d6c5dB704EaAb4787", "0xc3994b2af0e82490e432d49e9f2246cdfd84da8f"],
         "value": "0"
       },
       {
@@ -27,7 +26,7 @@
       {
         "contract": "SortedOracles",
         "function": "addOracle",
-        "args": ["TBD StableTokenBRL address", "0x3b91bbb873f3b979bd6671dc018d5fc1848882dd"],
+        "args": ["0xe8537a3d056DA446677B9E9d6c5dB704EaAb4787", "0x3b91bbb873f3b979bd6671dc018d5fc1848882dd"],
         "value": "0"
       },
       {
@@ -39,7 +38,7 @@
       {
         "contract": "SortedOracles",
         "function": "addOracle",
-        "args": ["TBD StableTokenBRL address", "0x9b376b33c33325332df8c6ca951a9896889a6d1e"],
+        "args": ["0xe8537a3d056DA446677B9E9d6c5dB704EaAb4787", "0x9b376b33c33325332df8c6ca951a9896889a6d1e"],
         "value": "0"
       },
       {
@@ -51,7 +50,7 @@
       {
         "contract": "SortedOracles",
         "function": "addOracle",
-        "args": ["TBD StableTokenBRL address", "0x554ba7f4d200c7b233b93b7f2223bc1ea7c467fd"],
+        "args": ["0xe8537a3d056DA446677B9E9d6c5dB704EaAb4787", "0x554ba7f4d200c7b233b93b7f2223bc1ea7c467fd"],
         "value": "0"
       },
       {
@@ -63,7 +62,7 @@
       {
         "contract": "SortedOracles",
         "function": "addOracle",
-        "args": ["TBD StableTokenBRL address", "0x535cea1834d6b52e4e9724642fdd7008f569ba5c"],
+        "args": ["0xe8537a3d056DA446677B9E9d6c5dB704EaAb4787", "0x535cea1834d6b52e4e9724642fdd7008f569ba5c"],
         "value": "0"
       },
       {
@@ -75,7 +74,7 @@
       {
         "contract": "SortedOracles",
         "function": "addOracle",
-        "args": ["TBD StableTokenBRL address", "0x1299dd007cd5120262e546dca893e30d1cff8a10"],
+        "args": ["0xe8537a3d056DA446677B9E9d6c5dB704EaAb4787", "0x1299dd007cd5120262e546dca893e30d1cff8a10"],
         "value": "0"
       },
       {
@@ -87,7 +86,7 @@
       {
         "contract": "SortedOracles",
         "function": "addOracle",
-        "args": ["TBD StableTokenBRL address", "0x57d8a7bf9e7f4113c49e077b140fd8e1d7f78a76"],
+        "args": ["0xe8537a3d056DA446677B9E9d6c5dB704EaAb4787", "0x57d8a7bf9e7f4113c49e077b140fd8e1d7f78a76"],
         "value": "0"
       },
       {
@@ -99,7 +98,7 @@
       {
         "contract": "SortedOracles",
         "function": "addOracle",
-        "args": ["TBD StableTokenBRL address", "0x116951e440aee97a328614f9937710c9bb2f0839"],
+        "args": ["0xe8537a3d056DA446677B9E9d6c5dB704EaAb4787", "0x116951e440aee97a328614f9937710c9bb2f0839"],
         "value": "0"
       },
       {
@@ -111,7 +110,7 @@
       {
         "contract": "SortedOracles",
         "function": "addOracle",
-        "args": ["TBD StableTokenBRL address", "0xd1f3d8fc2446d2ff0e2408ae33a0097a4c94e381"],
+        "args": ["0xe8537a3d056DA446677B9E9d6c5dB704EaAb4787", "0xd1f3d8fc2446d2ff0e2408ae33a0097a4c94e381"],
         "value": "0"
       },
       {
@@ -123,7 +122,7 @@
       {
         "contract": "SortedOracles",
         "function": "addOracle",
-        "args": ["TBD StableTokenBRL address", "0x7f045f538c3837d9096205e740a0173ea860c400"],
+        "args": ["0xe8537a3d056DA446677B9E9d6c5dB704EaAb4787", "0x7f045f538c3837d9096205e740a0173ea860c400"],
         "value": "0"
       },
       {
@@ -135,67 +134,67 @@
       {
         "contract": "Governance",
         "function": "setConstitution",
-        "args": ["TBD ExchangeBRL address", "0xa91ee0dc", "900000000000000000000000"], 
+        "args": ["0x8f2cf9855C919AFAC8Bd2E7acEc0205ed568a4EA", "0xa91ee0dc", "900000000000000000000000"], 
         "value": "0"
       },
       {
         "contract": "Governance",
         "function": "setConstitution",
-        "args": ["TBD ExchangeBRL address", "0x4a1be6cb", "800000000000000000000000"],
+        "args": ["0x8f2cf9855C919AFAC8Bd2E7acEc0205ed568a4EA", "0x4a1be6cb", "800000000000000000000000"],
         "value": "0"
       },
       {
         "contract": "Governance",
         "function": "setConstitution",
-        "args": ["TBD ExchangeBRL address", "0xd404f7f8", "800000000000000000000000"],
+        "args": ["0x8f2cf9855C919AFAC8Bd2E7acEc0205ed568a4EA", "0xd404f7f8", "800000000000000000000000"],
         "value": "0"
       },
       {
         "contract": "Governance",
         "function": "setConstitution",
-        "args": ["TBD ExchangeBRL address", "0xdb1bc87b", "800000000000000000000000"],
+        "args": ["0x8f2cf9855C919AFAC8Bd2E7acEc0205ed568a4EA", "0xdb1bc87b", "800000000000000000000000"],
         "value": "0"
       },
       {
         "contract": "Governance",
         "function": "setConstitution",
-        "args": ["TBD ExchangeBRL address", "0xb66a261c", "800000000000000000000000"],
+        "args": ["0x8f2cf9855C919AFAC8Bd2E7acEc0205ed568a4EA", "0xb66a261c", "800000000000000000000000"],
         "value": "0"
       },
       {
         "contract": "Governance",
         "function": "setConstitution",
-        "args": ["TBD ExchangeBRL address", "0x6a5eaf47", "800000000000000000000000"],
+        "args": ["0x8f2cf9855C919AFAC8Bd2E7acEc0205ed568a4EA", "0x6a5eaf47", "800000000000000000000000"],
         "value": "0"
       },
       {
         "contract": "Governance",
         "function": "setConstitution",
-        "args": ["TBD StableTokenBRL address", "0xa91ee0dc", "900000000000000000000000"],
+        "args": ["0xe8537a3d056DA446677B9E9d6c5dB704EaAb4787", "0xa91ee0dc", "900000000000000000000000"],
         "value": "0"
       },
       {
         "contract": "Governance",
         "function": "setConstitution",
-        "args": ["TBD StableTokenBRL address", "0x222836ad", "600000000000000000000000"],
+        "args": ["0xe8537a3d056DA446677B9E9d6c5dB704EaAb4787", "0x222836ad", "600000000000000000000000"],
         "value": "0"
       },
       {
         "contract": "Governance",
         "function": "setConstitution",
-        "args": ["TBD StableTokenBRL address", "0xa9059cbb", "600000000000000000000000"],
+        "args": ["0xe8537a3d056DA446677B9E9d6c5dB704EaAb4787", "0xa9059cbb", "600000000000000000000000"],
         "value": "0"
       },
       {
         "contract": "Governance",
         "function": "setConstitution",
-        "args": ["TBD StableTokenBRL address", "0xe1d6aceb", "600000000000000000000000"],
+        "args": ["0xe8537a3d056DA446677B9E9d6c5dB704EaAb4787", "0xe1d6aceb", "600000000000000000000000"],
         "value": "0"
       },
       {
         "contract": "Governance",
         "function": "setConstitution",
-        "args": ["TBD StableTokenBRL address", "0x095ea7b3", "600000000000000000000000"],
+        "args": ["0xe8537a3d056DA446677B9E9d6c5dB704EaAb4787", "0x095ea7b3", "600000000000000000000000"],
         "value": "0"
       }
 
