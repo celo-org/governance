@@ -1,0 +1,42 @@
+[
+    {
+        "contract": "Freezer",
+        "function": "unfreeze",
+        "args": ["0xe8537a3d056DA446677B9E9d6c5dB704EaAb4787"],
+        "value": "0"
+      },
+      {
+        "contract": "Freezer",
+        "function": "unfreeze",
+        "args": ["0x8f2cf9855C919AFAC8Bd2E7acEc0205ed568a4EA"],
+        "value": "0"
+      },
+      {
+        "contract": "Reserve",
+        "function": "addExchangeSpender",
+        "args": ["0x8f2cf9855C919AFAC8Bd2E7acEc0205ed568a4EA"],
+        "value": "0"
+      },
+      {
+        "contract": "Reserve",
+        "function": "addToken",
+        "args": ["0xe8537a3d056DA446677B9E9d6c5dB704EaAb4787"],
+        "value": "0"
+      },
+      {
+        "contract": "FeeCurrencyWhitelist",
+        "function": "addToken",
+        "args": ["0xe8537a3d056DA446677B9E9d6c5dB704EaAb4787"],
+        "value": "0"
+      },
+      {
+        "contract": "GrandaMento",
+        "function": "setStableTokenExchangeLimits",
+        "args": [
+          "StableTokenBRL",
+          "2500000000000000000000000",
+          "250000000000000000000000000"
+        ],
+        "value":"0"
+      }
+]
