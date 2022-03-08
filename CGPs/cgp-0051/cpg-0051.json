@@ -1,0 +1,14 @@
+[
+    {
+        "contract": "Exchange",
+        "function": "setReserveFraction",
+        "args": ["20000000000000000000000"], 
+        "value": "0"
+      },
+      {
+        "contract": "ExchangeEUR",
+        "function": "setReserveFraction",
+        "args": ["5000000000000000000000"],
+        "value": "0"
+      }
+]
