@@ -1,0 +1,66 @@
+[
+  {
+    "contract": "AccountsProxy",
+    "function": "_setImplementation",
+    "args": [
+      "0xd0C0183682102C2a84f37e8C90063A25cCe044fF"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "AttestationsProxy",
+    "function": "_setImplementation",
+    "args": [
+      "0x1EC3366D384ee7996F2F70B67A65C5d54Ce96040"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "ElectionProxy",
+    "function": "_setImplementation",
+    "args": [
+      "0xAaa9CB9f0afCc60d8fb21F82D5D47c4557924115"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "EscrowProxy",
+    "function": "_setImplementation",
+    "args": [
+      "0x7C98cc3Ad12058E8E37160Fb72f8ff557d742a54"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "GovernanceProxy",
+    "function": "_setImplementation",
+    "args": [
+      "0xe6F77e6c1Df6Aea40923659C0415d82119F34882"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "LockedGoldProxy",
+    "function": "_setImplementation",
+    "args": [
+      "0x6B51e3BD4E1E8Df315766F93499B42978B110CEa"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "SortedOraclesProxy",
+    "function": "_setImplementation",
+    "args": [
+      "0xaf5D514bB94023C9Af979821F59A5Eecde0986EF"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "ValidatorsProxy",
+    "function": "_setImplementation",
+    "args": [
+      "0x8dF7ad6a1870766BBC9F0b8C38F8Db73126d2ddc"
+    ],
+    "value": "0"
+  }
+]
