@@ -1,8 +1,14 @@
 [
-    {
-        "contract": "BlockchainParameters",
-        "function": "setBlockGasLimit",
-        "args": ["35000000"], 
-        "value": "0"
-      }
+  {
+    "contract": "BlockchainParameters",
+    "function": "setBlockGasLimit",
+    "args": ["50000000"],
+    "value": "0"
+  },
+  {
+    "contract": "GasPriceMinimum",
+    "function": "setTargetDensity",
+    "args": ["700000000000000000000000"],
+    "value": "0"
+  }
 ]
