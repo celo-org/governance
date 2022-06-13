@@ -4,9 +4,8 @@ This is the Celo Governance repository used for coordination by the community me
 
 The CGP Editors are:
 * Elizabeth Barnes (@ebethbarnes)
-* Ronan McGovern (@Pinotio)
-* Yaz Khoury (@YazzyYaz)
 * Will Kraft (@willkraft)
+* Eric Nakagawa (@ericnakagawa)
 * Chris Wilson (@calicokittencat)
 
 We regularly hold governance calls to discuss proposals. See below for a summary of past calls.
