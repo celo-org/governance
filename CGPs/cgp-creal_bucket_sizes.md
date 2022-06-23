@@ -1,0 +1,57 @@
+---
+cgp: TBD
+title: Increasing Mento Bucket Sizes for cREAL
+date-created: 2022-06-22
+author: @mento-protocol/core
+status: DRAFT
+discussions-to: TBD
+governance-proposal-id: [if submitted]
+date-executed: [if executed] <date created on, in ISO 8601 (yyyy-mm-dd) format>
+---
+
+## Overview
+
+This Governance proposal aims to reduce the slippage incurred when trading cREAL via the Celo stability mechanism (often referred to as Mento). All else equal, a reduction of the Mento slippage, which can be achieved via an increase of the Mento `reserveFraction` parameter, can be expected to tighten the arbitrage bounds on the cREAL/BRL pairs (collectively referred to as cXXX/XXX in this proposal).
+
+Mento allows users to create or burn Celo stable assets by trading the cREAL/CELO pair with the reserve. It uses a constant-product-market-maker model to mitigate the depletion potential of the reserve by dynamically adjusting the on-chain price to one-sided trading. For more background on Mento, please refer to the [documentation](https://docs.celo.org/celo-codebase/protocol/stability).
+
+The `reserveFraction` parameter, which can be set for cEUR, cUSD and cREAL individually, allows to control the sensitivity of the Mento prices to one-sided trading. The smaller this parameter, the smaller the resulting Mento bucket sizes and therefore the larger the price reaction to one-sided trading. 
+The main benefit of choosing a low `reserveFraction` is that this reduces the depletion potential of the reserve should there be imprecise CELO/XXX oracle rates and/or manipulated CELO/XXX market prices. This is because the Mento cXXX/CELO price adjusts quickly to one-sided trading if Mento buckets are small.
+The main downside of a low `reserveFraction` parameter is wider arbitrage bounds on cXXX/XXX prices. For more background on the effects of the `reserveFraction` parameter, please see the [Celo Stability Analysis](https://celo.org/papers/Celo_Stability_Analysis.pdf), especially sections 4.3.2 and 4.3.3.
+
+We propose to increase the `reserveFraction` parameters to adjust the above tradeoff to the current market environment, that is an increased volatility in the wider crypto market inducing the need for faster contractions and expansions for cREAL.
+
+The here proposed parameter changes have been deployed, tested and validated on both Alfajores and Baklava. 
+
+### Status
+In governance proposal [CGP0042](https://github.com/celo-org/governance/blob/main/CGPs/cgp-0042.md), the initial `reserveFraction` parameter of the cBRL/CELO Mento pair was set to 0.025% and has remained at that level since then. The value had been chosen with a significant safety buffer in anticipation of low to no volume cREAL markets.  
+
+In December 2021 CELO/BRL ranged between 16 to 26. Based on this range the exposure per bucket update cycle has been 900k to 1.4m cREAL. In the recent market downturn CELO/BRL decreased to a range between 3.75 to 6 in June 2022. This corresponds to a reduction of exposure to 130k to 525k cREAL per bucket update cycle. 
+
+
+## Proposed Changes
+
+We propose to increase the `reserveFraction` parameter for cREAL from 0.025% to 0.15%. All else equal, this should roughly sextuple increase the daily expansion (contraction) amounts of cREAL that can be minted (contracted) at less than a 1% cost. Based on the CELO/BRL price range in June 2022 a `reserveFraction`of 0.15% corresponds to an exposure of 1m to 1.7m cREAL per bucket update cycle.
+
+1. Set cREAL `reserveFraction` to 0.15%
+  - Destination: ExchangeBRL (Proxy: 0x8f2cf9855C919AFAC8Bd2E7acEc0205ed568a4EA; Implementation: 0x21772Fc92AB1B15dfE4ed7559EaD98eDba883feE),`Exchange.setReserveFraction`
+  - Data: 1500000000000000000000 (0.15/100 * 10^24 = 1e22)
+  - Value: 0 (NA)
+
+
+
+## Verification
+
+1. Confirm proposal steps: run `celocli governance:view --proposalID $proposalID` 
+2. Confirm ExchangeBRL (cREAL) address: run `celocli network:contracts`
+
+## Risks
+
+* Oracle rate risk: In case of imprecise CELO/BRL oracle rates and/or manipulated CELO/BRL market rates, users could exchange cBRL or CELO with the reserve at a price that does not reflect the current market valuation. The increased `reserveFraction` parameter would lead to a larger loss of the reserve in such a case. 
+
+## Useful Links
+
+* [Mento Documentation](https://docs.celo.org/celo-codebase/protocol/stability/doto)
+* [The Celo Expansion & Contraction Mechanism](https://medium.com/celoorg/zooming-in-on-the-celo-expansion-contraction-mechanism-446ca7abe4f)
+* [Celo Stability Whitepaper](https://celo.org/papers/stability)
+* [Exchange Smart Contract Source Code](https://github.com/celo-org/celo-monorepo/blob/master/packages/protocol/contracts/stability/Exchange.sol)
