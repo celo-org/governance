@@ -1,6 +1,6 @@
 [
   {
-    "contract": "StableToken",
+    "contract": "StableTokenProxy",
     "function": "_setImplementation",
     "args": [
       "0x41a2887d4C4D96C9E1a3505CF4553Fd0b1380F13"
@@ -17,7 +17,7 @@
     "value": "0"
   },
   {
-    "contract": "StableToken",
+    "contract": "StableTokenProxy",
     "function": "_setImplementation",
     "args": [
       "0x18e6bfdc909063f7445e410a5495264619495bcb"
