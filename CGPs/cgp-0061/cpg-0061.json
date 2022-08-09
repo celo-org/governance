@@ -43,7 +43,7 @@
     "value": "0"
   },
   {
-    "contract": "TODO:MOBIUS_POOL_ADDRESS",
+    "contract": "0xFa3df877F98ac5ecd87456a7AcCaa948462412f0",
     "function": "addLiquidity(uint256[],uint256,uint256)",
     "args": [
       [
