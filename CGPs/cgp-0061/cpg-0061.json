@@ -28,7 +28,7 @@
     "contract": "StableToken",
     "function": "approve",
     "args": [
-      "TODO:MOBIUS_POOL_ADDRESS",
+      "0xFa3df877F98ac5ecd87456a7AcCaa948462412f0",
       "5000000000000000000000000"
     ],
     "value": "0"
