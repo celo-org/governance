@@ -7,6 +7,11 @@ The CGP Editors are:
 * Eric Nakagawa (@ericnakagawa)
 * Chris Wilson (@calicokittencat)
 
+Emeritus CGP Editors are:
+* Ronan McGovern (@Pinotio)
+* Elizabeth Barnes (@ebethbarnes)
+* Yaz Khoury (@YazzyYaz)
+
 We regularly hold governance calls to discuss proposals. See below for a summary of past calls.
 
 |  №  |      Date       | Agenda | Notes | Recording |
