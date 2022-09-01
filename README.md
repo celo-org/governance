@@ -3,15 +3,22 @@
 This is the Celo Governance repository used for coordination by the community members.
 
 The CGP Editors are:
-* Elizabeth Barnes (@ebethbarnes)
 * Will Kraft (@willkraft)
 * Eric Nakagawa (@ericnakagawa)
 * Chris Wilson (@calicokittencat)
+
+Emeritus CGP Editors are:
+* Ronan McGovern (@Pinotio)
+* Elizabeth Barnes (@ebethbarnes)
+* Yaz Khoury (@YazzyYaz)
 
 We regularly hold governance calls to discuss proposals. See below for a summary of past calls.
 
 |  №  |      Date       | Agenda | Notes | Recording |
 |:---:|:---------------:|:------:|:-----:|:---------:|
+| 20  | August 10, 2022 | [Agenda](https://github.com/celo-org/governance/issues/163) | [Notes](https://docs.google.com/document/d/1F6rozEJ90sjF5Bwm2qt6vNW2mrLLHf3kPfTqhvl9StM/edit#heading=h.k021aia3m63b) |   [Video](https://drive.google.com/file/d/15q2dxpeKmHIexFn0mwor84CuD-NhrHKB/view)   |
+| 19  | July 21, 2022 | [Agenda](https://github.com/celo-org/governance/issues/148) | [Notes](https://docs.google.com/document/d/1RMJyHWQdvjnzbE5mVqd3l8qljGvwvTj34QHiO2TrlDk/edit#heading=h.1ele2p5gjpk0) |   [Video](https://drive.google.com/file/d/1wpwPsqOi-fzZx163VIJg7KXC93JQ6Ei_/view)   |
+| 18  | June 16, 2022 | [Agenda](https://github.com/celo-org/governance/issues/142) | NA |   [Video](https://drive.google.com/file/d/1PLyxSxPdsfOeMTTAE9JUfumg0Vtcz9Mp/view)   |
 | 17  | June 7, 2022 | [Agenda](https://github.com/celo-org/governance/issues/134) | [Notes](https://docs.google.com/document/d/14ZDoExC5ljAOwOiM2wVXmtizNW5I9dEOhPqb0MPY3n4/edit#) |   [Video](https://drive.google.com/drive/u/0/folders/1d59ck0xZIrhepspDbV6mVhYViuEGDmfT)   |
 | 16  | February 24, 2022 | [Agenda](https://github.com/celo-org/governance/issues/123) | [Notes](https://github.com/celo-org/governance/files/8137826/Celo.Governance.Call.16_2022.02.24.pdf) |   [Video](https://www.youtube.com/watch?v=bK1ukYbztRY&ab_channel=CeloOrg)   |
 | 15  | January 20, 2022 | [Agenda](https://github.com/celo-org/governance/issues/116) | [Notes](https://github.com/celo-org/governance/files/7935053/Celo.Governance.Call.15_2022.01.20.pdf) |   [Video](https://www.youtube.com/watch?v=Tj3EjSmLBKM)   |
