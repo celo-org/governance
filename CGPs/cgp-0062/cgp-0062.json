@@ -1,0 +1,19 @@
+[
+    {
+      "contract": "FederatedAttestationsProxy",
+      "function": "_setImplementation",
+      "args": [
+        "TODO: Address address"
+      ],
+      "value": "0"
+    },
+    {
+      "contract": "EscrowProxy",
+      "function": "_setImplementation",
+      "args": [
+        "TODO: Address address"
+      ],
+      "value": "0"
+    }
+  ]
+  
