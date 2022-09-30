@@ -1,0 +1,76 @@
+[
+  {
+    "contract": "EscrowProxy",
+    "function": "_setImplementation",
+    "args": [
+      "0xcC4E6caBe88EBb7FCCB40d862bf1C3a89f88e835"
+    ],
+    "params": {
+      "__length__": 1,
+      "implementation": "0xcC4E6caBe88EBb7FCCB40d862bf1C3a89f88e835"
+    },
+    "value": "0"
+  },
+  {
+    "contract": "Registry",
+    "function": "setAddressFor",
+    "args": [
+      "FederatedAttestations",
+      "0x0aD5b1d0C25ecF6266Dd951403723B2687d6aff2"
+    ],
+    "params": {
+      "__length__": 2,
+      "identifier": "FederatedAttestations",
+      "addr": "0x0aD5b1d0C25ecF6266Dd951403723B2687d6aff2"
+    },
+    "value": "0"
+  },
+  {
+    "contract": "FederatedAttestationsProxy",
+    "function": "_setAndInitializeImplementation",
+    "args": [
+      "0x76A4daaC43912A443f098D413DED2Cb7A153EA85",
+      "0x8129fc1c"
+    ],
+    "params": {
+      "__length__": 2,
+      "implementation": "0x76A4daaC43912A443f098D413DED2Cb7A153EA85",
+      "callbackData": "0x8129fc1c",
+      "initialize@8129fc1c": {
+        "__length__": 0
+      }
+    },
+    "value": "0"
+  },
+  {
+    "contract": "Registry",
+    "function": "setAddressFor",
+    "args": [
+      "OdisPayments",
+      "0xAE6B29f31B96e61DdDc792f45fDa4e4F0356D0CB"
+    ],
+    "params": {
+      "__length__": 2,
+      "identifier": "OdisPayments",
+      "addr": "0xAE6B29f31B96e61DdDc792f45fDa4e4F0356D0CB"
+    },
+    "value": "0"
+  },
+  {
+    "contract": "OdisPaymentsProxy",
+    "function": "_setAndInitializeImplementation",
+    "args": [
+      "0x9Ea5E9b9B48a72325D59B3EBA147F42b1b14BF78",
+      "0x8129fc1c"
+    ],
+    "params": {
+      "__length__": 2,
+      "implementation": "0x9Ea5E9b9B48a72325D59B3EBA147F42b1b14BF78",
+      "callbackData": "0x8129fc1c",
+      "initialize@8129fc1c": {
+        "__length__": 0
+      }
+    },
+    "value": "0"
+  }
+]
