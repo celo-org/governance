@@ -5,7 +5,7 @@
 
 ### Submission
 
-Any Celo account can submit a proposal to the [Governance smart contract](https://docs.celo.org/command-line-interface/commands/governance#celocli-governance-build-proposal) to change features on Celo. Using Celo CLI, an account must send a transaction that includes the following: title, link to the proposal description in GitHub, and a deposit of 100 Celo. Once the proposal is issued on-chain, the proposals enter a queue. Each day, the top 3 proposals in the queue move on to the Approval phase. If there are fewer than three proposals in the queue, all of them may move onto the approval phase.
+Any Celo account can submit a proposal to the [Governance smart contract](https://docs.celo.org/cli/governance#celocli-governancebuild-proposal) to change features on Celo. Using Celo CLI, an account must send a transaction that includes the following: title, link to the proposal description in GitHub, and a deposit of 100 Celo. Once the proposal is issued on-chain, the proposals enter a queue. Each day, the top 3 proposals in the queue move on to the Approval phase. If there are fewer than three proposals in the queue, all of them may move onto the approval phase.
 
 ### Approval
 
@@ -25,4 +25,4 @@ The proposal must pass a minimum threshold for participation and agreement:
 
 ### Execution
 
-If the proposal passes the Referendum stage, it moves to the Execution phase. Any Celo account can [issue a special transaction](https://docs.celo.org/command-line-interface/commands/governance#celocli-governance-execute) that upgrades the protocol code, but the proposal creator is typically responsible for executing the proposal. If no Celo account sends the execution transaction within three days after it passes, the proposal will be automatically rejected.
+If the proposal passes the Referendum stage, it moves to the Execution phase. Any Celo account can [issue a special transaction](https://docs.celo.org/cli/governance#celocli-governanceexecute) that upgrades the protocol code, but the proposal creator is typically responsible for executing the proposal. If no Celo account sends the execution transaction within three days after it passes, the proposal will be automatically rejected.
