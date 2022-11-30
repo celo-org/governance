@@ -16,7 +16,7 @@ We regularly hold governance calls to discuss proposals. See below for a summary
 
 |  №  |      Date       | Agenda | Notes | Recording |
 |:---:|:---------------:|:------:|:-----:|:---------:|
-| 24  | December 8, 2022 | [Agenda](https://github.com/celo-org/governance/issues/182) | [Notes]() |   [Video]()   |
+| 24  | December 8, 2022 | [Agenda](https://github.com/celo-org/governance/issues/182) | Notes |   Video   |
 | 23  | November 17, 2022 | [Agenda](https://github.com/celo-org/governance/issues/178) | [Notes](https://docs.google.com/document/d/1Rc9teiHucdljaZvnaFtZj44H2szFH5CXC2-Af1vYDUI/edit) |   [Video](https://drive.google.com/file/d/1M6UMR_ti0zaO98i7Db1j15yi0b3zcjDO/view)   |
 | 22  | October 13, 2022 | [Agenda](https://github.com/celo-org/governance/issues/169) | [Notes](https://docs.google.com/document/d/14r_wtxcD5sGQe1UvQpKPJfkuDIYaejQ91s1tJsRDHes/edit#) |   [Video](https://drive.google.com/file/d/1iMwYwVAHljSqEWQxUwtuF4RWhpPaQzEt/view)   |
 | 21  | August 25, 2022 | [Agenda](https://github.com/celo-org/governance/issues/164) | [Notes](https://docs.google.com/document/d/1SCYuX8UxafFhQ1tcLXCtp5bbdPjdN49Dz58HruegGCU/edit#) |   [Video](https://drive.google.com/file/d/1iEtteo3Nze7qM1eGJIcmxAZAtedQQ3Or/view)   |
