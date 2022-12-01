@@ -1,0 +1,24 @@
+[
+  {
+    "contract": "0x37f750B7cC259A2f741AF45294f6a16572CF5cAd",
+    "function": "approve(address,uint256)",
+    "args": [
+      "0xFa3df877F98ac5ecd87456a7AcCaa948462412f0",
+      "10000000000000"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "0xFa3df877F98ac5ecd87456a7AcCaa948462412f0",
+    "function": "addLiquidity(uint256[],uint256,uint256)",
+    "args": [
+      [
+        "0",
+        "10000000000000"
+      ],
+      0,
+      1677542400
+    ],
+    "value": "0"
+  }
+]
