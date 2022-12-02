@@ -1,1 +1,1 @@
-[{"contract":"GoldToken","function":"approve","args":["0xbf841A8229F4995c080703098fB73455C4E7215B","10"],"value":"0"},{"contract":"StableTokenBRL","function":"approve","args":["0xbf841A8229F4995c080703098fB73455C4E7215B","10"],"value":"0"}]
+[{"contract":"GoldToken","function":"approve","args":["0x1782E82C8321100013c99c298F964641a3EBF072","228000000000000000000000"],"value":"0"},{"contract":"StableTokenBRL","function":"approve","args":["0x1782E82C8321100013c99c298F964641a3EBF072","1000000000000000000000000"],"value":"0"}]
