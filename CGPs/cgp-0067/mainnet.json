@@ -37,7 +37,6 @@
         "args": ["0xe8537a3d056DA446677B9E9d6c5dB704EaAb4787", "0x5dF1Eb13FE8f1d0B45D25eBe7Eb1Fa30758220E8"],
         "value": "0"
     },
-    // DT
     {
         "contract": "GoldToken",
         "function": "transfer",
@@ -50,7 +49,6 @@
         "args": ["0xcF4840cb2Fddf6e8CafF525797C08dDF593fe4e3", "28571428571428571428571"],
         "value": "0"
       },
-      // Di Wu
       {
         "contract": "GoldToken",
         "function": "transfer",
