@@ -1,0 +1,1 @@
+[{"contract":"GoldToken","function":"approve","args":["0x1782E82C8321100013c99c298F964641a3EBF072","228000000000000000000000"],"value":"0"},{"contract":"StableTokenBRL","function":"approve","args":["0x1782E82C8321100013c99c298F964641a3EBF072","1000000000000000000000000"],"value":"0"}]
