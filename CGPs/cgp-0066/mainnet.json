@@ -1,0 +1,10 @@
+[
+    {
+      "contract": "GasPriceMinimum",
+      "function": "setGasPriceMinimumFloor",
+      "args": [
+        "2200000000000000"
+      ]
+    }
+  ]
+  
