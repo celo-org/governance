@@ -3,8 +3,8 @@ CGP: 0069
 title: Celo Tribe Web3 Social club 
 date-created: 10/12/2022
 author: Hawwal Ogungbadero @hawwal 
-status: DRAFT 
-discussions-to: <link to discussion on forum.celo.org>
+status: PROPOSED 
+discussions-to: https://forum.celo.org/t/proposal-celo-tribe-web3-social-club-for-universities/4861?u=hawwal
 governance-proposal-id: [if submitted]
 date-executed: [if executed] 
 ---
