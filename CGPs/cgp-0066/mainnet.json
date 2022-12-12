@@ -4,7 +4,8 @@
       "function": "setGasPriceMinimumFloor",
       "args": [
         "22000000000"
-      ]
+      ],
+      "value": "0"
     }
   ]
   
