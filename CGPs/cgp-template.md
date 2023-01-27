@@ -12,8 +12,7 @@ date-executed: [if executed] <date created on, in ISO 8601 (yyyy-mm-dd) format>
 
 CGP - Celo Governance Proposal
 
-Pick a four digit number subsequent to the latest PR raised and name your file that with the suffic P (for pending).
-Eg. if the latest PR to the CGP folder was [0034], then your PR should be [0035P].
+Pick a four digit number subsequent to the latest PR raised and name your file.
 
 ### Status
 - DRAFT = Feedback collection
