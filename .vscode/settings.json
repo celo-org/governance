@@ -1,4 +1,7 @@
 {
     "markdown-preview-enhanced.automaticallyShowPreviewOfMarkdownBeingEdited": true,
-    "markdown-preview-enhanced.enableTypographer": true
+    "markdown-preview-enhanced.enableTypographer": true,
+    "githubPullRequests.ignoredPullRequestBranches": [
+        "main"
+    ]
 }
