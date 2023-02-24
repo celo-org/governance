@@ -1,0 +1,62 @@
+[
+    {
+      "contract": "SortedOracles",
+      "function": "addOracle",
+      "args": ["0xA1A8003936862E7a15092A91898D69fa8bCE290c", "0x477185291403ca2ed5f56d59ed0d568a16222013"],
+      "value": "0"
+    },
+    {
+      "contract": "SortedOracles",
+      "function": "addOracle",
+      "args": ["0xA1A8003936862E7a15092A91898D69fa8bCE290c", "0x9a0a52d483c62df76d54f41ab3283cc7cb41ba91"],
+      "value": "0"
+    },
+    {
+      "contract": "SortedOracles",
+      "function": "addOracle",
+      "args": ["0xA1A8003936862E7a15092A91898D69fa8bCE290c", "0x2ddb86898a2c2c884fc5cc3ca344898b0170a00d"],
+      "value": "0"
+    },
+    {
+      "contract": "SortedOracles",
+      "function": "addOracle",
+      "args": ["0xA1A8003936862E7a15092A91898D69fa8bCE290c", "0x79be0a692e3a4bcd22b96c3e93a108b485becbb2"],
+      "value": "0"
+    },
+    {
+      "contract": "SortedOracles",
+      "function": "addOracle",
+      "args": ["0xA1A8003936862E7a15092A91898D69fa8bCE290c", "0x2986c21824c9b804d170270a316ceb07149f79c5"],
+      "value": "0"
+    },
+    {
+      "contract": "SortedOracles",
+      "function": "addOracle",
+      "args": ["0xA1A8003936862E7a15092A91898D69fa8bCE290c", "0x09e2e47bb5df7b3464407746970a65c7b02883b3"],
+      "value": "0"
+    },
+    {
+      "contract": "SortedOracles",
+      "function": "addOracle",
+      "args": ["0xA1A8003936862E7a15092A91898D69fa8bCE290c", "0xd5e7454932f6e853af849f70044570b62ca2596e"],
+      "value": "0"
+    },
+    {
+      "contract": "SortedOracles",
+      "function": "addOracle",
+      "args": ["0xA1A8003936862E7a15092A91898D69fa8bCE290c", "0xfe3276b7142dee2cda34b1d14852eb32f436483d"],
+      "value": "0"
+    },
+    {
+      "contract": "SortedOracles",
+      "function": "addOracle",
+      "args": ["0xA1A8003936862E7a15092A91898D69fa8bCE290c", "0x504C282C98fe9E7627DCE2c255E3BfF2eeB6e73e"],
+      "value": "0"
+    },
+    {
+      "contract": "SortedOracles",
+      "function": "addOracle",
+      "args": ["0xA1A8003936862E7a15092A91898D69fa8bCE290c", "0xF396A0dd57FAF581b609d4d195B6b61b70651f41"],
+      "value": "0"
+    }
+]
