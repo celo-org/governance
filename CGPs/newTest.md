@@ -19,10 +19,10 @@ Pick a four digit number subsequent to the latest PR raised and name your file.
 
 ### Status
 - DRAFT = Feedback collection
-- PROPOSED = The governance proposal was submitted to the network
+<!-- - PROPOSED = The governance proposal was submitted to the network
 - EXECUTED = The governance proposal was executed on the network
 - EXPIRED = The governance proposal expired
-- WITHDRAWN = The governance proposal is withdrawn before being submitted on the network
+- WITHDRAWN = The governance proposal is withdrawn before being submitted on the network -->
 
 Describe the issue that motivates this CGP. It should indicate all parameters that are being changed and why doing so is important.
 
