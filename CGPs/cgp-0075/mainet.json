@@ -1,0 +1,11 @@
+[
+  {
+    "contract": "GoldToken",
+    "function": "approve",
+    "args": [
+      "TODO",
+      "5980314000000000000000000"
+    ],
+    "value": "0"
+  }
+]
