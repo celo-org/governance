@@ -4,7 +4,7 @@
       "contract": "GoldToken", 
       "function": "approve",
       "args": [
-        "XXXXXXXXXXXXXXX",
+        "0x38DBAB5C651F352C8f5F765fDA292E9B92d850Ff",
         "500000000000000000000000" 
       ],
       "value": "0"
