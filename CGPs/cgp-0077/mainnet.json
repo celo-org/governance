@@ -2,7 +2,7 @@
     {
         "contract": "EpochRewards",
         "function": "setCarbonOffsettingFund",
-        "args": ["0xCe10d577295d34782815919843a3a4ef70Dc33ce", 0.001], 
+        "args": ["0xCe10d577295d34782815919843a3a4ef70Dc33ce", 1000000000000000000000], 
         "value": "0"
       }
 ]
