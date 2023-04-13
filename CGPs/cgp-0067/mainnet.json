@@ -1,0 +1,62 @@
+[
+    {
+        "contract": "SortedOracles",
+        "function": "removeOracle",
+        "args": ["0x765DE816845861e75A25fCA122bb6898B8B1282a", "0x223ab67272891Dd352194bE61597042eCf9C272a", "8"],
+        "value": "0"
+    },
+    {
+        "contract": "SortedOracles",
+        "function": "addOracle",
+        "args": ["0x765DE816845861e75A25fCA122bb6898B8B1282a", "0xD0d94f4b02e3Ec4734f36ecfEc155547bF8cE87A"],
+        "value": "0"
+    },
+    {
+        "contract": "SortedOracles",
+        "function": "removeOracle",
+        "args": ["0xD8763CBa276a3738E6DE85b4b3bF5FDed6D6cA73", "0xC5280DDbDEC37540436935C01C912869B2d5Ae1c", "8"],
+        "value": "0"
+    },
+    {
+        "contract": "SortedOracles",
+        "function": "addOracle",
+        "args": ["0xD8763CBa276a3738E6DE85b4b3bF5FDed6D6cA73", "0x2C7769d3241b08251b3d46662c59f1C4E9D6bb1a"],
+        "value": "0"
+    },
+    {
+        "contract": "SortedOracles",
+        "function": "removeOracle",
+        "args": ["0xe8537a3d056DA446677B9E9d6c5dB704EaAb4787", "0xd1f3D8Fc2446D2Ff0E2408ae33A0097A4c94E381", "8"],
+        "value": "0"
+    },
+    {
+        "contract": "SortedOracles",
+        "function": "addOracle",
+        "args": ["0xe8537a3d056DA446677B9E9d6c5dB704EaAb4787", "0x5dF1Eb13FE8f1d0B45D25eBe7Eb1Fa30758220E8"],
+        "value": "0"
+    },
+    {
+        "contract": "GoldToken",
+        "function": "transfer",
+        "args": ["0xC870dc32e84531DA06C0156f0dfa73CfA091C4bd", "9523809523809523809524"],
+        "value": "0"
+      },
+      {
+        "contract": "GoldToken",
+        "function": "transfer",
+        "args": ["0xcF4840cb2Fddf6e8CafF525797C08dDF593fe4e3", "28571428571428571428571"],
+        "value": "0"
+      },
+      {
+        "contract": "GoldToken",
+        "function": "transfer",
+        "args": ["0xF895f918De6c9ab144A081eB04E06d5CfAc40855", "9375000000000000000000"],
+        "value": "0"
+      },
+      {
+        "contract": "GoldToken",
+        "function": "transfer",
+        "args": ["0xcc5Df0F229f4e8faE17068eeF24d2e81fE010455", "28125000000000000000000"],
+        "value": "0"
+      }
+]

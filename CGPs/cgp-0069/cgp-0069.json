@@ -1,0 +1,39 @@
+[
+  {
+    "contract": "0x552b9AA0eEe500c60f09456e49FBc1096322714C",
+    "function": "approve(address,uint256)",
+    "args": [
+      "0xFa3df877F98ac5ecd87456a7AcCaa948462412f0",
+      "10000000000000000000000000"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "0xFa3df877F98ac5ecd87456a7AcCaa948462412f0",
+    "function": "removeLiquidity(uint256,uint256[],uint256)", 
+    "args": [
+      "10000000000000000000000000",
+      [ "0", "0" ],
+      1674883684
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "function": "approve(address,uint256)",
+    "args": [
+      "0x87647780180B8f55980C7D3fFeFe08a9B29e9aE1",
+      "11000000000000000000000000"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "0x37f750B7cC259A2f741AF45294f6a16572CF5cAd",
+    "function": "approve(address,uint256)",
+    "args": [
+      "0x87647780180B8f55980C7D3fFeFe08a9B29e9aE1",
+      "11000000000000"
+    ],
+    "value": "0"
+  }
+]

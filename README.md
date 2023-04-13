@@ -3,16 +3,30 @@
 This is the Celo Governance repository used for coordination by the community members.
 
 The CGP Editors are:
-* Elizabeth Barnes (@ebethbarnes)
-* Ronan McGovern (@Pinotio)
-* Yaz Khoury (@YazzyYaz)
 * Will Kraft (@willkraft)
+* Eric Nakagawa (@ericnakagawa)
 * Chris Wilson (@calicokittencat)
+
+Emeritus CGP Editors are:
+* Ronan McGovern (@Pinotio)
+* Elizabeth Barnes (@ebethbarnes)
+* Yaz Khoury (@YazzyYaz)
 
 We regularly hold governance calls to discuss proposals. See below for a summary of past calls.
 
 |  №  |      Date       | Agenda | Notes | Recording |
 |:---:|:---------------:|:------:|:-----:|:---------:|
+| 27  | March 24, 2023 | [Agenda](https://github.com/celo-org/governance/issues/220) | [Notes](https://docs.google.com/document/d/1zzOoZkrOGB0lgxwdnwjvPbOaihqzfivM9Md8O4Y5QVA/edit#) |   [Video](https://drive.google.com/file/d/1w3veCtuZTZjU43Z0vmjjVd39A7G3jvA4/view)   |
+| 26  | February 28, 2023 | [Agenda](https://github.com/celo-org/governance/issues/212) | [Notes](https://docs.google.com/document/d/1H6LMvgPafkwpcQHyiLVLH98hpCGqnz6lExUMDXxMh9Q/edit) |   [Video](https://drive.google.com/file/d/1V__TEmGJt-Y_lu8m5yDs2Sq0SQoSY73z/view)   |
+| 25  | January 26, 2023 | [Agenda](https://github.com/celo-org/governance/issues/193) | [Notes](https://docs.google.com/document/d/1fRyftPv7if6yrR3FRMPvuPQF8E96G5058D59lKChHKA/edit) |   [Video](https://drive.google.com/file/d/1W9JWb5PEcAcrpMlB0LhkBxtHa3Cj_UHL/view)   |
+| 24  | December 8, 2022 | [Agenda](https://github.com/celo-org/governance/issues/182) | [Notes](https://docs.google.com/document/d/1Xt79M1UauI8RtVSZjn9UNAdsSclA9bzykObp3csKty0/edit#) |   [Video](https://drive.google.com/file/d/1eFA5c_xV2gcgAsL0mAiPwe2PeGl2V0dv/view)   |
+| 23  | November 17, 2022 | [Agenda](https://github.com/celo-org/governance/issues/178) | [Notes](https://docs.google.com/document/d/1Rc9teiHucdljaZvnaFtZj44H2szFH5CXC2-Af1vYDUI/edit) |   [Video](https://drive.google.com/file/d/1M6UMR_ti0zaO98i7Db1j15yi0b3zcjDO/view)   |
+| 22  | October 13, 2022 | [Agenda](https://github.com/celo-org/governance/issues/169) | [Notes](https://docs.google.com/document/d/14r_wtxcD5sGQe1UvQpKPJfkuDIYaejQ91s1tJsRDHes/edit#) |   [Video](https://drive.google.com/file/d/1iMwYwVAHljSqEWQxUwtuF4RWhpPaQzEt/view)   |
+| 21  | August 25, 2022 | [Agenda](https://github.com/celo-org/governance/issues/164) | [Notes](https://docs.google.com/document/d/1SCYuX8UxafFhQ1tcLXCtp5bbdPjdN49Dz58HruegGCU/edit#) |   [Video](https://drive.google.com/file/d/1iEtteo3Nze7qM1eGJIcmxAZAtedQQ3Or/view)   |
+| 20  | August 10, 2022 | [Agenda](https://github.com/celo-org/governance/issues/163) | [Notes](https://docs.google.com/document/d/1F6rozEJ90sjF5Bwm2qt6vNW2mrLLHf3kPfTqhvl9StM/edit#heading=h.k021aia3m63b) |   [Video](https://drive.google.com/file/d/15q2dxpeKmHIexFn0mwor84CuD-NhrHKB/view)   |
+| 19  | July 21, 2022 | [Agenda](https://github.com/celo-org/governance/issues/148) | [Notes](https://docs.google.com/document/d/1RMJyHWQdvjnzbE5mVqd3l8qljGvwvTj34QHiO2TrlDk/edit#heading=h.1ele2p5gjpk0) |   [Video](https://drive.google.com/file/d/1wpwPsqOi-fzZx163VIJg7KXC93JQ6Ei_/view)   |
+| 18  | June 16, 2022 | [Agenda](https://github.com/celo-org/governance/issues/142) | NA |   [Video](https://drive.google.com/file/d/1PLyxSxPdsfOeMTTAE9JUfumg0Vtcz9Mp/view)   |
+| 17  | June 7, 2022 | [Agenda](https://github.com/celo-org/governance/issues/134) | [Notes](https://docs.google.com/document/d/14ZDoExC5ljAOwOiM2wVXmtizNW5I9dEOhPqb0MPY3n4/edit#) |   [Video](https://drive.google.com/drive/u/0/folders/1d59ck0xZIrhepspDbV6mVhYViuEGDmfT)   |
 | 16  | February 24, 2022 | [Agenda](https://github.com/celo-org/governance/issues/123) | [Notes](https://github.com/celo-org/governance/files/8137826/Celo.Governance.Call.16_2022.02.24.pdf) |   [Video](https://www.youtube.com/watch?v=bK1ukYbztRY&ab_channel=CeloOrg)   |
 | 15  | January 20, 2022 | [Agenda](https://github.com/celo-org/governance/issues/116) | [Notes](https://github.com/celo-org/governance/files/7935053/Celo.Governance.Call.15_2022.01.20.pdf) |   [Video](https://www.youtube.com/watch?v=Tj3EjSmLBKM)   |
 | 14  | November 18, 2021 | [Agenda](https://github.com/celo-org/governance/issues/101) | [Notes](https://github.com/celo-org/governance/files/7571588/Celo.Governance.Call.14_2021.11.18.pdf) |   [Video](https://www.youtube.com/watch?v=eOlshpjh6rQ)   |

@@ -1,0 +1,38 @@
+[
+    {
+        "contract": "SortedOracles",
+        "function": "removeOracle",
+        "args": ["0x765DE816845861e75A25fCA122bb6898B8B1282a", "0xca9ae47493f763a7166ab8310686b197984964b4", "9"],
+        "value": "0"
+    },
+    {
+        "contract": "SortedOracles",
+        "function": "addOracle",
+        "args": ["0x765DE816845861e75A25fCA122bb6898B8B1282a", "0xF8ffaB8cCB81BcD0DF7f9dF97Ccf8bEF782ebEeB"],
+        "value": "0"
+    },
+    {
+        "contract": "SortedOracles",
+        "function": "removeOracle",
+        "args": ["0xD8763CBa276a3738E6DE85b4b3bF5FDed6D6cA73", "0xBD955F84e11EE53095F9068b88C9d2Ffd3Def707", "9"],
+        "value": "0"
+    },
+    {
+        "contract": "SortedOracles",
+        "function": "addOracle",
+        "args": ["0xD8763CBa276a3738E6DE85b4b3bF5FDed6D6cA73", "0x3F2691d5B4839c226f4Bd096DC744914cAD5737e"],
+        "value": "0"
+    },
+    {
+        "contract": "SortedOracles",
+        "function": "removeOracle",
+        "args": ["0xe8537a3d056DA446677B9E9d6c5dB704EaAb4787", "0x7F045f538c3837D9096205e740A0173eA860c400", "9"],
+        "value": "0"
+    },
+    {
+        "contract": "SortedOracles",
+        "function": "addOracle",
+        "args": ["0xe8537a3d056DA446677B9E9d6c5dB704EaAb4787", "0x4eb4571a475Bea99b6A735B89aae664b82c964a3"],
+        "value": "0"
+    }
+]
