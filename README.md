@@ -3,6 +3,10 @@
 This is the Celo Governance repository used for coordination by the community members.
 
 The CGP Editors are:
+* Juan Giraldo (@juanjgiraldoc)
+* Maya Richardson-Brown (@Maya-R-B)
+* Wade Abel (@0xzoz)
+* Lorenzo (@0xGoldo)
 * Will Kraft (@willkraft)
 * Eric Nakagawa (@ericnakagawa)
 * Chris Wilson (@calicokittencat)
@@ -16,6 +20,7 @@ We regularly hold governance calls to discuss proposals. See below for a summary
 
 |  №  |      Date       | Agenda | Notes | Recording |
 |:---:|:---------------:|:------:|:-----:|:---------:|
+| 28  | April 14, 2023 | [Agenda](https://github.com/celo-org/governance/issues/231) | [Notes](https://docs.google.com/document/d/1hNQXqpJStqz14hUv20rmCkIcPPS0w3CdWoYL3l_Cu_w/edit) |   [Video](https://drive.google.com/file/d/1fk6Jtinn1j8NQzmZjXeOazJqrn2CF2m6/view)   |
 | 27  | March 24, 2023 | [Agenda](https://github.com/celo-org/governance/issues/220) | [Notes](https://docs.google.com/document/d/1zzOoZkrOGB0lgxwdnwjvPbOaihqzfivM9Md8O4Y5QVA/edit#) |   [Video](https://drive.google.com/file/d/1w3veCtuZTZjU43Z0vmjjVd39A7G3jvA4/view)   |
 | 26  | February 28, 2023 | [Agenda](https://github.com/celo-org/governance/issues/212) | [Notes](https://docs.google.com/document/d/1H6LMvgPafkwpcQHyiLVLH98hpCGqnz6lExUMDXxMh9Q/edit) |   [Video](https://drive.google.com/file/d/1V__TEmGJt-Y_lu8m5yDs2Sq0SQoSY73z/view)   |
 | 25  | January 26, 2023 | [Agenda](https://github.com/celo-org/governance/issues/193) | [Notes](https://docs.google.com/document/d/1fRyftPv7if6yrR3FRMPvuPQF8E96G5058D59lKChHKA/edit) |   [Video](https://drive.google.com/file/d/1W9JWb5PEcAcrpMlB0LhkBxtHa3Cj_UHL/view)   |
