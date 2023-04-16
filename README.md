@@ -6,7 +6,7 @@ The CGP Editors are:
 * Juan Giraldo (@juanjgiraldoc)
 * Maya Richardson-Brown (@Maya-R-B)
 * Wade Abel (@0xzoz)
-* Lorenzo (@0xGoldo)
+* Lorenzo Goldoni (@0xGoldo)
 * Will Kraft (@willkraft)
 * Eric Nakagawa (@ericnakagawa)
 * Chris Wilson (@calicokittencat)
