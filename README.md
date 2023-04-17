@@ -78,7 +78,7 @@ Key stakeholders in Celo’s governance process include: Proposal Creator, Edito
 	<summary>When and where do votes happen?</summary>
 
 &nbsp;
-Discussions about changes to the protocol happen on forum.celo.org and are announced in the Celo Discord [#celo-governance channel](https://discord.gg/rgwgCsYs). Token holders can vote on on-chain proposals at celo.stake.id.
+Discussions about changes to the protocol happen on forum.celo.org and are announced in the Celo Discord [#celo-governance channel](https://discord.gg/celo). Token holders can vote on on-chain proposals at celo.stake.id.
 </details>
 
 <details>
