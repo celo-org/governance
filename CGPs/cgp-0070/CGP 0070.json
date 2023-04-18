@@ -1,10 +1,10 @@
 [
 {
-  "contract": "StableToken",
+  "contract": "GoldToken",
   "function": "approve",
   "args": [
     "0x81bC5B8F34CF959105c793F776971FA8A7BB2a25"
-    , "50000000000000000000000"
+    , "70000000000000000000000"
 ],
   "value": "0"
 }
