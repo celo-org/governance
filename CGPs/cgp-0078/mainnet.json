@@ -1,0 +1,50 @@
+[
+  {
+    "contract": "AttestationsProxy",
+    "function": "_setImplementation",
+    "args": [
+      "0x5729126891355E3C2626338151Dd50Cc0415E071"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "ElectionProxy",
+    "function": "_setImplementation",
+    "args": [
+      "0xCdE5039e3AcB3483aEebEBd59Cf6936056c455D4"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "GoldTokenProxy",
+    "function": "_setImplementation",
+    "args": [
+      "0xcB8710e072aC4700eE7eD0C63B2f2102366a7a39"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "GovernanceProxy",
+    "function": "_setImplementation",
+    "args": [
+      "0xf2d7AA9dd1870b2e5BE16643B9E1Bcb5C624cB13"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "LockedGoldProxy",
+    "function": "_setImplementation",
+    "args": [
+      "0x5EAF009ca7c3dF8601bc36A6563b0af76964F4d2"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "ValidatorsProxy",
+    "function": "_setImplementation",
+    "args": [
+      "0x4B84c7507A7AB2af219b9Abd8bCB404F9FB71428"
+    ],
+    "value": "0"
+  }
+]
