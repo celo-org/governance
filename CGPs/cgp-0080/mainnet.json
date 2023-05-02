@@ -3,8 +3,8 @@
     "contract": "GoldToken",
     "function": "approve",
     "args": [
-      "0x275D5828bF7e5aaf51Bf8EF2f0668ac4a98F0d23",
-      "11900000000000000000000000"
+      "0x9cF769BcCE5e750534D88b251FB5B58Da9776190",
+      "5000000000000000000000000"
     ],
     "value": "0"
   }
