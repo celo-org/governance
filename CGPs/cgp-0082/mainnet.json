@@ -1,0 +1,10 @@
+ [
+{
+      "contract": "GoldToken", 
+      "function": "approve",
+      "args":
+        ["0x4763a32d5256EDA615fd5c07b0e333C7Baa4D628",
+        "440000000000000000000000"],
+      "value": "0"
+    }
+  ]
