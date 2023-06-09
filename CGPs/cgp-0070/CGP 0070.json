@@ -1,10 +1,10 @@
 [
 {
-  "contract": "StableTokenBRL",
+  "contract": "GoldToken",
   "function": "approve",
   "args": [
-    "0xde25bf927c839355c66ee3551dae8a143bf85f9a"
-    , "50000000000000000000000"
+    "0x81bC5B8F34CF959105c793F776971FA8A7BB2a25"
+    , "70000000000000000000000"
 ],
   "value": "0"
 }

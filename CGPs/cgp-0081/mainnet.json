@@ -1,0 +1,25 @@
+[
+   {
+      "contract": "BiPoolManagerProxy",
+      "address": "0x22d9db95E6Ae61c104A7B6F6C78D7993B94ec901",
+      "function": "_setImplementation",
+      "args": ["0x9f6dac2D571d8f727D762c82af240A170C42193A"],
+      "value": "0"
+   },
+   {
+      "contract": "BiPoolManager",
+      "address": "0x22d9db95E6Ae61c104A7B6F6C78D7993B94ec901",
+      "function": "setTokenPrecisionMultipliers",
+      "args": [
+         [
+            "0x765DE816845861e75A25fCA122bb6898B8B1282a",
+            "0xD8763CBa276a3738E6DE85b4b3bF5FDed6D6cA73",
+            "0xe8537a3d056DA446677B9E9d6c5dB704EaAb4787",
+            "0x471EcE3750Da237f93B8E339c536989b8978a438",
+            "0xEB466342C4d449BC9f53A865D5Cb90586f405215"
+         ],
+         ["1", "1", "1", "1", "1000000000000"]
+      ],
+      "value": "0"
+   }
+]
