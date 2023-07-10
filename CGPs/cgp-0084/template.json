@@ -1,0 +1,10 @@
+[
+  {
+    "contract": "FeeCurrencyWhitelist",
+    "function": "addToken",
+    "args": [
+      "TBD ADD STABLE TOKEN"
+    ],
+    "value": "0"
+  }
+]
