@@ -20,6 +20,7 @@ We regularly hold governance calls to discuss proposals. See below for a summary
 
 |  №  |      Date       | Agenda | Notes | Recording |
 |:---:|:---------------:|:------:|:-----:|:---------:|
+| 32  | July 12, 2023 | [Agenda](https://github.com/celo-org/governance/issues/270) | [Notes](https://docs.google.com/document/d/1QeKaZbAK7yZ38qnNShZnKU1SGAQmuQ3P9lJo5v8k8u4/view) |   [Video](https://drive.google.com/file/d/1QhvnUHfhBWkoRnvKzwzK9gcv2anmqZmZ/view)   |
 | 31  | June 14, 2023 | [Agenda](https://github.com/celo-org/governance/issues/269) | [Notes](https://docs.google.com/document/d/1bkT_FxyqaCWReFIwN2LhN-crhbQywd-SQFjRo_dxgDM/edit#heading=h.qj521eqeqkf6) |   [Video](https://drive.google.com/file/d/1kl4uLeLsDDejfntYnE0yp9gNER5uvtZ-/view)   |
 | 30  | May 30, 2023 | [Agenda](https://github.com/celo-org/governance/issues/268) | [Notes](https://docs.google.com/document/d/1AOhgqO2i45Do4bSqcKPKeQZIChbkimgWzi1UdRlzSsc/edit?pli=1) |   [Video](https://drive.google.com/file/d/135xyVhpsrotdgMFhRFuG8Y_0ASLh9iHv/view)   |
 | 29  | April 28, 2023 | [Agenda](https://github.com/celo-org/governance/issues/248) | [Notes](https://docs.google.com/document/d/1yFAv3aYFLSzbWd0n3Z4ze8vUUlsxP0D87Hf2S3Y_AF4/) |   [Video](https://drive.google.com/file/d/1O0L3EOUVCgR02xC4Or11CmI8JHKZVsAp/view)   |
