@@ -1,0 +1,122 @@
+[
+    {
+      "contract": "SortedOracles",
+      "function": "addOracle",
+      "args": ["0x206b25ea01e188ee243131afde526ba6e131a016", "0xeccd1e9439094d025ac7d08d16b0bfe0da3bea53"],
+      "value": "0"
+    },
+    {
+      "contract": "SortedOracles",
+      "function": "addOracle",
+      "args": ["0x206b25ea01e188ee243131afde526ba6e131a016", "0x9b242d2bd848fc92060ca7546033c3af352583d2"],
+      "value": "0"
+    },
+    {
+      "contract": "SortedOracles",
+      "function": "addOracle",
+      "args": ["0x206b25ea01e188ee243131afde526ba6e131a016", "0x905ab001a9199d45c3f5c7b055b65ace5fc7d70a"],
+      "value": "0"
+    },
+    {
+      "contract": "SortedOracles",
+      "function": "addOracle",
+      "args": ["0x206b25ea01e188ee243131afde526ba6e131a016", "0xdf5dd31d8f78520185d6a9fb0498c4bbddfe0708"],
+      "value": "0"
+    },
+    {
+      "contract": "SortedOracles",
+      "function": "addOracle",
+      "args": ["0x206b25ea01e188ee243131afde526ba6e131a016", "0x0781f530100e619936f5b427263441cb0414f885"],
+      "value": "0"
+    },
+    {
+      "contract": "SortedOracles",
+      "function": "addOracle",
+      "args": ["0x206b25ea01e188ee243131afde526ba6e131a016", "0x55de75fd0c2b37987757172fef7ba2ea935d284d"],
+      "value": "0"
+    },
+    {
+      "contract": "SortedOracles",
+      "function": "addOracle",
+      "args": ["0x206b25ea01e188ee243131afde526ba6e131a016", "0xdc0c15fa73b13b2e74cd3eced23d8826569904c5"],
+      "value": "0"
+    },
+    {
+      "contract": "SortedOracles",
+      "function": "addOracle",
+      "args": ["0x206b25ea01e188ee243131afde526ba6e131a016", "0x9048872f739cebbe72825763a1b72064c4df8f1f"],
+      "value": "0"
+    },
+    {
+      "contract": "SortedOracles",
+      "function": "addOracle",
+      "args": ["0x206b25ea01e188ee243131afde526ba6e131a016", "0xBc2F9D199491786A4c68850B6438b8B5eE985735"],
+      "value": "0"
+    },
+    {
+      "contract": "SortedOracles",
+      "function": "addOracle",
+      "args": ["0x206b25ea01e188ee243131afde526ba6e131a016", "0x807C08060f549656C4a4ae18CEfb7311eB6Fb570"],
+      "value": "0"
+    },
+    {
+      "contract": "SortedOracles",
+      "function": "addOracle",
+      "args": ["0x25f21a1f97607edf6852339fad709728cffb9a9d", "0x8dba01f832c7b0bb5f0bad4efe181cc07f8b322e"],
+      "value": "0"
+    },
+    {
+      "contract": "SortedOracles",
+      "function": "addOracle",
+      "args": ["0x25f21a1f97607edf6852339fad709728cffb9a9d", "0xffb417d009d09bd1140244e70babbaa52d69ec84"],
+      "value": "0"
+    },
+    {
+      "contract": "SortedOracles",
+      "function": "addOracle",
+      "args": ["0x25f21a1f97607edf6852339fad709728cffb9a9d", "0x5f755b8350a2e6b8b042cb3e052580e4c5b0ac35"],
+      "value": "0"
+    },
+    {
+      "contract": "SortedOracles",
+      "function": "addOracle",
+      "args": ["0x25f21a1f97607edf6852339fad709728cffb9a9d", "0x8e1349b48ee82ef5437c912662e6640f3590c6f9"],
+      "value": "0"
+    },
+    {
+      "contract": "SortedOracles",
+      "function": "addOracle",
+      "args": ["0x25f21a1f97607edf6852339fad709728cffb9a9d", "0x42b813b9ff8ce8f4837accea26bedda20d7c4982"],
+      "value": "0"
+    },
+    {
+      "contract": "SortedOracles",
+      "function": "addOracle",
+      "args": ["0x25f21a1f97607edf6852339fad709728cffb9a9d", "0x09208127500963ee1c3af88bfbb3ef0cd34d6eb0"],
+      "value": "0"
+    },
+    {
+      "contract": "SortedOracles",
+      "function": "addOracle",
+      "args": ["0x25f21a1f97607edf6852339fad709728cffb9a9d", "0xa8f5be092a8452eab98ed1c220d642114bb2731e"],
+      "value": "0"
+    },
+    {
+      "contract": "SortedOracles",
+      "function": "addOracle",
+      "args": ["0x25f21a1f97607edf6852339fad709728cffb9a9d", "0xfd265c994a5a9c2847fe03a5e878648963f53a37"],
+      "value": "0"
+    },
+    {
+      "contract": "SortedOracles",
+      "function": "addOracle",
+      "args": ["0x25f21a1f97607edf6852339fad709728cffb9a9d", "0xBcBDd157e2d9737049eb3a8aFbC58b725523d002"],
+      "value": "0"
+    },
+    {
+      "contract": "SortedOracles",
+      "function": "addOracle",
+      "args": ["0x25f21a1f97607edf6852339fad709728cffb9a9d", "0xF12BFbcbD71959872dc7Bc29B6F970b0526f413f"],
+      "value": "0"
+    }
+]
