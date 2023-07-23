@@ -1,9 +1,19 @@
 [
   {
-    "contract": "FeeCurrencyWhitelist",
-    "function": "addToken",
+    "contract": "SortedOracles",
+    "function": "addOracle",
     "args": [
-      "TBD ADD STABLE TOKEN"
+      "G$ TOKEN",
+      "ORACLE"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "GoldToken",
+    "function": "transfer",
+    "args": [
+      "ORACLE",
+      "1000000000000000000000"
     ],
     "value": "0"
   }

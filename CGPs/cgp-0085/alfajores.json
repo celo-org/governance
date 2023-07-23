@@ -1,9 +1,19 @@
 [
   {
-    "contract": "FeeCurrencyWhitelist",
-    "function": "addToken",
+    "contract": "SortedOracles",
+    "function": "addOracle",
     "args": [
-      "0x03d3daB843e6c03b3d271eff9178e6A96c28D25f"
+      "0x03d3daB843e6c03b3d271eff9178e6A96c28D25f",
+      "0x6AE2549301BF56198A22d814e921ba3E2ACD1d5C"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "GoldToken",
+    "function": "transfer",
+    "args": [
+      "0x6AE2549301BF56198A22d814e921ba3E2ACD1d5C",
+      "1000000000000000000000"
     ],
     "value": "0"
   }
