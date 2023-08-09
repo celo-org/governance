@@ -162,32 +162,18 @@ celocli governance:show --proposalID 123 --node https://forno.celo.org
 
 contract: GoldToken
     function: approve
-<<<<<<< HEAD
-    args: 
+    args:
       0:  is this the wallet?
       1: is this the amount?
-    params: 
-=======
-    args:
-      0: 0x81bC5B8F34CF959105c793F776971FA8A7BB2a25
-      1: 70000000000000000000000
     params:
->>>>>>> e85b103448438767ad83898915d54422849be466
       __length__: 2
       spender: is this the wallet?
       value: is this the amount?
     value: 0
-<<<<<<< HEAD
-metadata: 
+metadata:
   proposer:  where is this from?
   deposit:  ???
   timestamp:  ???
-=======
-metadata:
-  proposer: 0x4Bc6F468Ea1812f0c35822f298B6fC47b9c69043
-  deposit: 100000000000000000000 (~1.000e+20)
-  timestamp: 1681806706 (~1.682e+9)
->>>>>>> e85b103448438767ad83898915d54422849be466
   transactionCount: 1
   descriptionURL: https://github.com/celo-org/governance/blob/main/CGPs/CGP-0091.md
 
