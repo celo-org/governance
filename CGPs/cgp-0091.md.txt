@@ -25,7 +25,7 @@ The primary objective of this project is to establish a robust and dynamic mobil
 
 
 * **Sponsorship of VON: Evolution Conferences: ** The Voice On the Net (VON) conferences have a long-standing legacy in the telecommunications industry, providing a unique platform for industry professionals and innovators to share insights and collaborate. By sponsoring VON events and meetups, we will bring attention to Celo's mobile-first technology and its potential applications, attracting a diverse audience of developers, entrepreneurs, investors, and telecommunications experts.
-    * New York: November 1-2.  
+    * New York: November 1-2.
     * London: Dec 6
     * Palo Alto: April 9-10 (TBC)
 * **Building Local Chapters:  **Establish local chapters of the mobile-first community in strategic locations. The first local chapter will be: New York City.
@@ -34,7 +34,7 @@ The primary objective of this project is to establish a robust and dynamic mobil
 
 * **Bridging Blockchain and Major Telcos – Mobile Operators, Cable and Wireline.  **
     * To drive adoption and collaboration, we will showcase the benefits of Celo's mobile-first approach and its potential to transform the telecom industry, we will build bridges for partnerships and integrations.
-    * Identify opportunities for “pop up” side events around major telecom related conferences around the world.  
+    * Identify opportunities for “pop up” side events around major telecom related conferences around the world.
     * Examples include:
         * [Mobile World Congress ](https://www.mwcbarcelona.com/)
         * [Pacific Telecommunications Council](https://www.ptc.org/) (PTC’24 in Honolulu)
@@ -78,7 +78,7 @@ To ensure transparency and accountability, we will track the progress of the pro
 
 * Attendance and engagement levels at sponsored VON conferences.
 * Number of established local chapters and active participants.
-* The volume and significance of partnerships with major telco carriers. We will also provide support to others inside Celo when asked. 
+* The volume and significance of partnerships with major telco carriers. We will also provide support to others inside Celo when asked.
 * Increased interest and adoption of Celo's technology, demonstrated through user growth, transaction volume, and developer activity.
 
 
@@ -97,8 +97,8 @@ Multisig Wallet Address (to be provided)
 
 
 
-* **Jeff Pulver **is a prominent American entrepreneur, investor, and technology evangelist, best known for his pioneering work in internet telecommunications and Voice over Internet Protocol (VoIP) technology. Jeff has influenced public policy in the US in the area of Internet Communications. The Pulver Order, issued by the FCC in 2004 literally changed the way the world communicates by ensuring VoIP calls originating on broadband are not regulated as Telecom. As the co-founder and former Chairman of Vonage, he played a key role in popularizing VoIP services, enabling voice calls over the internet and disrupting the traditional telecom industry. Jeff also founded the influential VON (Voice On the Net) conferences, providing a platform for industry professionals to discuss the convergence of voice, video, and data over the internet. With a passion for supporting technology startups, he has been an active angel investor and has contributed to fostering innovative communication solutions and building strong entrepreneurial communities.
-* **David Casey **is an entrepreneur and environmental advocate known for his work in promoting sustainable living and eco-conscious travel. David is: celo scout; director @ funding the commons; founder @ resource finance, NuMund; advisor @ Gane (MVNO for latam), hyphen.earth, and[ values.co](http://values.co/) , all three of these companies in celo ecosystem.
+* **Jeff Pulver** is a prominent American entrepreneur, investor, and technology evangelist, best known for his pioneering work in internet telecommunications and Voice over Internet Protocol (VoIP) technology. Jeff has influenced public policy in the US in the area of Internet Communications. The Pulver Order, issued by the FCC in 2004 literally changed the way the world communicates by ensuring VoIP calls originating on broadband are not regulated as Telecom. As the co-founder and former Chairman of Vonage, he played a key role in popularizing VoIP services, enabling voice calls over the internet and disrupting the traditional telecom industry. Jeff also founded the influential VON (Voice On the Net) conferences, providing a platform for industry professionals to discuss the convergence of voice, video, and data over the internet. With a passion for supporting technology startups, he has been an active angel investor and has contributed to fostering innovative communication solutions and building strong entrepreneurial communities.
+* **David Casey** is an entrepreneur and environmental advocate known for his work in promoting sustainable living and eco-conscious travel. David is: celo scout; director @ funding the commons; founder @ resource finance, NuMund; advisor @ Gane (MVNO for latam), hyphen.earth, and[ values.co](http://values.co/) , all three of these companies in celo ecosystem.
 
 
 ## Additional Information
@@ -107,7 +107,7 @@ About VON Conferences:
 
 The VON (Voice On the Net) Conference was a series of influential gatherings founded by Jeff Pulver in 1997. These conferences played a significant role in advancing the telecommunications industry by focusing on the convergence of voice, video, and data over the internet. VON brought together industry professionals, entrepreneurs, investors, and technology enthusiasts to discuss the latest developments and challenges in Voice over Internet Protocol (VoIP) technology and internet-based communications. The conferences aimed to foster innovation, collaboration, and knowledge sharing while promoting the adoption of VoIP and other internet communication solutions.
 
-About Jeff Pulver \
+About Jeff Pulver
 
 
 Jeff Pulver is a prominent American entrepreneur, investor, and technology evangelist, best known for his pioneering work in internet telecommunications and Voice over Internet Protocol (VoIP) technology. As the co-founder and former Chief Evangelist of Vonage, he played a key role in popularizing VoIP services, enabling voice calls over the internet and disrupting the traditional telecom industry. Jeff also founded the influential VON (Voice On the Net) conferences, providing a platform for industry professionals to discuss the convergence of voice, video, and data over the internet. With a passion for supporting technology startups, he has been an active angel investor and has contributed to fostering innovative communication solutions and building strong entrepreneurial communities.
@@ -162,25 +162,39 @@ celocli governance:show --proposalID 123 --node https://forno.celo.org
 
 contract: GoldToken
     function: approve
+<<<<<<< HEAD
     args: 
       0:  is this the wallet?
       1: is this the amount?
     params: 
+=======
+    args:
+      0: 0x81bC5B8F34CF959105c793F776971FA8A7BB2a25
+      1: 70000000000000000000000
+    params:
+>>>>>>> e85b103448438767ad83898915d54422849be466
       __length__: 2
       spender: is this the wallet?
       value: is this the amount?
     value: 0
+<<<<<<< HEAD
 metadata: 
   proposer:  where is this from?
   deposit:  ???
   timestamp:  ???
+=======
+metadata:
+  proposer: 0x4Bc6F468Ea1812f0c35822f298B6fC47b9c69043
+  deposit: 100000000000000000000 (~1.000e+20)
+  timestamp: 1681806706 (~1.682e+9)
+>>>>>>> e85b103448438767ad83898915d54422849be466
   transactionCount: 1
   descriptionURL: https://github.com/celo-org/governance/blob/main/CGPs/CGP-0091.md
 
 ## Multisig wallet
 [need multisig wallet]
 
-Signers: 
+Signers:
 Jeff Pulver - wallet address
 David Casey - wallet address
 
