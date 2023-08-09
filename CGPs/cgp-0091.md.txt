@@ -181,7 +181,7 @@ metadata:
 [need multisig wallet]
 
 Signers:
-Jeff Pulver - wallet address
+Jeff Pulver - 0xd933f9D0f63307a4c0d60e3CB0603011b82db3F5
 David Casey - wallet address
 
 ## Risks
