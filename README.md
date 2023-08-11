@@ -20,6 +20,7 @@ We regularly hold governance calls to discuss proposals. See below for a summary
 
 |  №  |      Date       | Agenda | Notes | Recording |
 |:---:|:---------------:|:------:|:-----:|:---------:|
+| 35  | August 24, 2023 | [Agenda](https://github.com/celo-org/governance/issues/305) | TBU |   TBU   |
 | 34  | August 8, 2023 | [Agenda](https://github.com/celo-org/governance/issues/286) | TBU |   TBU   |
 | 33  | July 21, 2023 | [Agenda](https://github.com/celo-org/governance/issues/281) | [Notes](https://docs.google.com/document/d/1ULav15OReCFkwUCoVoRjWZBgyKOo9H_pT8ohQKHXxJw/edit) |   [Video](https://drive.google.com/file/d/1qdE25gSQ1oIRJYrwDUc5TidVkiXSbuaA/view?usp=sharing)   |
 | 32  | July 12, 2023 | [Agenda](https://github.com/celo-org/governance/issues/270) | [Notes](https://docs.google.com/document/d/1QeKaZbAK7yZ38qnNShZnKU1SGAQmuQ3P9lJo5v8k8u4/view) |   [Video](https://drive.google.com/file/d/1QhvnUHfhBWkoRnvKzwzK9gcv2anmqZmZ/view)   |
