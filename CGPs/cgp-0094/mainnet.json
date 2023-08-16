@@ -1,0 +1,62 @@
+[
+    {
+      "contract": "SortedOracles",
+      "function": "addOracle",
+      "args": ["0x26076b9702885d475ac8c3db3bd9f250dc5a318b", "0xa633c79ac2c6881c0898b2b417a3aecda6f9eb10"],
+      "value": "0"
+    },
+    {
+      "contract": "SortedOracles",
+      "function": "addOracle",
+      "args": ["0x26076b9702885d475ac8c3db3bd9f250dc5a318b", "0xbc32b5e6682bd7b64e52bdceead83f597ed0fd77"],
+      "value": "0"
+    },
+    {
+      "contract": "SortedOracles",
+      "function": "addOracle",
+      "args": ["0x26076b9702885d475ac8c3db3bd9f250dc5a318b", "0x110d08157ed0c525f7fd983a857180583767cbcf"],
+      "value": "0"
+    },
+    {
+      "contract": "SortedOracles",
+      "function": "addOracle",
+      "args": ["0x26076b9702885d475ac8c3db3bd9f250dc5a318b", "0xa8c15faf676df18566c4b8c4c653e5f992e687bb"],
+      "value": "0"
+    },
+    {
+      "contract": "SortedOracles",
+      "function": "addOracle",
+      "args": ["0x26076b9702885d475ac8c3db3bd9f250dc5a318b", "0x6e7c84f83778569016ea0a7f6f119d6b779eed17"],
+      "value": "0"
+    },
+    {
+      "contract": "SortedOracles",
+      "function": "addOracle",
+      "args": ["0x26076b9702885d475ac8c3db3bd9f250dc5a318b", "0xf96bf6c3b9ea73150f0d7f452fba685ff456c322"],
+      "value": "0"
+    },
+    {
+      "contract": "SortedOracles",
+      "function": "addOracle",
+      "args": ["0x26076b9702885d475ac8c3db3bd9f250dc5a318b", "0xc5bf0748538f8673691bc9c8e4eae386d5987559"],
+      "value": "0"
+    },
+    {
+      "contract": "SortedOracles",
+      "function": "addOracle",
+      "args": ["0x26076b9702885d475ac8c3db3bd9f250dc5a318b", "0xe868cd23a3941dfbab10597b103313706a027191"],
+      "value": "0"
+    },
+    {
+      "contract": "SortedOracles",
+      "function": "addOracle",
+      "args": ["0x26076b9702885d475ac8c3db3bd9f250dc5a318b", "0xBBf07BD413D65C363099934Ca43394dA92C390dB"],
+      "value": "0"
+    },
+    {
+      "contract": "SortedOracles",
+      "function": "addOracle",
+      "args": ["0x26076b9702885d475ac8c3db3bd9f250dc5a318b", "toBeUpdatedWithDiwusAddress"],
+      "value": "0"
+    }
+]
