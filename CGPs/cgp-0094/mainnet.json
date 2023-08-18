@@ -56,63 +56,63 @@
     {
       "contract": "SortedOracles",
       "function": "addOracle",
-      "args": ["0x40dc8528167557353fdcd98548ab2139a670dd0b", "0xf600744e3404de1231c55f4b589cfc722aeb29a9"],
+      "args": ["0x40dc8528167557353fdcd98548ab2139a670dd0b", "0xd2c4f59724df51026f857a7e188b322e35256e24"],
       "value": "0"
     },
     {
       "contract": "SortedOracles",
       "function": "addOracle",
-      "args": ["0x40dc8528167557353fdcd98548ab2139a670dd0b", "0x37e0590ef02989b348365f421dbb0431d427f80f"],
+      "args": ["0x40dc8528167557353fdcd98548ab2139a670dd0b", "0xe47c9867dbb37110834aaaf65b8d760c49c22081"],
       "value": "0"
     },
     {
       "contract": "SortedOracles",
       "function": "addOracle",
-      "args": ["0x40dc8528167557353fdcd98548ab2139a670dd0b", "0xc5e71d35f93b7eb743b97a87903952feff8a7a72"],
+      "args": ["0x40dc8528167557353fdcd98548ab2139a670dd0b", "0x9cb4896447a8f2611f5fb6f5fc853ffa16a1d864"],
       "value": "0"
     },
     {
       "contract": "SortedOracles",
       "function": "addOracle",
-      "args": ["0x40dc8528167557353fdcd98548ab2139a670dd0b", "0xc42e2061a94f0fd25e33b83f0a5727790b0d51d4"],
+      "args": ["0x40dc8528167557353fdcd98548ab2139a670dd0b", "0x0f9786b083c8c22e2e839286230098048a20a0ec"],
       "value": "0"
     },
     {
       "contract": "SortedOracles",
       "function": "addOracle",
-      "args": ["0x40dc8528167557353fdcd98548ab2139a670dd0b", "0xd8229cb8a8d59aebb99391cd6854bc0601eea9a7"],
+      "args": ["0x40dc8528167557353fdcd98548ab2139a670dd0b", "0xe01890c7760445908128f0e64e1170866566e1f6"],
       "value": "0"
     },
     {
       "contract": "SortedOracles",
       "function": "addOracle",
-      "args": ["0x40dc8528167557353fdcd98548ab2139a670dd0b", "0x358e2a342a1d14c0d9cc3ce1ca9d5f5a0d978489"],
+      "args": ["0x40dc8528167557353fdcd98548ab2139a670dd0b", "0x6a033b7217fbae843a3ffc9783ef9f87dd3a1c04"],
       "value": "0"
     },
     {
       "contract": "SortedOracles",
       "function": "addOracle",
-      "args": ["0x40dc8528167557353fdcd98548ab2139a670dd0b", "0x3390bd1eb0882eaaa509db104c6be8e6565412ab"],
+      "args": ["0x40dc8528167557353fdcd98548ab2139a670dd0b", "0x8a164c0523bbd7ec70172807723cca9a948858bb"],
       "value": "0"
     },
     {
       "contract": "SortedOracles",
       "function": "addOracle",
-      "args": ["0x40dc8528167557353fdcd98548ab2139a670dd0b", "0xf09a03a874b07473d5b6d4112a5448b37ff56a0f"],
+      "args": ["0x40dc8528167557353fdcd98548ab2139a670dd0b", "0xd0066f198ed7f8dc3684ff3ac77511ef58a9aed3"],
       "value": "0"
     },
     {
       "contract": "SortedOracles",
       "function": "addOracle",
-      "args": ["0x40dc8528167557353fdcd98548ab2139a670dd0b", "0xeb05235169538d73ee24fbc4f96ada3d94166efb"],
+      "args": ["0x40dc8528167557353fdcd98548ab2139a670dd0b", "0x441061f8b1f8ee2722d3608bfa0b5c4c14dee813"],
       "value": "0"
     },
     {
       "contract": "SortedOracles",
       "function": "addOracle",
-      "args": ["0x40dc8528167557353fdcd98548ab2139a670dd0b", "0x9f695cbb32e43f80149ccf254a8b72820a647e1e"],
+      "args": ["0x40dc8528167557353fdcd98548ab2139a670dd0b", "0x87089ec6adbf3c994ae7c47d3aa7d4fc104d0422"],
       "value": "0"
-    }
+    },
     {
       "contract": "SortedOracles",
       "function": "addOracle",
