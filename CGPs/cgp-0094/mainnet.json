@@ -56,7 +56,131 @@
     {
       "contract": "SortedOracles",
       "function": "addOracle",
-      "args": ["0x26076b9702885d475ac8c3db3bd9f250dc5a318b", "toBeUpdatedWithDiwusAddress"],
+      "args": ["0x39ffa393566659ffc70d76d238cbe9582042f71f", "0xf600744e3404de1231c55f4b589cfc722aeb29a9"],
+      "value": "0"
+    },
+    {
+      "contract": "SortedOracles",
+      "function": "addOracle",
+      "args": ["0x39ffa393566659ffc70d76d238cbe9582042f71f", "0x37e0590ef02989b348365f421dbb0431d427f80f"],
+      "value": "0"
+    },
+    {
+      "contract": "SortedOracles",
+      "function": "addOracle",
+      "args": ["0x39ffa393566659ffc70d76d238cbe9582042f71f", "0xc5e71d35f93b7eb743b97a87903952feff8a7a72"],
+      "value": "0"
+    },
+    {
+      "contract": "SortedOracles",
+      "function": "addOracle",
+      "args": ["0x39ffa393566659ffc70d76d238cbe9582042f71f", "0xc42e2061a94f0fd25e33b83f0a5727790b0d51d4"],
+      "value": "0"
+    },
+    {
+      "contract": "SortedOracles",
+      "function": "addOracle",
+      "args": ["0x39ffa393566659ffc70d76d238cbe9582042f71f", "0xd8229cb8a8d59aebb99391cd6854bc0601eea9a7"],
+      "value": "0"
+    },
+    {
+      "contract": "SortedOracles",
+      "function": "addOracle",
+      "args": ["0x39ffa393566659ffc70d76d238cbe9582042f71f", "0x358e2a342a1d14c0d9cc3ce1ca9d5f5a0d978489"],
+      "value": "0"
+    },
+    {
+      "contract": "SortedOracles",
+      "function": "addOracle",
+      "args": ["0x39ffa393566659ffc70d76d238cbe9582042f71f", "0x3390bd1eb0882eaaa509db104c6be8e6565412ab"],
+      "value": "0"
+    },
+    {
+      "contract": "SortedOracles",
+      "function": "addOracle",
+      "args": ["0x39ffa393566659ffc70d76d238cbe9582042f71f", "0xf09a03a874b07473d5b6d4112a5448b37ff56a0f"],
+      "value": "0"
+    },
+    {
+      "contract": "SortedOracles",
+      "function": "addOracle",
+      "args": ["0x39ffa393566659ffc70d76d238cbe9582042f71f", "0xeb05235169538d73ee24fbc4f96ada3d94166efb"],
+      "value": "0"
+    },
+    {
+      "contract": "SortedOracles",
+      "function": "addOracle",
+      "args": ["0x39ffa393566659ffc70d76d238cbe9582042f71f", "0x9f695cbb32e43f80149ccf254a8b72820a647e1e"],
+      "value": "0"
+    }
+    {
+      "contract": "SortedOracles",
+      "function": "addOracle",
+      "args": ["0x73F93dcc49cB8A239e2032663e9475dd5ef29A08", "0x4d89a0c95de82ae78c42fad4f8d3f87c4495fd37"],
+      "value": "0"
+    },
+    {
+      "contract": "SortedOracles",
+      "function": "addOracle",
+      "args": ["0x73F93dcc49cB8A239e2032663e9475dd5ef29A08", "0xa97dbefac6026f93cc5714c4c150b7466e9502ef"],
+      "value": "0"
+    },
+    {
+      "contract": "SortedOracles",
+      "function": "addOracle",
+      "args": ["0x73F93dcc49cB8A239e2032663e9475dd5ef29A08", "0x676931c73c8d6b09b0c192baf821e3fd2d693750"],
+      "value": "0"
+    },
+    {
+      "contract": "SortedOracles",
+      "function": "addOracle",
+      "args": ["0x73F93dcc49cB8A239e2032663e9475dd5ef29A08", "0xfb8f294c8cd98cf059672c1a6153f85555f10a90"],
+      "value": "0"
+    },
+    {
+      "contract": "SortedOracles",
+      "function": "addOracle",
+      "args": ["0x73F93dcc49cB8A239e2032663e9475dd5ef29A08", "0xb7614f7174a07028a5ff5e1adc68a031b646857f"],
+      "value": "0"
+    },
+    {
+      "contract": "SortedOracles",
+      "function": "addOracle",
+      "args": ["0x73F93dcc49cB8A239e2032663e9475dd5ef29A08", "0xce696d465dde582095fce8b67e1a31ceb45ad922"],
+      "value": "0"
+    },
+    {
+      "contract": "SortedOracles",
+      "function": "addOracle",
+      "args": ["0x73F93dcc49cB8A239e2032663e9475dd5ef29A08", "0xbc211b8dfecdd5784f9c419ce64f7de1377bae88"],
+      "value": "0"
+    },
+    {
+      "contract": "SortedOracles",
+      "function": "addOracle",
+      "args": ["0x73F93dcc49cB8A239e2032663e9475dd5ef29A08", "0xc659ab5c049b726c2945a8a44b783ce6afbd2ceb"],
+      "value": "0"
+    },
+    {
+      "contract": "SortedOracles",
+      "function": "addOracle",
+      "args": ["0x73F93dcc49cB8A239e2032663e9475dd5ef29A08", "0x9094bf2b2eb028c6fcc56e7d46ea28bb6e03c9a5"],
+      "value": "0"
+    },
+    {
+      "contract": "SortedOracles",
+      "function": "addOracle",
+      "args": ["0x73F93dcc49cB8A239e2032663e9475dd5ef29A08", "0xb947c54be882314623ee3d74684d0d785dd50335"],
+      "value": "0"
+    },
+    {
+      "contract": "Registry",
+      "address": "0x000000000000000000000000000000000000ce10",
+      "function": "setAddressFor",
+      "args": [
+        "StableTokenXOF",
+        "0x73F93dcc49cB8A239e2032663e9475dd5ef29A08"
+      ],
       "value": "0"
     }
 ]
