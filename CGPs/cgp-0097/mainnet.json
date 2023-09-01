@@ -1,5 +1,3 @@
-yarn run v1.22.19
-$ ./bin/cgp-yaml-to-json.sh cgp.yaml
 [
   {
     "contract": "Reserve",
