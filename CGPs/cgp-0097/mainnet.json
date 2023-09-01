@@ -3,9 +3,7 @@
     "contract": "Reserve",
     "address": "0xea0Cf774eB755fB01FD67fe6B4F93AE4E167afe2",
     "function": "addCollateralAsset",
-    "args": [
-      "0x061cc5a2C863E0C1Cb404006D559dB18A34C762d"
-    ],
+    "args": ["0x061cc5a2C863E0C1Cb404006D559dB18A34C762d"],
     "value": "0"
   },
   {
@@ -13,12 +11,8 @@
     "address": "0xea0Cf774eB755fB01FD67fe6B4F93AE4E167afe2",
     "function": "setDailySpendingRatioForCollateralAssets",
     "args": [
-      [
-        "0x061cc5a2C863E0C1Cb404006D559dB18A34C762d"
-      ],
-      [
-        "1000000000000000000000000"
-      ]
+      ["0x061cc5a2C863E0C1Cb404006D559dB18A34C762d"],
+      ["1000000000000000000000000"]
     ],
     "value": "0"
   },
@@ -26,45 +20,35 @@
     "contract": "BiPoolManagerProxy",
     "address": "0x22d9db95E6Ae61c104A7B6F6C78D7993B94ec901",
     "function": "_setImplementation",
-    "args": [
-      "0xa3D754445f8C3a8134F64467826352885558FD65"
-    ],
+    "args": ["0xa3D754445f8C3a8134F64467826352885558FD65"],
     "value": "0"
   },
   {
     "contract": "BrokerProxy",
     "address": "0x777A8255cA72412f0d706dc03C9D1987306B4CaD",
     "function": "_setImplementation",
-    "args": [
-      "0x1B78f6acD05e7BcB00f74863bfd8a7C264143e37"
-    ],
+    "args": ["0x1B78f6acD05e7BcB00f74863bfd8a7C264143e37"],
     "value": "0"
   },
   {
     "contract": "SortedOraclesProxy",
     "address": "0xefB84935239dAcdecF7c5bA76d8dE40b077B7b33",
     "function": "_setImplementation",
-    "args": [
-      "0x4B621443c1c749ef5252e8AEE158A52B5eCe304A"
-    ],
+    "args": ["0x4B621443c1c749ef5252e8AEE158A52B5eCe304A"],
     "value": "0"
   },
   {
     "contract": "BiPoolManager",
     "address": "0x22d9db95E6Ae61c104A7B6F6C78D7993B94ec901",
     "function": "setBreakerBox",
-    "args": [
-      "0x303ED1df62Fa067659B586EbEe8De0EcE824Ab39"
-    ],
+    "args": ["0x303ED1df62Fa067659B586EbEe8De0EcE824Ab39"],
     "value": "0"
   },
   {
     "contract": "SortedOracles",
     "address": "0xefB84935239dAcdecF7c5bA76d8dE40b077B7b33",
     "function": "setBreakerBox",
-    "args": [
-      "0x303ED1df62Fa067659B586EbEe8De0EcE824Ab39"
-    ],
+    "args": ["0x303ED1df62Fa067659B586EbEe8De0EcE824Ab39"],
     "value": "0"
   },
   {
@@ -106,9 +90,7 @@
         "0",
         "0",
         [
-          [
-            "200000000000000000000"
-          ],
+          ["200000000000000000000"],
           "0xA1A8003936862E7a15092A91898D69fa8bCE290c",
           "300",
           "5",
@@ -131,9 +113,7 @@
         "0",
         "0",
         [
-          [
-            "2500000000000000000000"
-          ],
+          ["2500000000000000000000"],
           "0x206B25Ea01E188Ee243131aFdE526bA6E131a016",
           "300",
           "5",
@@ -156,9 +136,7 @@
         "0",
         "0",
         [
-          [
-            "2500000000000000000000"
-          ],
+          ["2500000000000000000000"],
           "0x25F21A1f97607Edf6852339fad709728cffb9a9d",
           "300",
           "5",
@@ -181,9 +159,7 @@
         "0",
         "0",
         [
-          [
-            "200000000000000000000"
-          ],
+          ["200000000000000000000"],
           "0x26076B9702885d475ac8c3dB3Bd9F250Dc5A318B",
           "300",
           "5",
@@ -200,14 +176,7 @@
     "args": [
       "0x3135b662c38265d0655177091f1b647b4fef511103d06c016efdf18b46930d2c",
       "0x765DE816845861e75A25fCA122bb6898B8B1282a",
-      [
-        "300",
-        "86400",
-        "100000",
-        "500000",
-        "0",
-        "3"
-      ]
+      ["300", "86400", "100000", "500000", "0", "3"]
     ],
     "value": "0"
   },
@@ -218,14 +187,7 @@
     "args": [
       "0xb73ffc6b5123de3c8e460490543ab93a3be7d70824f1666343df49e219199b8c",
       "0xD8763CBa276a3738E6DE85b4b3bF5FDed6D6cA73",
-      [
-        "300",
-        "86400",
-        "100000",
-        "500000",
-        "0",
-        "3"
-      ]
+      ["300", "86400", "100000", "500000", "0", "3"]
     ],
     "value": "0"
   },
@@ -236,14 +198,7 @@
     "args": [
       "0xed0528e42b9ecae538aab34b93813e08de03f8ac4a894b277ef193e67275bbae",
       "0xe8537a3d056DA446677B9E9d6c5dB704EaAb4787",
-      [
-        "300",
-        "86400",
-        "100000",
-        "500000",
-        "0",
-        "3"
-      ]
+      ["300", "86400", "100000", "500000", "0", "3"]
     ],
     "value": "0"
   },
@@ -254,14 +209,7 @@
     "args": [
       "0x0d739efbfc30f303e8d1976c213b4040850d1af40f174f4169b846f6fd3d2f20",
       "0x765DE816845861e75A25fCA122bb6898B8B1282a",
-      [
-        "300",
-        "86400",
-        "500000",
-        "1000000",
-        "0",
-        "3"
-      ]
+      ["300", "86400", "500000", "1000000", "0", "3"]
     ],
     "value": "0"
   },
@@ -272,14 +220,7 @@
     "args": [
       "0xf418803158d881fda22694067bf6479476cec22ecfeeca2f6a65a6259bdbb9c0",
       "0xD8763CBa276a3738E6DE85b4b3bF5FDed6D6cA73",
-      [
-        "300",
-        "86400",
-        "10000",
-        "50000",
-        "5000000",
-        "7"
-      ]
+      ["300", "86400", "10000", "50000", "5000000", "7"]
     ],
     "value": "0"
   },
@@ -290,14 +231,7 @@
     "args": [
       "0x40c8472edd23f2976b0503db2692e8f06f0eb52db690e84697cad36a6b44e2df",
       "0xe8537a3d056DA446677B9E9d6c5dB704EaAb4787",
-      [
-        "300",
-        "86400",
-        "10000",
-        "50000",
-        "2000000",
-        "7"
-      ]
+      ["300", "86400", "10000", "50000", "2000000", "7"]
     ],
     "value": "0"
   },
@@ -308,14 +242,7 @@
     "args": [
       "0xfca6d94b46122eb9a4b86cf9d3e1e856fea8a826d0fc26c5baf17c43fbaf0f48",
       "0xD8763CBa276a3738E6DE85b4b3bF5FDed6D6cA73",
-      [
-        "300",
-        "86400",
-        "50000",
-        "100000",
-        "0",
-        "3"
-      ]
+      ["300", "86400", "50000", "100000", "0", "3"]
     ],
     "value": "0"
   },
@@ -323,27 +250,21 @@
     "contract": "Exchange",
     "address": "0x67316300f17f063085Ca8bCa4bd3f7a5a3C66275",
     "function": "setReserveFraction",
-    "args": [
-      "10000000000000000000000"
-    ],
+    "args": ["10000000000000000000000"],
     "value": "0"
   },
   {
     "contract": "ExchangeBRL",
     "address": "0x8f2cf9855C919AFAC8Bd2E7acEc0205ed568a4EA",
     "function": "setReserveFraction",
-    "args": [
-      "2500000000000000000000"
-    ],
+    "args": ["2500000000000000000000"],
     "value": "0"
   },
   {
     "contract": "ExchangeEUR",
     "address": "0xE383394B913d7302c49F794C7d3243c429d53D1d",
     "function": "setReserveFraction",
-    "args": [
-      "2500000000000000000000"
-    ],
+    "args": ["2500000000000000000000"],
     "value": "0"
   },
   {
@@ -367,20 +288,14 @@
     "contract": "BreakerBox",
     "address": "0x303ED1df62Fa067659B586EbEe8De0EcE824Ab39",
     "function": "addBreaker",
-    "args": [
-      "0x49349F92D2B17d491e42C8fdB02D19f072F9B5D9",
-      "3"
-    ],
+    "args": ["0x49349F92D2B17d491e42C8fdB02D19f072F9B5D9", "3"],
     "value": "0"
   },
   {
     "contract": "BreakerBox",
     "address": "0x303ED1df62Fa067659B586EbEe8De0EcE824Ab39",
     "function": "addBreaker",
-    "args": [
-      "0x4DBC33B3abA78475A5AA4BC7A5B11445d387BF68",
-      "3"
-    ],
+    "args": ["0x4DBC33B3abA78475A5AA4BC7A5B11445d387BF68", "3"],
     "value": "0"
   },
   {
@@ -389,9 +304,7 @@
     "function": "setRateFeedDependencies",
     "args": [
       "0x206B25Ea01E188Ee243131aFdE526bA6E131a016",
-      [
-        "0xA1A8003936862E7a15092A91898D69fa8bCE290c"
-      ]
+      ["0xA1A8003936862E7a15092A91898D69fa8bCE290c"]
     ],
     "value": "0"
   },
@@ -401,9 +314,7 @@
     "function": "setRateFeedDependencies",
     "args": [
       "0x25F21A1f97607Edf6852339fad709728cffb9a9d",
-      [
-        "0xA1A8003936862E7a15092A91898D69fa8bCE290c"
-      ]
+      ["0xA1A8003936862E7a15092A91898D69fa8bCE290c"]
     ],
     "value": "0"
   },
@@ -496,13 +407,7 @@
         "0x206B25Ea01E188Ee243131aFdE526bA6E131a016",
         "0x25F21A1f97607Edf6852339fad709728cffb9a9d"
       ],
-      [
-        "1800",
-        "1800",
-        "1800",
-        "900",
-        "900"
-      ]
+      ["1800", "1800", "1800", "900", "900"]
     ],
     "value": "0"
   },
@@ -553,12 +458,8 @@
     "address": "0x4DBC33B3abA78475A5AA4BC7A5B11445d387BF68",
     "function": "setReferenceValues",
     "args": [
-      [
-        "0x26076B9702885d475ac8c3dB3Bd9F250Dc5A318B"
-      ],
-      [
-        "1000000000000000000000000"
-      ]
+      ["0x26076B9702885d475ac8c3dB3Bd9F250Dc5A318B"],
+      ["1000000000000000000000000"]
     ],
     "value": "0"
   },
@@ -566,14 +467,7 @@
     "contract": "ValueDeltaBreaker",
     "address": "0x4DBC33B3abA78475A5AA4BC7A5B11445d387BF68",
     "function": "setCooldownTimes",
-    "args": [
-      [
-        "0x26076B9702885d475ac8c3dB3Bd9F250Dc5A318B"
-      ],
-      [
-        "1"
-      ]
-    ],
+    "args": [["0x26076B9702885d475ac8c3dB3Bd9F250Dc5A318B"], ["1"]],
     "value": "0"
   },
   {
@@ -581,12 +475,8 @@
     "address": "0x4DBC33B3abA78475A5AA4BC7A5B11445d387BF68",
     "function": "setRateChangeThresholds",
     "args": [
-      [
-        "0x26076B9702885d475ac8c3dB3Bd9F250Dc5A318B"
-      ],
-      [
-        "5000000000000000000000"
-      ]
+      ["0x26076B9702885d475ac8c3dB3Bd9F250Dc5A318B"],
+      ["5000000000000000000000"]
     ],
     "value": "0"
   },
@@ -601,4 +491,3 @@
     "value": "0"
   }
 ]
-Done in 0.50s.
