@@ -1,0 +1,8 @@
+[{
+    "contract": "GasPriceMinimum",
+    "function": "setBaseFeeOpCodeActivationBlock",
+    "args": [
+      "21616000"
+    ],
+    "value": "0"
+  }]

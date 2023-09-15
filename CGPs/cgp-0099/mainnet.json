@@ -1,0 +1,115 @@
+[
+  {
+    "contract": "AccountsProxy",
+    "function": "_setImplementation",
+    "args": [
+      "0x75Ec00c4B09574945F7d407797f8b61ca5AD9Cef"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "BlockchainParametersProxy",
+    "function": "_setImplementation",
+    "args": [
+      "0x34FE128561A54F8d4185cd24d78634300B119725"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "FeeCurrencyWhitelistProxy",
+    "function": "_setImplementation",
+    "args": [
+      "0xbC75342726648c4798543bac986c529f54220953"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "Registry",
+    "function": "setAddressFor",
+    "args": [
+      "FeeHandler",
+      "0xcD437749E43A154C07F3553504c68fBfD56B8778"
+    ],
+    "value": "0",
+    "description": "Registry: FeeHandler -> 0xcD437749E43A154C07F3553504c68fBfD56B8778"
+  },
+  {
+    "contract": "FeeHandlerProxy",
+    "function": "_setAndInitializeImplementation",
+    "args": [
+      "0x90eD9a893bC7be80F2D0E68650a8780A4E7373a5",
+      "0x650a1605000000000000000000000000000000000000000000000000000000000000ce10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a968163f0a57b400000000000000000000000000000000000000000000000000000000000000000000e00000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000012000000000000000000000000000000000000000000000000000000000000001400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "GovernanceProxy",
+    "function": "_setImplementation",
+    "args": [
+      "0x1914EA95139FEd935a524984497895619B347F46"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "LockedGoldProxy",
+    "function": "_setImplementation",
+    "args": [
+      "0xdEBe38061Db542E8c2AF2427a312f70816965E93"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "Registry",
+    "function": "setAddressFor",
+    "args": [
+      "MentoFeeHandlerSeller",
+      "0x4eFa274B7e33476C961065000D58ee09F7921A74"
+    ],
+    "value": "0",
+    "description": "Registry: MentoFeeHandlerSeller -> 0x4eFa274B7e33476C961065000D58ee09F7921A74"
+  },
+  {
+    "contract": "MentoFeeHandlerSellerProxy",
+    "function": "_setAndInitializeImplementation",
+    "args": [
+      "0xBCF2374Fe8D582aB31840Ac08Fbc6bCD073d8c09",
+      "0xff1d5752000000000000000000000000000000000000000000000000000000000000ce100000000000000000000000000000000000000000000000000000000000000060000000000000000000000000000000000000000000000000000000000000008000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "Registry",
+    "function": "setAddressFor",
+    "args": [
+      "UniswapFeeHandlerSeller",
+      "0xD3aeE28548Dbb65DF03981f0dC0713BfCBd10a97"
+    ],
+    "value": "0",
+    "description": "Registry: UniswapFeeHandlerSeller -> 0xD3aeE28548Dbb65DF03981f0dC0713BfCBd10a97"
+  },
+  {
+    "contract": "UniswapFeeHandlerSellerProxy",
+    "function": "_setAndInitializeImplementation",
+    "args": [
+      "0xb851A5f1dbC743FdCe3009a3410df317cb33e24b",
+      "0xff1d5752000000000000000000000000000000000000000000000000000000000000ce100000000000000000000000000000000000000000000000000000000000000060000000000000000000000000000000000000000000000000000000000000008000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "ValidatorsProxy",
+    "function": "_setImplementation",
+    "args": [
+      "0xe52EaC18fB3C1e1713e73d4A5b7dCb12a2f2C697"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "GasPriceMinimumProxy",
+    "function": "_setImplementation",
+    "args": [
+      "0x28905e7fC007F1638d61AB488EaB71C4b33Ab53e"
+    ],
+    "value": "0"
+  }
+]
