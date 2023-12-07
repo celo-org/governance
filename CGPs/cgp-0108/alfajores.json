@@ -1,0 +1,92 @@
+[
+    {
+        "contract": "FeeHandler",
+        "function": "setFeeBeneficiary",
+        "args": [
+            "0x07F007d389883622Ef8D4d347b3f78007f28d8b7"
+        ],
+        "value": "0"
+    },
+    {
+        "contract": "FeeHandler",
+        "function": "addToken",
+        "args": [
+            "0x874069Fa1Eb16D44d622F2e0Ca25eeA172369bC1",
+            "0xae83C63B5FB50C353c8d23397bcC9dBf3a9837Ac"
+        ],
+        "value": "0"
+    },
+    {
+        "contract": "FeeHandler",
+        "function": "addToken",
+        "args": [
+            "0x10c892A6EC43a53E45D0B916B4b7D383B1b78C0F",
+            "0xae83C63B5FB50C353c8d23397bcC9dBf3a9837Ac"
+        ],
+        "value": "0"
+    },
+    {
+        "contract": "FeeHandler",
+        "function": "addToken",
+        "args": [
+            "0xE4D517785D091D3c54818832dB6094bcc2744545",
+            "0xae83C63B5FB50C353c8d23397bcC9dBf3a9837Ac"
+        ],
+        "value": "0"
+    },
+    {
+        "contract": "FeeHandler",
+        "function": "setMaxSplippage",
+        "args": [
+            "0x874069Fa1Eb16D44d622F2e0Ca25eeA172369bC1",
+            "10000000000000000000000"
+        ],
+        "value": "0"
+    },
+    {
+        "contract": "FeeHandler",
+        "function": "setMaxSplippage",
+        "args": [
+            "0x10c892A6EC43a53E45D0B916B4b7D383B1b78C0F",
+            "10000000000000000000000"
+        ],
+        "value": "0"
+    },
+    {
+        "contract": "FeeHandler",
+        "function": "setMaxSplippage",
+        "args": [
+            "0xE4D517785D091D3c54818832dB6094bcc2744545",
+            "10000000000000000000000"
+        ],
+        "value": "0"
+    },
+
+    {
+        "contract": "MentoFeeHandlerSeller",
+        "function": "setMinimumReports",
+        "args": [
+            "0x874069Fa1Eb16D44d622F2e0Ca25eeA172369bC1",
+            "2"
+        ],
+        "value": "0"
+    },
+    {
+        "contract": "MentoFeeHandlerSeller",
+        "function": "setMinimumReports",
+        "args": [
+            "0x10c892A6EC43a53E45D0B916B4b7D383B1b78C0F",
+            "2"
+        ],
+        "value": "0"
+    },
+    {
+        "contract": "MentoFeeHandlerSeller",
+        "function": "setMinimumReports",
+        "args": [
+            "0xE4D517785D091D3c54818832dB6094bcc2744545",
+            "2"
+        ],
+        "value": "0"
+    }
+]
