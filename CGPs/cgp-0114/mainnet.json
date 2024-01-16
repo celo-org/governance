@@ -1,0 +1,26 @@
+[
+    {
+        "contract": "GoldToken",
+        "function": "transfer",
+        "args": ["0xB07A33093d332f0D2810b36Bdd3c9e7390624F1F", "7007000000000000000000"],
+        "value": "0"
+      },
+      {
+        "contract": "GoldToken",
+        "function": "transfer",
+        "args": ["0xF638444E57f7886665b5A4e1Bbad3Ec269073609", "2639000000000000000000"],
+        "value": "0"
+      },
+      {
+        "contract": "GoldToken",
+        "function": "transfer",
+        "args": ["0xBC8FC47bc9ba1029b1972429eE544Cf0131622B8", "8707000000000000000000"],
+        "value": "0"
+      },
+      {
+        "contract": "GoldToken",
+        "function": "transfer",
+        "args": ["0xb0Fca7fD28dFcA8d40A40BD65B047685A24BD204", "2639000000000000000000"],
+        "value": "0"
+      }
+]
