@@ -8,7 +8,7 @@
       {
         "contract": "GoldToken",
         "function": "transfer",
-        "args": ["0xF638444E57f7886665b5A4e1Bbad3Ec269073609", "2639000000000000000000"],
+        "args": ["0xF638444E57f7886665b5A4e1Bbad3Ec269073609", "31668000000000000000000"],
         "value": "0"
       },
       {
@@ -20,7 +20,7 @@
       {
         "contract": "GoldToken",
         "function": "transfer",
-        "args": ["0xb0Fca7fD28dFcA8d40A40BD65B047685A24BD204", "2639000000000000000000"],
+        "args": ["0xb0Fca7fD28dFcA8d40A40BD65B047685A24BD204", "31668000000000000000000"],
         "value": "0"
       }
 ]
