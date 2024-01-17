@@ -1,26 +1,38 @@
 [
-    {
-        "contract": "GoldToken",
-        "function": "transfer",
-        "args": ["0xB07A33093d332f0D2810b36Bdd3c9e7390624F1F", "7007000000000000000000"],
-        "value": "0"
-      },
-      {
-        "contract": "GoldToken",
-        "function": "transfer",
-        "args": ["0xF638444E57f7886665b5A4e1Bbad3Ec269073609", "31668000000000000000000"],
-        "value": "0"
-      },
-      {
-        "contract": "GoldToken",
-        "function": "transfer",
-        "args": ["0xBC8FC47bc9ba1029b1972429eE544Cf0131622B8", "8707000000000000000000"],
-        "value": "0"
-      },
-      {
-        "contract": "GoldToken",
-        "function": "transfer",
-        "args": ["0xb0Fca7fD28dFcA8d40A40BD65B047685A24BD204", "31668000000000000000000"],
-        "value": "0"
-      }
+  {
+    "contract": "GoldToken",
+    "function": "transfer",
+    "args": [
+      "0xBDa2e0e65Cf3a8C6eF40F99A7F93D7650D8a5C09",
+      "7007000000000000000000"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "GoldToken",
+    "function": "transfer",
+    "args": [
+      "0x1f9719c84f4819459F702c7d6e3E14Bbd2E62B49",
+      "31668000000000000000000"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "GoldToken",
+    "function": "transfer",
+    "args": [
+      "0x4B3491DC5a6Fb99e515323fb104c80543df0239B",
+      "8707000000000000000000"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "GoldToken",
+    "function": "transfer",
+    "args": [
+      "0xCa7973db0D6d40b4b375510B3B5c9CB4cce16216",
+      "31668000000000000000000"
+    ],
+    "value": "0"
+  }
 ]
