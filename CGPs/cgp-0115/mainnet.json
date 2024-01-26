@@ -93,6 +93,7 @@
         "value": "0"
     },
     {
+        "contract": "CurvefiFactoryPlainPool",
         "address": "0xf4cab10dC19695AaCe14b7A16d7705b600ad5F73",
         "function": "transfer(address,uint256)",
         "args": [
