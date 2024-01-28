@@ -1,7 +1,7 @@
 [
   {
     "contract": "GoldToken",
-    "function": "approve",
+    "function": "transfer",
     "args": [
       "0xf559940652F887503eAC12F951bdd73bc5B9Bf0B",
       "10000000000000000000000000"
