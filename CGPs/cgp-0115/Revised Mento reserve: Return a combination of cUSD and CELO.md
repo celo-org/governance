@@ -1,10 +1,17 @@
-Title: Mento reserve: Return a combination of cUSD and CELO
+Title: Mento reserve: Return a combination of cUSD and CELO (Revised)
 
 Authors: Luuk Weber and Roman Croessmann
 
 ### Executive Summary
 
-This proposal aims to utilize a share of the 95M CELO to be returned to the Community Treasury to mint cUSD to the Celo Community Treasury and return the remaining CELO. The Mento Reserve will mint 10,000,000 cUSD in exchange for the equivalent value of CELO using the 30-day moving average price on January 22nd, 2024, using CoinGecko’s price feeds. The remaining 81,633,000 CELO will be sent to the Celo Community Treasury. This transfer will grant the Celo Community Treasury a significant amount of stablecoins for operations, increase the distribution of cUSD, and increase the stability of CELO, which the Mento reserve also benefits from.
+This proposal aims to utilize a share of the 95M CELO to be returned to the Community
+Treasury to mint cUSD to the Celo Community Treasury. The Mento Reserve will mint
+10,000,000 cUSD in exchange for the equivalent value of CELO using the 30-day moving
+average price on January 22nd, 2024, using CoinGecko’s price feeds. The remaining
+81,633,000 CELO will be sent to the Celo Community Treasury at a later stage through a
+separate proposal. This minting of cUSD will grant the Celo Community Treasury a significant
+amount of stablecoins for operations, increase the distribution of cUSD, and increase the
+stability of CELO, which the Mento reserve also benefits from.
 
 ### Motivation
 
@@ -47,9 +54,6 @@ The step-by-step process for completing this transfer would look as follows:
 -   13.367.000,00 CELO, the equivalent value of 10,000,000 cUSD using the 30-day moving average price on January 22nd, 2024, using CoinGecko’s price feeds is subtracted from the remaining 95M CELO.  
       
     
--   The remaining 81.633.000 CELO will be sent to the Celo Community Treasury by the Mento Reserve.  
-      
-    
 -   Send the LP tokens of the reserve-owned Curve USD pool from the Governance Proxy to the Reserve Proxy  
       
     
@@ -69,19 +73,19 @@ The step-by-step process for completing this transfer would look as follows:
 
 Description  
 Below is an overview of the transactions associated with this section.
-
-1.  Transfer 81,633,000 CELO from the Mento Reserve to the Celo Governance contract (Community Fund)  
-    - 41,633,000 CELO as part of the on-chain component of this CGP  
-    - 40,000,000 CELO directly from Custody (executed by Mento Labs as soon as the proposal passes).
     
-2.  Mint 10,000,000 cUSD to the Celo Governance contract
+1.  Mint 10,000,000 cUSD to the Celo Governance contract
     
-3.  Transfer curve LP tokens from the Governance contract to the Mento Reserve
+2.  Transfer curve LP tokens from the Governance contract to the Mento Reserve
     
 
 ### Risk Considerations
 
-Returning the CELO and minting an additional 10,000,000 cUSD will decrease the overall Reserve Ratio to approximately 1.9. This means each cStable would still be backed by nearly double the value. As long as the share of Stablecoin collateral equals or is larger than the outstanding amount of cStables, the new Reserve Ratio should not lead to significant additional risks for cStable users.
+Minting an additional 10,000,000 cUSD will decrease the overall Reserve Ratio to
+approximately 3.51. This means each cStable would still be backed by over triple the value. As
+long as the share of Stablecoin collateral equals or is larger than the outstanding amount of
+cStables, which is currently the case, the new Reserve Ratio should not lead to significant
+additional risks for cStable users.
 
 ##### Useful Links
 
