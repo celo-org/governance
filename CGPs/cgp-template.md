@@ -1,12 +1,12 @@
 ---
-cgp: '001 - <to be assigned>'
-title: 'Proposal 1 Title - <CGP title>'
-date-created: '0000-00-00 - <date created on, in ISO 8601 (yyyy-mm-dd) format>'
+cgp: 001 - <to be assigned>
+title: Proposal 1 Title - <CGP title>
+date-created: 0000-00-00 - <date created on, in ISO 8601 (yyyy-mm-dd) format>
 author: 'Celo User(@celouser) - <a list of the authors or authors name(s) and/or username(s), or name(s) and email(s), e.g. (use with the parentheses or triangular brackets): FirstName LastName (@GitHubUsername), FirstName LastName <foo@bar.com>, FirstName (@GitHubUsername) and GitHubUsername (@GitHubUsername)>'
-status: 'DRAFT - <DRAFT | PROPOSED | EXECUTED | EXPIRED | WITHDRAWN | REJECTED>'
-discussions-to: 'https://forum.link <link to discussion on forum.celo.org> // Only link not in MD format - https://forum.link NOT [link](https://forum.link)'
-governance-proposal-id: '001 - [if submitted]'
-date-executed: '0000-00-00 -  <date created on, in ISO 8601 (yyyy-mm-dd) format>'
+status: DRAFT - <DRAFT | PROPOSED | EXECUTED | EXPIRED | WITHDRAWN | REJECTED>
+discussions-to: https://forum.link <link to discussion on forum.celo.org> // Only link not in MD format - https://forum.link NOT [link](https://forum.link)
+governance-proposal-id: 001 - [if submitted]
+date-executed: 0000-00-00 -  <date created on, in ISO 8601 (yyyy-mm-dd) format>
 ---
 <!-- Please view another completed proposal for reference on filling the above section. It is important the type is correct eg Number, String -->
  
