@@ -85,15 +85,17 @@ const ProposalMetadataStatus = {
 /**
  * The schema as used in the CGP front matter
  */
+const DateString = z.string().regex(/^\d{4}-\d{2}-\d{2}$/)
+
 export const ProposalMetadataSchema = z.object({
   cgp: z.number().min(1),
   title: z.string().min(1),
   author: z.string().min(1),
   status: z.nativeEnum(ProposalMetadataStatus),
-  "date-created": z.string().optional().or(z.null()),
+  "date-created": DateString.optional().or(z.null()),
   "discussions-to": z.string().url().optional().or(z.null()),
-  "governance-proposal-id": z.number().optional().or(z.null()),
-  "date-executed": z.string().optional().or(z.null()),
+  "governance-proposal-id": z.number().min(1).optional().or(z.null()),
+  "date-executed": DateString.optional().or(z.null()),
 });
 
 function validateFrontMatter(data, filename) {
