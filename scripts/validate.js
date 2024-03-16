@@ -101,12 +101,18 @@ export const ProposalMetadataSchema = z.object({
 function validateFrontMatter(data, filename) {
   try {
     const parsed = ProposalMetadataSchema.parse(data);
-    parsed["date-created"] && new Date(parsed["date-created"]).getTime();
-    parsed["date-executed"] && new Date(parsed["date-executed"]).getTime();
+    parsed["date-created"] && validateDate(parsed["date-created"])
+    parsed["date-executed"] && validateDate(parsed["date-executed"])
   } catch (error) {
     console.error("Error validating front matter", error);
     throw new Error(`Error validating front matter: ${filename}`);
   }
+}
+
+function validateDate(value) {
+  const date = new Date(value);
+  if (date instanceof Date && !isNaN(date.getTime())) return
+  throw new Error(`Invalid date: ${value}`);
 }
 
 function markdownToHtml(body, filename) {
