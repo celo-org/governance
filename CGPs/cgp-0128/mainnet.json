@@ -1,0 +1,25 @@
+[
+    {
+      "address": "0x0239b96D10a434a56CC9E09383077A0490cF9398",
+      "function": "deposit()",
+      "args": [],
+      "value": "10000000000000000000000000"
+    },
+    {
+      "address": "0xC668583dcbDc9ae6FA3CE46462758188adfdfC24",
+      "function": "approve(address,uint256)",
+      "args": [
+        "0x3d79EdAaBC0EaB6F08ED885C05Fc0B014290D95A",
+        "10000000000000000000000000"
+      ],
+      "value": "0"
+    },
+    {
+      "address": "0x3d79edaabc0eab6f08ed885c05fc0b014290d95a",
+      "function": "mint",
+      "args": [
+        "{\"token0\": \"0x471EcE3750Da237f93B8E339c536989b8978a438\",\"token1\": \"0xC668583dcbDc9ae6FA3CE46462758188adfdfC24\",\"fee\": 100,\"tickLower\": -1764,\"tickUpper\": -631,\"amount0Desired\": \"0\",\"amount1Desired\": \"9353810000000000000000000\",\"amount0Min\": \"0\",\"amount1Min\": \"9353810000000000000000000\",\"recipient\": \"0xD533Ca259b330c7A88f74E000a3FaEa2d63B7972\",\"deadline\": 1728991576}"
+      ],
+      "value": "0"
+    }
+  ]
