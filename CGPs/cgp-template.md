@@ -1,15 +1,15 @@
 ---
-cgp: '001 - <to be assigned>'
-title: 'Proposal 1 Title - <CGP title>'
-date-created: '0000-00-00 - <date created on, in ISO 8601 (yyyy-mm-dd) format>'
-author: 'Celo User(@celouser) - <a list of the authors or authors name(s) and/or username(s), or name(s) and email(s), e.g. (use with the parentheses or triangular brackets): FirstName LastName (@GitHubUsername), FirstName LastName <foo@bar.com>, FirstName (@GitHubUsername) and GitHubUsername (@GitHubUsername)>'
-status: 'DRAFT - <DRAFT | PROPOSED | EXECUTED | EXPIRED | WITHDRAWN | REJECTED>'
-discussions-to: 'https://forum.link <link to discussion on forum.celo.org> // Only link not in MD format - https://forum.link NOT [link](https://forum.link)'
-governance-proposal-id: '001 - [if submitted]'
-date-executed: '0000-00-00 -  <date created on, in ISO 8601 (yyyy-mm-dd) format>'
+cgp: 001 - <Number>
+title: Proposal 1 Title - <String>
+date-created: 0000-00-00 - <ISO 8601 (yyyy-mm-dd) format>
+author: 'Celo User (@celouser) - <String, a list of the authors name(s) and/or username(s)>'
+status: DRAFT - <DRAFT | PROPOSED | EXECUTED | EXPIRED | WITHDRAWN | REJECTED>
+discussions-to: https://forum.link - <URL of discussion forum>
+governance-proposal-id: 001 - <Number if submitted, or empty>
+date-executed: 0000-00-00 - <ISO 8601 (yyyy-mm-dd) if executed, or empty>
 ---
-<!-- Please view another completed proposal for reference on filling the above section. It is important the type is correct eg Number, String -->
- 
+
+<!-- Please view other proposals for an example on filling the above section. It is important the type is correct eg Number, String -->
  
 ## Overview
  
@@ -18,10 +18,12 @@ CGP - Celo Governance Proposal
 Pick a four digit number subsequent to the latest PR raised and name your file.
  
 ### Status
+
 - DRAFT = Feedback collection
 - PROPOSED = The governance proposal was submitted to the network
 - EXECUTED = The governance proposal was executed on the network
 - EXPIRED = The governance proposal expired
+- REJECTED = The governance proposal did not receive enough support
 - WITHDRAWN = The governance proposal is withdrawn before being submitted on the network
  
 Describe the issue that motivates this CGP. It should indicate all parameters that are being changed and why doing so is important.

@@ -1,0 +1,10 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+cache/
+.yarn/install-state.gz
+
+# misc
+.DS_Store
+*.pem
