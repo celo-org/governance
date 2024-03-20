@@ -27,7 +27,7 @@ function validateCGPs() {
     }
   }
 
-  console.log('Done validating CGPs');
+  console.log("Done validating CGPs");
 }
 
 function validateCgpFolder(pathName) {
@@ -39,7 +39,7 @@ function validateCgpFolder(pathName) {
 }
 
 function validateCgpFile(fileName) {
-  if (fileName === CGP_TEMPLATE_FILENAME) return
+  if (fileName === CGP_TEMPLATE_FILENAME) return;
 
   if (!CGP_FILENAME_REGEX.test(fileName)) {
     throw new Error(`Invalid CGP filename: ${fileName}`);
@@ -85,24 +85,41 @@ const ProposalMetadataStatus = {
 /**
  * The schema as used in the CGP front matter
  */
-const DateString = z.string().regex(/^\d{4}-\d{2}-\d{2}$/)
+const DateString = z.string().regex(/^\d{4}-\d{2}-\d{2}$/);
 
-export const ProposalMetadataSchema = z.object({
-  cgp: z.number().min(1),
-  title: z.string().min(1),
-  author: z.string().min(1),
-  status: z.nativeEnum(ProposalMetadataStatus),
-  "date-created": DateString.optional().or(z.null()),
-  "discussions-to": z.string().url().optional().or(z.null()),
-  "governance-proposal-id": z.number().min(1).optional().or(z.null()),
-  "date-executed": DateString.optional().or(z.null()),
-});
+export const ProposalMetadataSchema = z
+  .object({
+    cgp: z.number().min(1),
+    title: z.string().min(1),
+    author: z.string().min(1),
+    status: z.nativeEnum(ProposalMetadataStatus),
+    "date-created": DateString.optional().or(z.null()),
+    "discussions-to": z.string().url().optional().or(z.null()),
+    "governance-proposal-id": z.number().min(1).optional().or(z.null()),
+    "date-executed": DateString.optional().or(z.null()),
+  })
+  .strict();
 
 function validateFrontMatter(data, filename) {
   try {
     const parsed = ProposalMetadataSchema.parse(data);
-    parsed["date-created"] && validateDate(parsed["date-created"])
-    parsed["date-executed"] && validateDate(parsed["date-executed"])
+    const {
+      status,
+      "governance-proposal-id": proposalId,
+      "date-created": dateCreated,
+      "date-executed": dateExecuted,
+    } = parsed;
+    if (
+      ![
+        ProposalMetadataStatus.DRAFT,
+        ProposalMetadataStatus.WITHDRAWN,
+      ].includes(status) &&
+      !proposalId
+    ) {
+      throw new Error(`Proposal ID required for non-draft CGPs`);
+    }
+    if (dateCreated) validateDate(dateCreated);
+    if (dateExecuted) validateDate(dateExecuted);
   } catch (error) {
     console.error("Error validating front matter", error);
     throw new Error(`Error validating front matter: ${filename}`);
@@ -111,7 +128,7 @@ function validateFrontMatter(data, filename) {
 
 function validateDate(value) {
   const date = new Date(value);
-  if (date instanceof Date && !isNaN(date.getTime())) return
+  if (date instanceof Date && !isNaN(date.getTime())) return;
   throw new Error(`Invalid date: ${value}`);
 }
 
