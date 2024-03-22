@@ -2,7 +2,7 @@
 
 This is the Celo Governance repository used for coordination by the community members.
 
-The CGP Editors are:
+The Celo Guardians *(Previously named CGP Editors)* are:
 * Eric Nakagawa (@ericnakagawa)
 * Juan Giraldo (@juanjgiraldoc)
 * Wade Abel (@0xzoz)
