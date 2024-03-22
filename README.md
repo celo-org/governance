@@ -3,24 +3,26 @@
 This is the Celo Governance repository used for coordination by the community members.
 
 The CGP Editors are:
+* Eric Nakagawa (@ericnakagawa)
 * Juan Giraldo (@juanjgiraldoc)
-* Maya Richardson-Brown (@Maya-R-B)
 * Wade Abel (@0xzoz)
 * Lorenzo Goldoni (@0xGoldo)
 * Will Kraft (@willkraft)
-* Eric Nakagawa (@ericnakagawa)
-* Chris Wilson (@calicokittencat)
 
 Emeritus CGP Editors are:
 * Ronan McGovern (@Pinotio)
 * Elizabeth Barnes (@ebethbarnes)
 * Yaz Khoury (@YazzyYaz)
+* Chris Wilson (@calicokittencat)
+* Maya Richardson-Brown (@Maya-R-B)
 
 We regularly hold governance calls to discuss proposals. See below for a summary of past calls.
 
 |  №  |      Date       | Agenda | Notes | Recording |
 |:---:|:---------------:|:------:|:-----:|:---------:|
-| 42  | February 15, 2024 | [Agenda](https://github.com/celo-org/governance/issues/392) | TBU | TBU |
+| 42  | March 29, 2024 | [Agenda](https://github.com/celo-org/governance/issues/417) | TBU | TBU |
+| 43  | March 22, 2024 | [Agenda](https://github.com/celo-org/governance/issues/412) | TBU | TBU |
+| 42  | February 15, 2024 | [Agenda](https://github.com/celo-org/governance/issues/392) | TBU | [Video](https://drive.google.com/file/d/1-W0-pvlCevw7wPDWx59oWsVOcP1IKFHW/view?ts=65cf7dc8) |
 | 41  | February 9, 2024 | [Agenda](https://github.com/celo-org/governance/issues/380) | [Notes](https://otter.ai/u/Sj6fnOwspOl5fa9HBMplzZ1wNOg) | [Video](https://drive.google.com/file/d/1BEt82OFls6ByOPRItvupDp2lYjz7xbUy) |
 | 40  | January 24, 2024 | [Agenda](https://github.com/celo-org/governance/issues/369) | TBU | [Video](https://drive.google.com/file/d/1CWBi2d-KUP3SAgabrfUCyAx08pWfnMMg/view) |
 | 39  | January 19, 2024 | [Agenda](https://github.com/celo-org/governance/issues/369) | TBU | TBU |
