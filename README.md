@@ -7,13 +7,13 @@ The Celo Guardians *(Previously named CGP Editors)* are:
 * Juan Giraldo (@juanjgiraldoc)
 * Wade Abel (@0xzoz)
 * Lorenzo Goldoni (@0xGoldo)
-* Will Kraft (@willkraft)
 
 Emeritus CGP Editors are:
 * Ronan McGovern (@Pinotio)
 * Elizabeth Barnes (@ebethbarnes)
 * Yaz Khoury (@YazzyYaz)
 * Chris Wilson (@calicokittencat)
+* Will Kraft (@willkraft)
 * Maya Richardson-Brown (@Maya-R-B)
 
 We regularly hold governance calls to discuss proposals. See below for a summary of past calls.
