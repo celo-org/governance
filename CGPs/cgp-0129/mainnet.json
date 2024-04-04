@@ -1,0 +1,22 @@
+[
+  {
+     "contract": "GoldToken",
+     "address": "0x471EcE3750Da237f93B8E339c536989b8978a438",
+     "function": "increaseAllowance",
+     "args": [
+       "0x9138AD934D63a81A3BD10e5E6a2511dB13C1C1CA",
+       "41000000000000000000000"
+     ],
+     "value": "0"
+   },
+   {
+     "contract": "StableToken",
+     "address": "0x765DE816845861e75A25fCA122bb6898B8B1282a",
+     "function": "increaseAllowance",
+     "args": [
+       "0x9138AD934D63a81A3BD10e5E6a2511dB13C1C1CA",
+       "200000000000000000000000"
+     ],
+     "value": "0"
+   }
+ ]
