@@ -1,0 +1,8 @@
+[
+  {
+    "contract": "LockedGold",
+    "function": "setMaxDelegateesCount",
+    "args": ["10"],
+    "value": "0"
+  }
+]
