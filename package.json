@@ -1,0 +1,29 @@
+{
+  "name": "@celo/governance",
+  "version": "1.0.0",
+  "keywords": [
+    "Celo",
+    "Governance",
+    "CGP"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/celo-org/governance"
+  },
+  "homepage": "https://celo.org",
+  "private": true,
+  "packageManager": "yarn@4.1.1",
+  "type": "module",
+  "engines": {
+    "node": "20.x"
+  },
+  "devDependencies": {
+    "micromark": "^4.0.0",
+    "micromark-extension-gfm-table": "^2.0.0",
+    "yaml": "^2.4.1",
+    "zod": "^3.22.4"
+  },
+  "scripts": {
+    "validate": "node ./scripts/validate.js"
+  }
+}
