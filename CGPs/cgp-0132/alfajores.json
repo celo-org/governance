@@ -22,7 +22,7 @@
         "function": "setTargetVotingYieldParameters",
         "args": [
             "500000000000000000000",
-            "1130000000000000000"
+            "0"
         ],
         "value": "0"
     },
