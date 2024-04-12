@@ -13,7 +13,7 @@
         "contract": "EpochRewards",
         "function": "setTargetVotingYield",
         "args": [
-            "235000000000000000000"
+            "101500000000000000000"
         ],
         "value": "0"
     },
