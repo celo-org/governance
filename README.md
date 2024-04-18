@@ -107,7 +107,7 @@ Discussions about changes to the protocol happen on forum.celo.org and are annou
 	<summary>How much time is involved?</summary>
 
 &nbsp;
-Once a proposal is submitted on Github, it can be submitted on-chain along with a deposit of 100 CELO, and community members have 28 days to signal they’d like to vote for the proposal on-chain. It will be proposed onto the chain one day later for token holders to vote on it. After seven days, if it passes, anyone will be able to introduce it on-chain. 
+Once a proposal is submitted on Github, it can be submitted on-chain along with a deposit of 10,000 CELO, and community members have 28 days to signal they’d like to vote for the proposal on-chain. It will be proposed onto the chain one day later for token holders to vote on it. After seven days, if it passes, anyone will be able to introduce it on-chain. 
 </details> 
 
 &nbsp;
@@ -128,7 +128,7 @@ These are the minimum steps needed to move a proposal through the governance pro
 <details>
 	<summary>2. Submission</summary>
     
-1. Submit your proposal using the Celo Command Line Interface (Celo CLI). This includes a 100 CELO deposit.
+1. Submit your proposal using the Celo Command Line Interface (Celo CLI). This includes a 10,000 CELO deposit.
 1. Locked CELO holders vote on proposals in this phase each day, and the top 3 proposals each day move on to the Approval phase.
 1. If your proposal is not in the top 3 on any day for 28 days, it expires and your deposit is burned. In practice, the volume of proposals is low enough that proposals generally clear this phase (i.e. not dozens of proposals per month).
 </details>
@@ -201,7 +201,7 @@ Celo governance is community-driven, and because of that, a lot of the tips belo
 	<summary>Proposal Creators</summary>
 
 &nbsp;
-Anyone with a minimum of 100 CELO can submit a proposal for a change to the Celo network. The proposal creator is responsible for creating the proposal, getting community buy-in, and championing the proposal throughout the process.
+Anyone with a minimum of 10,000 CELO can submit a proposal for a change to the Celo network. The proposal creator is responsible for creating the proposal, getting community buy-in, and championing the proposal throughout the process.
 </details>
 
 <details>
