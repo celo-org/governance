@@ -28,7 +28,7 @@
     },
     {
         "contract": "EpochRewards",
-        "function": "communityRewardFraction",
+        "function": "setCommunityRewardFraction",
         "args": [
             "10000000000000000000000"
         ],
