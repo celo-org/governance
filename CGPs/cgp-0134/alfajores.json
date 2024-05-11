@@ -33,5 +33,13 @@
             "10000000000000000000000"
         ],
         "value": "0"
+    },
+        {
+        "contract": "EpochRewards",
+        "function": "setTargetValidatorEpochPayment",
+        "args": [
+            "160273972602739000000"
+        ],
+        "value": "0"
     }
 ]
