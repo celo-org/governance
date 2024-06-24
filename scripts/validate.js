@@ -10,6 +10,8 @@ const CGP_FOLDER_REGEX = /^cgp-(\d+)$/;
 const CGP_FILENAME_REGEX = /^cgp-(\d+)\.md$/;
 const CGP_TEMPLATE_FILENAME = "cgp-template.md";
 
+const proposalIds = new Set();
+
 function validateCGPs() {
   console.log("Validating CGPs");
 
@@ -118,6 +120,13 @@ function validateFrontMatter(data, filename) {
     ) {
       throw new Error(`Proposal ID required for non-draft CGPs`);
     }
+
+    if (proposalIds.has(proposalId)) {
+      throw new Error(`Proposal ID already in use in another CGP`);
+    } else if (proposalId){
+      proposalIds.add(proposalId);
+    }
+
     if (dateCreated) validateDate(dateCreated);
     if (dateExecuted) validateDate(dateExecuted);
   } catch (error) {
