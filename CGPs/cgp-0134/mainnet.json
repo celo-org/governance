@@ -1,0 +1,45 @@
+[
+    {
+      "contract": "EpochRewards",
+      "function": "setRewardsMultiplierParameters",
+      "args": [
+        "2000000000000000000000000",
+        "0",
+        "0"
+      ],
+      "value": "0"
+    },
+    {
+        "contract": "EpochRewards",
+        "function": "setTargetVotingYield",
+        "args": [
+            "101500000000000000000"
+        ],
+        "value": "0"
+    },
+    {
+        "contract": "EpochRewards",
+        "function": "setTargetVotingYieldParameters",
+        "args": [
+            "500000000000000000000",
+            "0"
+        ],
+        "value": "0"
+    },
+    {
+        "contract": "EpochRewards",
+        "function": "setCommunityRewardFraction",
+        "args": [
+            "10000000000000000000000"
+        ],
+        "value": "0"
+    },
+        {
+        "contract": "EpochRewards",
+        "function": "setTargetValidatorEpochPayment",
+        "args": [
+            "160273972602739000000"
+        ],
+        "value": "0"
+    }
+]

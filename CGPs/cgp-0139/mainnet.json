@@ -1,0 +1,29 @@
+[
+  {
+    "contract": "GovernanceFactory",
+    "address": "0xee6CE2dbe788dFC38b8F583Da86cB9caf2C8cF5A",
+    "function": "createGovernance",
+    "args": [
+      "0xE6951C4176aaB41097C6f5fE11e9c515B7108acd",
+      "0x1c598bb5ad0b99c0f07235c1bd7327884bf9a74c9454c3d2a937fbe8336d071b",
+      "0xacD08d6714ADba531beFF582e6FD5DA1AFD6bc65",
+      [
+        "50",
+        "50",
+        [
+          "0x655133d8E90F8190ed5c1F0f3710F602800C0150",
+          "0xA74Ac93de1A209957E62391B01E09161277a9ffC",
+          "0x3468D23A0B1aB3Ab9A537813166A8f7ff1947014",
+          "0x87647780180B8f55980C7D3fFeFe08a9B29e9aE1"
+        ],
+        [
+          "300",
+          "100",
+          "50",
+          "50"
+        ]
+      ]
+    ],
+    "value": "0"
+  }
+]
