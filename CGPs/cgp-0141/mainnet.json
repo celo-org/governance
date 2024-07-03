@@ -1,0 +1,42 @@
+[
+  {
+    "contract": "GoldToken",
+    "address": "0x471EcE3750Da237f93B8E339c536989b8978a438",
+    "function": "increaseAllowance",
+    "args": [
+      "0x1b98202492Bd78bB042523674EEC19cd0AC50f96",
+      "325000000000000000000000"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "StableToken",
+    "address": "0x765DE816845861e75A25fCA122bb6898B8B1282a",
+    "function": "increaseAllowance",
+    "args": [
+      "0x1b98202492Bd78bB042523674EEC19cd0AC50f96",
+      "875000000000000000000000"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "GoldToken",
+    "address": "0x471EcE3750Da237f93B8E339c536989b8978a438",
+    "function": "increaseAllowance",
+    "args": [
+      "0xdd817A3d583bB0B97579C5959B4c929504F688D7",
+      "1250000000000000000000000"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "StableToken",
+    "address": "0x765DE816845861e75A25fCA122bb6898B8B1282a",
+    "function": "increaseAllowance",
+    "args": [
+      "0xdd817A3d583bB0B97579C5959B4c929504F688D7",
+      "100000000000000000000000"
+    ],
+    "value": "0"
+  }
+]
