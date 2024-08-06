@@ -13,8 +13,7 @@ date-executed: 0000-00-00 - <ISO 8601 (yyyy-mm-dd) if executed, or empty>
  
 ## Overview *(please provide an overview of your proposal)*
  
-- CGP - Celo Governance Proposal
- Pick a four digit number subsequent to the latest PR raised and name your file.
+- CGP - Celo Governance Proposal *(Pick a four digit number subsequent to the latest PR raised and name your file)*
  
 ### Status *(Please pick the status of your proposal, first status is always DRAFT)*
 
