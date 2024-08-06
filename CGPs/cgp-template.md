@@ -11,13 +11,13 @@ date-executed: 0000-00-00 - <ISO 8601 (yyyy-mm-dd) if executed, or empty>
 
 <!-- Please view other proposals for an example on filling the above section. It is important the type is correct eg Number, String -->
  
-## Overview
+## Overview *(please provide an overview of your proposal)*
  
 CGP - Celo Governance Proposal
  
 Pick a four digit number subsequent to the latest PR raised and name your file.
  
-### Status
+### Status *(Please pick the status of your proposal, first status is always DRAFT)*
 
 - DRAFT = Feedback collection
 - PROPOSED = The governance proposal was submitted to the network
@@ -26,11 +26,10 @@ Pick a four digit number subsequent to the latest PR raised and name your file.
 - REJECTED = The governance proposal did not receive enough support
 - WITHDRAWN = The governance proposal is withdrawn before being submitted on the network
  
-Describe the issue that motivates this CGP. It should indicate all parameters that are being changed and why doing so is important.
- 
-Explain what benefits the enhancement this change will bring. To the extent possible, enumerate use cases affected by this CGP.
- 
-Once the proposal is successfully proposed on chain, update this file so that the title number matches the proposal ID.
+
+- Please provide a short description of the issue that motivates this CGP. It should indicate all parameters that are being changed and why doing so is important.
+- Explain what benefits the enhancement this change will bring. To the extent possible, enumerate use cases affected by this CGP.
+- Once the proposal is successfully proposed on chain, update this file so that the title number matches the proposal ID.
  
 ## Proposed Changes
  
