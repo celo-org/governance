@@ -26,7 +26,7 @@ Pick a four digit number subsequent to the latest PR raised and name your file.
 - REJECTED = The governance proposal did not receive enough support
 - WITHDRAWN = The governance proposal is withdrawn before being submitted on the network
  
-
+### Proposal Description
 - Please provide a short description of the issue that motivates this CGP. It should indicate all parameters that are being changed and why doing so is important.
 - Explain what benefits the enhancement this change will bring. To the extent possible, enumerate use cases affected by this CGP.
 - Once the proposal is successfully proposed on chain, update this file so that the title number matches the proposal ID.
