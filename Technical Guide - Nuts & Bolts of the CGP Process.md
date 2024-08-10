@@ -12,9 +12,9 @@ This article explains the minimum steps you should take at each stage in the gov
 *JSON File*
 
 &nbsp;
-When a governance proposal passes, the Celo network runs a list of methods to implement the changes that are proposed. The parameters used in those methods are specified in a JSON file—this file is the list of method calls that would be made if the proposal passes (See an example JSON file [here](https://github.com/celo-org/celo-proposals/blob/master/CGPs/0024/mainnet.json)). To ensure your JSON file is not buggy, you can message the #​​general-core in Discord to ask someone to review the file.
+When a governance proposal passes, the Celo network runs a list of methods to implement the changes that are proposed. The parameters used in those methods are specified in a JSON file—this file is the list of method calls that would be made if the proposal passes *(See an example JSON file [here](https://github.com/celo-org/celo-proposals/blob/master/CGPs/0024/mainnet.json))*. To ensure your JSON file is not buggy, you can message the #​​general-core in Discord to ask someone to review the file.
 
-Each transaction step (or method call) should include the following parameters:
+Each transaction step *(or method call)* should include the following parameters:
 - **Transaction Number**: This is the index of the transaction in the list, so it’s not actually listed.  Transactions will run in order.
 - **Contract**: The contract with the desired function call for the transaction.
 - **Function**: The function in the above contract that will be called.
@@ -36,7 +36,7 @@ Here’s an example:
 
 *Celo Governance Proposal*
 
-&nbsp;In addition to creating the JSON file, you should create a Celo Governance Proposal (CGP) using the [CGP Template](https://github.com/celo-org/governance/blob/main/CGPs/cgp-template.md) and submit a pull request in the Celo Governance repo. Make sure to include enough detail that anybody who’s reasonably knowledgeable about Celo can understand why the proposal is needed and what the proposal will do. When submitted, the CGP Editors will review and may reach out to you with feedback to incorporate. When your CGP pull request has been merged, submit a post in the [Governance section](https://forum.celo.org/c/governance/12) of the Celo forum to allow the community to comment on it. It’s also helpful to include the JSON file in the Github repo as well so others can review—you can create a folder in the top level of the repo named for the CGP number and put the file in it.
+&nbsp;In addition to creating the JSON file, you should create a Celo Governance Proposal *(CGP)* using the [CGP Template](https://github.com/celo-org/governance/blob/main/CGPs/cgp-template.md) and submit a pull request in the Celo Governance repo. Make sure to include enough detail that anybody who’s reasonably knowledgeable about Celo can understand why the proposal is needed and what the proposal will do. When submitted, the CGP Editors will review and may reach out to you with feedback to incorporate. When your CGP pull request has been merged, submit a post in the [Governance section](https://forum.celo.org/c/governance/12) of the Celo forum to allow the community to comment on it. It’s also helpful to include the JSON file in the Github repo as well so others can review—you can create a folder in the top level of the repo named for the CGP number and put the file in it.
 
 **Testing a Governance Proposal**
 
@@ -49,7 +49,7 @@ Here’s an example:
 Before actually submitting the proposal, the community should have sufficient time to discuss in the forum, and you should have discussed the proposal on a governance call. See the Best Practices for Proposal Creators section of the ==
 == for all best practices for championing a proposal.
 
-When you’re ready to submit your proposal, send an email to governance@celo.org (Governance Approvers) letting them know when you will submit your proposal. You should do this no more than three days before submitting the proposal. The goal of this is to give the Approvers a heads-up so they can plan to evaluate the proposal when it gets to the Approval stage.
+When you’re ready to submit your proposal, send an email to governance@celo.org *(Governance Approvers)* letting them know when you will submit your proposal. You should do this no more than three days before submitting the proposal. The goal of this is to give the Approvers a heads-up so they can plan to evaluate the proposal when it gets to the Approval stage.
 
 Governance proposals are submitted through the Celo Command Line Interface (CLI) using the
 >$ celocli governance:propose
