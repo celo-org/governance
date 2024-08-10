@@ -57,15 +57,15 @@ Governance proposals are submitted through the Celo Command Line Interface (CLI)
 command. See [here](https://docs.celo.org/command-line-interface/introduction) to get started with Celo CLI.
 
 This command has several parameters:
-- **deposit** The amount of Celo to attach to Celo as a deposit. All amounts are given as wei, i.e units of 10^-18 CELO. For example, 1 CELO = 1000000000000000000. The minimum deposit is 100 CELO.
-- **descriptionURL**: A URL where people can go to learn more about the proposal. In general, this should be the link to the CGP.
+- **deposit** The amount of Celo to attach to Celo as a deposit. All amounts are given as wei, i.e units of 10^-18 CELO. For example, 1 CELO = 1000000000000000000. The minimum deposit is 10,000 CELO.
+- **descriptionURL**: A URL where people can go to learn more about the proposal. In general, this should be the link to the CGP already merged into main celo-org/governance repo.
 - **from**: Your address
 - **jsonTransactions**: The path to the JSON file containing all of the transactions that are involved in the proposal.
 
 Here’s an example:
-> propose --jsonTransactions ./transactions.json --deposit 100000000000000000000 --from
-0x5409ed021d9299bf6814279a6a1411a7e866a631 --descriptionURL
-https://gist.github.com/yorhodes/46430eacb8ed2f73f7bf79bef9d58a33
+> propose --jsonTransactions ./transactions.json --deposit 10000000000000000000000 --from 
+your addres --descriptionURL
+https://github.com/celo-org/governance/blob/main/CGPs/cgp-XXXX.md
 
 ## Submission Stage
 Submitted proposals are added to a queue of proposals in the Submission stage. While a proposal is on this queue, voters may use their Locked Celo to upvote the proposal. Once per day, the top three proposals—by weight of the Locked Celo upvoting them—are dequeued and moved into the Approval phase. If a proposal has been on the queue for more than 4 weeks, it expires and the deposit is burned.
@@ -79,7 +79,7 @@ Submitted proposals are added to a queue of proposals in the Submission stage. W
 Once your proposal reaches the Approval stage, you can withdraw your deposit using
 > celocli governance:withdraw.
 
-In this phase, the proposal needs to be approved by the Approvers (a 3 of 9 multi-signature address held by individuals selected by the Celo Foundation). The Approval phase lasts 1 day, and if the proposal is not approved in this window, it is considered expired and does not move on to the Referendum phase. The Approvers may reach out with questions, so be ready to communicate with them.
+In this phase, the proposal needs to be approved by the Approvers *(a 3 of 9 multi-signature address held by individuals selected by the Celo Foundation)*. The Approval phase lasts 1 day, and if the proposal is not approved in this window, it is considered expired and does not move on to the Referendum phase. The Approvers may reach out with questions, so be ready to communicate with them.
 
 - What should I do if my proposal is approved?
     - If your proposal is approved, it will automatically move on to the Referendum stage.
@@ -100,4 +100,4 @@ The proposal creator is responsible for executing a proposal once it passes the 
 
 in the Celo Command Line Interface.
 
-If you don’t execute the proposal within 3 days, you lose the ability to execute the proposal and would need to go through the governance process again (i.e. resubmit proposal) in order to regain the ability to execute.
+If you don’t execute the proposal within 3 days, you lose the ability to execute the proposal and would need to go through the governance process again *(i.e. resubmit proposal)* in order to regain the ability to execute.
