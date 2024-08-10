@@ -32,7 +32,7 @@ Here’s an example:
 }
 ]
 
-**Note:** A JSON file is only needed for on-chain changes. Some governance proposals - such as General Governance Proposals and Changes - don’t affect the Celo blockchain (e.g. changing name from Celo Gold to CELO).
+**Note:** A JSON file is only needed for on-chain changes. Some governance proposals - such as General Governance Proposals and Changes - don’t affect the Celo blockchain *(e.g. changing name from Celo Gold to CELO)*.
 
 *Celo Governance Proposal*
 
@@ -44,7 +44,7 @@ Here’s an example:
 
 **Submitting a Governance Proposal**
 
-&nbsp;Your proposal consists of the JSON file (if required) and a Celo Governance Proposal.
+&nbsp;Your proposal consists of the JSON file *(if required)* and a Celo Governance Proposal.
 
 Before actually submitting the proposal, the community should have sufficient time to discuss in the forum, and you should have discussed the proposal on a governance call. See the Best Practices for Proposal Creators section of the ==
 == for all best practices for championing a proposal.
