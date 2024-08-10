@@ -64,7 +64,7 @@ This command has several parameters:
 
 Here’s an example:
 > propose --jsonTransactions ./transactions.json --deposit 10000000000000000000000 --from 
-your addres --descriptionURL
+YourAddres --descriptionURL
 https://github.com/celo-org/governance/blob/main/CGPs/cgp-XXXX.md
 
 ## Submission Stage
