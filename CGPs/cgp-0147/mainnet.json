@@ -1,0 +1,195 @@
+[
+  {
+    "contract": "StableTokenPHPProxy",
+    "address": "0x105d4A9306D2E55a71d2Eb95B81553AE1dC20d7B",
+    "function": "_setAndInitializeImplementation",
+    "args": [
+      "0x434563B0604BE100F04B7Ae485BcafE3c9D8850E",
+      "0x1e4f0e0300000000000000000000000000000000000000000000000000000000000001200000000000000000000000000000000000000000000000000000000000000160000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001a000000000000000000000000000000000000000000000000000000000000001c000000000000000000000000000000000000000000000000000000000000001e000000000000000000000000000000000000000000000000000000000000000045055534f0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000045055534f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "StableTokenV2",
+    "address": "0x105d4A9306D2E55a71d2Eb95B81553AE1dC20d7B",
+    "function": "initializeV2",
+    "args": [
+      "0x777A8255cA72412f0d706dc03C9D1987306B4CaD",
+      "0xaEb865bCa93DdC8F47b8e29F40C5399cE34d0C58",
+      "0x0000000000000000000000000000000000000000"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "Governance",
+    "address": "0xD533Ca259b330c7A88f74E000a3FaEa2d63B7972",
+    "function": "setConstitution",
+    "args": [
+      "0x105d4A9306D2E55a71d2Eb95B81553AE1dC20d7B",
+      "0xa9059cbb",
+      "900000000000000000000000"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "Governance",
+    "address": "0xD533Ca259b330c7A88f74E000a3FaEa2d63B7972",
+    "function": "setConstitution",
+    "args": [
+      "0x105d4A9306D2E55a71d2Eb95B81553AE1dC20d7B",
+      "0xe1d6aceb",
+      "600000000000000000000000"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "Governance",
+    "address": "0xD533Ca259b330c7A88f74E000a3FaEa2d63B7972",
+    "function": "setConstitution",
+    "args": [
+      "0x105d4A9306D2E55a71d2Eb95B81553AE1dC20d7B",
+      "0x095ea7b3",
+      "600000000000000000000000"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "Reserve",
+    "address": "0x9380fA34Fd9e4Fd14c06305fd7B6199089eD4eb9",
+    "function": "addToken",
+    "args": [
+      "0x105d4A9306D2E55a71d2Eb95B81553AE1dC20d7B"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "FeeCurrencyWhitelist",
+    "address": "0xBB024E9cdCB2f9E34d893630D19611B8A5381b3c",
+    "function": "addToken",
+    "args": [
+      "0x105d4A9306D2E55a71d2Eb95B81553AE1dC20d7B"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "BiPoolManager",
+    "address": "0x22d9db95E6Ae61c104A7B6F6C78D7993B94ec901",
+    "function": "createExchange",
+    "args": [
+      [
+        "0x765DE816845861e75A25fCA122bb6898B8B1282a",
+        "0x105d4A9306D2E55a71d2Eb95B81553AE1dC20d7B",
+        "0xDebED1F6f6ce9F6e73AA25F95acBFFE2397550Fb",
+        "0",
+        "0",
+        "0",
+        [
+          [
+            "3000000000000000000000"
+          ],
+          "0xab921d6ab1057601A9ae19879b111fC381a2a8E9",
+          "300",
+          "1",
+          "10000000000000000000000000"
+        ]
+      ]
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "Broker",
+    "address": "0x777A8255cA72412f0d706dc03C9D1987306B4CaD",
+    "function": "configureTradingLimit",
+    "args": [
+      "0x7952984d7278ca3417febf52815c321984ac3147ced2c02bb6a02b0bcab08413",
+      "0x765DE816845861e75A25fCA122bb6898B8B1282a",
+      [
+        "300",
+        "86400",
+        "200000",
+        "1000000",
+        "5000000",
+        "7"
+      ]
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "Broker",
+    "address": "0x777A8255cA72412f0d706dc03C9D1987306B4CaD",
+    "function": "configureTradingLimit",
+    "args": [
+      "0x7952984d7278ca3417febf52815c321984ac3147ced2c02bb6a02b0bcab08413",
+      "0x105d4A9306D2E55a71d2Eb95B81553AE1dC20d7B",
+      [
+        "300",
+        "86400",
+        "11400000",
+        "57000000",
+        "285000000",
+        "7"
+      ]
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "BreakerBox",
+    "address": "0x303ED1df62Fa067659B586EbEe8De0EcE824Ab39",
+    "function": "addRateFeeds",
+    "args": [
+      [
+        "0xab921d6ab1057601A9ae19879b111fC381a2a8E9"
+      ]
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "BreakerBox",
+    "address": "0x303ED1df62Fa067659B586EbEe8De0EcE824Ab39",
+    "function": "toggleBreaker",
+    "args": [
+      "0x49349F92D2B17d491e42C8fdB02D19f072F9B5D9",
+      "0xab921d6ab1057601A9ae19879b111fC381a2a8E9",
+      true
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "MedianDeltaBreaker",
+    "address": "0x49349F92D2B17d491e42C8fdB02D19f072F9B5D9",
+    "function": "setCooldownTime",
+    "args": [
+      [
+        "0xab921d6ab1057601A9ae19879b111fC381a2a8E9"
+      ],
+      [
+        "900"
+      ]
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "MedianDeltaBreaker",
+    "address": "0x49349F92D2B17d491e42C8fdB02D19f072F9B5D9",
+    "function": "setRateChangeThresholds",
+    "args": [
+      [
+        "0xab921d6ab1057601A9ae19879b111fC381a2a8E9"
+      ],
+      [
+        "40000000000000000000000"
+      ]
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "MedianDeltaBreaker",
+    "address": "0x49349F92D2B17d491e42C8fdB02D19f072F9B5D9",
+    "function": "setSmoothingFactor",
+    "args": [
+      "0xab921d6ab1057601A9ae19879b111fC381a2a8E9",
+      "5000000000000000000000"
+    ],
+    "value": "0"
+  }
+]
