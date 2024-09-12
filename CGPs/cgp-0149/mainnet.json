@@ -1,0 +1,13 @@
+[
+  {
+    "contract": "GovernanceProxy",
+    "address": "0xD533Ca259b330c7A88f74E000a3FaEa2d63B7972",
+    "function": "setConstitution",
+    "args": [
+      "0x471EcE3750Da237f93B8E339c536989b8978a438",
+      "0x39509351",
+      "600000000000000000000000"
+    ],
+    "value": "0"
+  }
+]
