@@ -1,4 +1,5 @@
-  {
+[
+{
      "contract":"StableToken",
      "address":"0x765DE816845861e75A25fCA122bb6898B8B1282a",
      "function":"approve",
