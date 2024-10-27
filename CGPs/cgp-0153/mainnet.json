@@ -1,0 +1,12 @@
+[
+  {
+     "contract":"StableToken",
+     "address":"0x765DE816845861e75A25fCA122bb6898B8B1282a",
+     "function":"approve",
+     "args":[
+        "0x6C6Dc3D4869d9812d80600B9F7f291e13Ee73D49",
+        "50000000000000000000000"
+     ],
+     "value":"0"
+  }
+]
