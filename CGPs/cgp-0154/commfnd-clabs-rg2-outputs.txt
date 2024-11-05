@@ -1,0 +1,11 @@
+[
+  {
+    "GrantNumber": 1,
+    "Identifier": "0x88ba92083f4c8a862ab30eb4c93bdccb1e706fa5",
+    "Beneficiary": "0x8c7510C66f1BbF8f700a2665c898b3FB77550E38",
+    "ContractAddress": "0x04a876E94AD57aBf28250Aa0f19cb4Ac031B566F",
+    "MultiSigProxyAddress": "0x5A39c5A82238dAFEfb7C8300f7E2e35A379fE633",
+    "MultiSigTxHash": "0xfdbbdc83c59ba71a633c4818f891d5962c94c5d9ac30467f089044670f601a5d",
+    "ReleaseGoldTxHash": "0x36e36a034a8d2d55931f2358583690234508f70e0a03c2eefd204d4a8a4bb68a"
+  }
+]
