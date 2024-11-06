@@ -1,0 +1,19 @@
+[
+    {
+        "identifier": "0x88ba92083f4c8a862ab30eb4c93bdccb1e706fa5",
+        "beneficiary": "0x8c7510C66f1BbF8f700a2665c898b3FB77550E38",
+        "releaseStartTime": "2024-11-15T08:00:00.000Z",
+        "releaseCliffTime": 5256000,
+        "numReleasePeriods": 8,
+        "releasePeriod": 2628000,
+        "amountReleasedPerPeriod": "349055",
+        "revocable": true,
+        "releaseOwner": "0xD533Ca259b330c7A88f74E000a3FaEa2d63B7972",
+        "refundAddress": "0xD533Ca259b330c7A88f74E000a3FaEa2d63B7972",
+        "subjectToLiquidityProvision": false,
+        "initialDistributionRatio": 1000,
+        "canValidate": false,
+        "canVote": true,
+        "fundGrant": false
+    }
+]
