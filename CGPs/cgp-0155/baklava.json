@@ -4,7 +4,7 @@
         "function": "setAddressFor",
         "args": [
             "CeloToken",
-            "0xF194afDf50B03e69Bd7D057c1Aa9e10c9954E4C9"
+            "0xdDc9bE57f553fe75752D61606B94CBD7e0264eF8"
         ],
         "value": "0"
     },
@@ -13,7 +13,7 @@
         "function": "setAddressFor",
         "args": [
             "LockedCelo",
-            "0x6a4CC5693DC5BFA3799C699F3B941bA2Cb00c341"
+            "0xF07406D8040fBD831e9983CA9cC278fBfFeB56bF"
         ],
         "value": "0"
     }
