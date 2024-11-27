@@ -1,0 +1,465 @@
+[
+  {
+    "contract": "ReserveProxy",
+    "address": "0x9d65E69aC940dCB469fd7C46368C1e094250a400",
+    "function": "_setAndInitializeImplementation",
+    "args": [
+      "0xfD9651862Bc1965349E92073152112289393b57d",
+      "0x72a6b8b0000000000000000000000000000000000000000000000000000000000000ce1000000000000000000000000000000000000000000000000000000000bbf81e0000000000000000000000000000000000000000000000d3c21bcecceda100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000016000000000000000000000000000000000000000000000000000000000000001a00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001e00000000000000000000000000000000000000000000000000000000000000220000000000000000000000000000000000000000000000000000000000000000163474c4400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000d3c21bcecceda10000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000471ece3750da237f93b8e339c536989b8978a438000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000d3c21bcecceda1000000"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "Reserve",
+    "address": "0x9d65E69aC940dCB469fd7C46368C1e094250a400",
+    "function": "addSpender",
+    "args": [
+      "0xD533Ca259b330c7A88f74E000a3FaEa2d63B7972"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "Reserve",
+    "address": "0x9d65E69aC940dCB469fd7C46368C1e094250a400",
+    "function": "addOtherReserveAddress",
+    "args": [
+      "0xD533Ca259b330c7A88f74E000a3FaEa2d63B7972"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "Reserve",
+    "address": "0x9380fA34Fd9e4Fd14c06305fd7B6199089eD4eb9",
+    "function": "addSpender",
+    "args": [
+      "0xD533Ca259b330c7A88f74E000a3FaEa2d63B7972"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "Reserve",
+    "address": "0x9380fA34Fd9e4Fd14c06305fd7B6199089eD4eb9",
+    "function": "addOtherReserveAddress",
+    "args": [
+      "0x9d65E69aC940dCB469fd7C46368C1e094250a400"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "Reserve",
+    "address": "0x9380fA34Fd9e4Fd14c06305fd7B6199089eD4eb9",
+    "function": "setDailySpendingRatioForCollateralAssets",
+    "args": [
+      [
+        "0x471EcE3750Da237f93B8E339c536989b8978a438"
+      ],
+      [
+        "1000000000000000000000000"
+      ]
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "Reserve",
+    "address": "0x9380fA34Fd9e4Fd14c06305fd7B6199089eD4eb9",
+    "function": "transferCollateralAsset",
+    "args": [
+      "0x471EcE3750Da237f93B8E339c536989b8978a438",
+      "0x9d65E69aC940dCB469fd7C46368C1e094250a400",
+      "82406987000000000000000000"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "Reserve",
+    "address": "0x9d65E69aC940dCB469fd7C46368C1e094250a400",
+    "function": "transferCollateralAsset",
+    "args": [
+      "0x471EcE3750Da237f93B8E339c536989b8978a438",
+      "0xD533Ca259b330c7A88f74E000a3FaEa2d63B7972",
+      "20000000000000000000000000"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "Reserve",
+    "address": "0x9380fA34Fd9e4Fd14c06305fd7B6199089eD4eb9",
+    "function": "removeSpender",
+    "args": [
+      "0xD533Ca259b330c7A88f74E000a3FaEa2d63B7972"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "Reserve",
+    "address": "0x9380fA34Fd9e4Fd14c06305fd7B6199089eD4eb9",
+    "function": "removeOtherReserveAddress",
+    "args": [
+      "0x9d65E69aC940dCB469fd7C46368C1e094250a400",
+      "2"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "Reserve",
+    "address": "0x9d65E69aC940dCB469fd7C46368C1e094250a400",
+    "function": "transferOwnership",
+    "args": [
+      "0x890DB8A597940165901372Dd7DB61C9f246e2147"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "Reserve",
+    "address": "0x9380fA34Fd9e4Fd14c06305fd7B6199089eD4eb9",
+    "function": "removeOtherReserveAddress",
+    "args": [
+      "0x246f4599eFD3fA67AC44335Ed5e749E518Ffd8bB",
+      "0"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "Reserve",
+    "address": "0x9380fA34Fd9e4Fd14c06305fd7B6199089eD4eb9",
+    "function": "removeOtherReserveAddress",
+    "args": [
+      "0x298FbD6dad2Fc2cB56d7E37d8aCad8Bf07324f67",
+      "0"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "Reserve",
+    "address": "0x9380fA34Fd9e4Fd14c06305fd7B6199089eD4eb9",
+    "function": "addOtherReserveAddress",
+    "args": [
+      "0x87647780180B8f55980C7D3fFeFe08a9B29e9aE1"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "StableToken",
+    "address": "0x765DE816845861e75A25fCA122bb6898B8B1282a",
+    "function": "transferOwnership",
+    "args": [
+      "0x890DB8A597940165901372Dd7DB61C9f246e2147"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "StableToken",
+    "address": "0x765DE816845861e75A25fCA122bb6898B8B1282a",
+    "function": "_transferOwnership",
+    "args": [
+      "0x890DB8A597940165901372Dd7DB61C9f246e2147"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "StableTokenEUR",
+    "address": "0xD8763CBa276a3738E6DE85b4b3bF5FDed6D6cA73",
+    "function": "transferOwnership",
+    "args": [
+      "0x890DB8A597940165901372Dd7DB61C9f246e2147"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "StableTokenEUR",
+    "address": "0xD8763CBa276a3738E6DE85b4b3bF5FDed6D6cA73",
+    "function": "_transferOwnership",
+    "args": [
+      "0x890DB8A597940165901372Dd7DB61C9f246e2147"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "StableTokenBRL",
+    "address": "0xe8537a3d056DA446677B9E9d6c5dB704EaAb4787",
+    "function": "transferOwnership",
+    "args": [
+      "0x890DB8A597940165901372Dd7DB61C9f246e2147"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "StableTokenBRL",
+    "address": "0xe8537a3d056DA446677B9E9d6c5dB704EaAb4787",
+    "function": "_transferOwnership",
+    "args": [
+      "0x890DB8A597940165901372Dd7DB61C9f246e2147"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "StableTokenV2",
+    "address": "0x73F93dcc49cB8A239e2032663e9475dd5ef29A08",
+    "function": "transferOwnership",
+    "args": [
+      "0x890DB8A597940165901372Dd7DB61C9f246e2147"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "StableTokenXOFProxy",
+    "address": "0x73F93dcc49cB8A239e2032663e9475dd5ef29A08",
+    "function": "_transferOwnership",
+    "args": [
+      "0x890DB8A597940165901372Dd7DB61C9f246e2147"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "StableTokenV2",
+    "address": "0x456a3D042C0DbD3db53D5489e98dFb038553B0d0",
+    "function": "transferOwnership",
+    "args": [
+      "0x890DB8A597940165901372Dd7DB61C9f246e2147"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "StableTokenKESProxy",
+    "address": "0x456a3D042C0DbD3db53D5489e98dFb038553B0d0",
+    "function": "_transferOwnership",
+    "args": [
+      "0x890DB8A597940165901372Dd7DB61C9f246e2147"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "StableTokenV2",
+    "address": "0x105d4A9306D2E55a71d2Eb95B81553AE1dC20d7B",
+    "function": "transferOwnership",
+    "args": [
+      "0x890DB8A597940165901372Dd7DB61C9f246e2147"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "StableTokenPHPProxy",
+    "address": "0x105d4A9306D2E55a71d2Eb95B81553AE1dC20d7B",
+    "function": "_transferOwnership",
+    "args": [
+      "0x890DB8A597940165901372Dd7DB61C9f246e2147"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "StableTokenV2",
+    "address": "0x8A567e2aE79CA692Bd748aB832081C45de4041eA",
+    "function": "transferOwnership",
+    "args": [
+      "0x890DB8A597940165901372Dd7DB61C9f246e2147"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "StableTokenCOPProxy",
+    "address": "0x8A567e2aE79CA692Bd748aB832081C45de4041eA",
+    "function": "_transferOwnership",
+    "args": [
+      "0x890DB8A597940165901372Dd7DB61C9f246e2147"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "StableTokenV2",
+    "address": "0x434563B0604BE100F04B7Ae485BcafE3c9D8850E",
+    "function": "transferOwnership",
+    "args": [
+      "0x890DB8A597940165901372Dd7DB61C9f246e2147"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "Broker",
+    "address": "0x777A8255cA72412f0d706dc03C9D1987306B4CaD",
+    "function": "transferOwnership",
+    "args": [
+      "0x890DB8A597940165901372Dd7DB61C9f246e2147"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "BrokerProxy",
+    "address": "0x777A8255cA72412f0d706dc03C9D1987306B4CaD",
+    "function": "_transferOwnership",
+    "args": [
+      "0x890DB8A597940165901372Dd7DB61C9f246e2147"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "Broker",
+    "address": "0x1B78f6acD05e7BcB00f74863bfd8a7C264143e37",
+    "function": "transferOwnership",
+    "args": [
+      "0x890DB8A597940165901372Dd7DB61C9f246e2147"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "BiPoolManager",
+    "address": "0x22d9db95E6Ae61c104A7B6F6C78D7993B94ec901",
+    "function": "transferOwnership",
+    "args": [
+      "0x890DB8A597940165901372Dd7DB61C9f246e2147"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "BiPoolManagerProxy",
+    "address": "0x22d9db95E6Ae61c104A7B6F6C78D7993B94ec901",
+    "function": "_transferOwnership",
+    "args": [
+      "0x890DB8A597940165901372Dd7DB61C9f246e2147"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "BiPoolManager",
+    "address": "0xa3D754445f8C3a8134F64467826352885558FD65",
+    "function": "transferOwnership",
+    "args": [
+      "0x890DB8A597940165901372Dd7DB61C9f246e2147"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "Reserve",
+    "address": "0x9380fA34Fd9e4Fd14c06305fd7B6199089eD4eb9",
+    "function": "transferOwnership",
+    "args": [
+      "0x890DB8A597940165901372Dd7DB61C9f246e2147"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "Reserve",
+    "address": "0x9380fA34Fd9e4Fd14c06305fd7B6199089eD4eb9",
+    "function": "_transferOwnership",
+    "args": [
+      "0x890DB8A597940165901372Dd7DB61C9f246e2147"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "Reserve",
+    "address": "0xfD9651862Bc1965349E92073152112289393b57d",
+    "function": "transferOwnership",
+    "args": [
+      "0x890DB8A597940165901372Dd7DB61C9f246e2147"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "BreakerBox",
+    "address": "0x303ED1df62Fa067659B586EbEe8De0EcE824Ab39",
+    "function": "transferOwnership",
+    "args": [
+      "0x890DB8A597940165901372Dd7DB61C9f246e2147"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "MedianDeltaBreaker",
+    "address": "0x49349F92D2B17d491e42C8fdB02D19f072F9B5D9",
+    "function": "transferOwnership",
+    "args": [
+      "0x890DB8A597940165901372Dd7DB61C9f246e2147"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "ValueDeltaBreaker",
+    "address": "0x4DBC33B3abA78475A5AA4BC7A5B11445d387BF68",
+    "function": "transferOwnership",
+    "args": [
+      "0x890DB8A597940165901372Dd7DB61C9f246e2147"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "Exchange",
+    "address": "0x67316300f17f063085Ca8bCa4bd3f7a5a3C66275",
+    "function": "transferOwnership",
+    "args": [
+      "0x890DB8A597940165901372Dd7DB61C9f246e2147"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "ExchangeProxy",
+    "address": "0x67316300f17f063085Ca8bCa4bd3f7a5a3C66275",
+    "function": "_transferOwnership",
+    "args": [
+      "0x890DB8A597940165901372Dd7DB61C9f246e2147"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "ExchangeEUR",
+    "address": "0xE383394B913d7302c49F794C7d3243c429d53D1d",
+    "function": "transferOwnership",
+    "args": [
+      "0x890DB8A597940165901372Dd7DB61C9f246e2147"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "ExchangeEURProxy",
+    "address": "0xE383394B913d7302c49F794C7d3243c429d53D1d",
+    "function": "_transferOwnership",
+    "args": [
+      "0x890DB8A597940165901372Dd7DB61C9f246e2147"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "ExchangeBRL",
+    "address": "0x8f2cf9855C919AFAC8Bd2E7acEc0205ed568a4EA",
+    "function": "transferOwnership",
+    "args": [
+      "0x890DB8A597940165901372Dd7DB61C9f246e2147"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "ExchangeBRLProxy",
+    "address": "0x8f2cf9855C919AFAC8Bd2E7acEc0205ed568a4EA",
+    "function": "_transferOwnership",
+    "args": [
+      "0x890DB8A597940165901372Dd7DB61C9f246e2147"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "GrandaMento",
+    "address": "0x03f6842B82DD2C9276931A17dd23D73C16454a49",
+    "function": "transferOwnership",
+    "args": [
+      "0x890DB8A597940165901372Dd7DB61C9f246e2147"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "GrandaMentoProxy",
+    "address": "0x03f6842B82DD2C9276931A17dd23D73C16454a49",
+    "function": "_transferOwnership",
+    "args": [
+      "0x890DB8A597940165901372Dd7DB61C9f246e2147"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "GovernanceFactory",
+    "address": "0xee6CE2dbe788dFC38b8F583Da86cB9caf2C8cF5A",
+    "function": "transferOwnership",
+    "args": [
+      "0x890DB8A597940165901372Dd7DB61C9f246e2147"
+    ],
+    "value": "0"
+  }
+]
