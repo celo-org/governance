@@ -2,7 +2,7 @@
     {
       "contract": "GoldToken",
       "address": "0x471EcE3750Da237f93B8E339c536989b8978a438",
-      "function": "Approve",
+      "function": "approve",
       "args": [
         "0xd71efa410B6EaAB0bAc3b515B393C886BE70F09E",
         "3794940000000000000000000"
@@ -12,7 +12,7 @@
     {
       "contract": "StableToken",
       "address": "0x765DE816845861e75A25fCA122bb6898B8B1282a", 
-      "function": "Approve",
+      "function": "approve",
       "args": [
         "0xd71efa410B6EaAB0bAc3b515B393C886BE70F09E",
         "3000000000000000000000000"
