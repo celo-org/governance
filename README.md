@@ -4,6 +4,7 @@ This is the Celo Governance repository used for coordination by the community me
 
 The Celo Governance Guardians *(Previously named CGP Editors)* are:
 * Eric Nakagawa (@ericnakagawa)
+* Celo Governance (@celogovernance)
 * 0xj4an (@0xj4an-work)
 * Zoz (@0xzoz)
 * 0xgoldo (@0xGoldo)
@@ -20,7 +21,9 @@ We regularly hold governance calls to discuss proposals. See below for a summary
 
 |  №  |      Date       | Agenda | Notes | Recording |
 |:---:|:---------------:|:------:|:-----:|:---------:|
-| 55  | Dec 19, 2024 | [Agenda](https://github.com/celo-org/governance/issues/511) | [Notes - TBU]() | [Video-TBU]() |
+| 57  | Jan 16, 2025 | [Agenda](https://github.com/celo-org/governance/issues/522) | [Notes-TBU]() | [Video-TBU]() |
+| 56  | Jan 9, 2025 | [Agenda](https://github.com/celo-org/governance/issues/521) | [Notes](https://docs.google.com/document/d/1ZCIZvVHMgXL38TSFciQgannh_sz3Cn-vwQ2wasiq4SQ) | [Video](https://drive.google.com/file/d/14fFmRSVN0e0x9dg5M89YUZAB0rqDrokj) |
+| 55  | Dec 19, 2024 | [Agenda](https://github.com/celo-org/governance/issues/511) | [Notes](https://docs.google.com/document/d/1tcSqkWk3XMPx5JWxsmLSd406Pq59gfqCsstEy7mzJQE) | [Video](https://drive.google.com/file/d/1sHH25vs7dCgB8nAt8DEX6sv-EreS8yYE) |
 | 54  | Oct 31, 2024 | [Agenda](https://github.com/celo-org/governance/issues/489) | [Notes](https://docs.google.com/document/d/1IBiBC5svbJbnBEhwI5ySfi_5m3XbYolNP3h4byBfq4g) | [Video](https://drive.google.com/file/d/1tqToWU-xF-1p8rBfCeHQoIrx8pM9nRA7) |
 | 53  | Oct 24, 2024 | [Agenda](https://github.com/celo-org/governance/issues/484) | [Notes - TBU]() | [Video](https://drive.google.com/file/d/1rTE1Rm5y1m81UwNqwbtpM3VTfRkE-i8L) |
 | 52  | Sep 12, 2024 | [Agenda](https://github.com/celo-org/governance/issues/477) | [Notes](https://docs.google.com/document/d/17G97Lp5D-X0bd8lOLlJOKKnuUmwzNUzshSYywazmgvk) | [Video](https://drive.google.com/file/d/1F755lHFL6ZbYBcN0pBspofyRyesRYejp) |
