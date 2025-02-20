@@ -3,7 +3,7 @@
     "contract": "AccountsProxy",
     "function": "_setImplementation",
     "args": [
-      "0x6606687DdC0dB4c2D46266461D78B49F2921E73E"
+      "0x7C4934779555cFF985D52c72e9F0082bB27A6683"
     ],
     "value": "0"
   },
@@ -11,7 +11,7 @@
     "contract": "AttestationsProxy",
     "function": "_setImplementation",
     "args": [
-      "0xDbfA3EfDf2dDBcf6CacCb8D61BaBEe144376f1Bc"
+      "0xf65903343712820eF19090C15051687b9363758c"
     ],
     "value": "0"
   },
@@ -19,7 +19,7 @@
     "contract": "BlockchainParametersProxy",
     "function": "_setImplementation",
     "args": [
-      "0xf338546b93c4266EB0DcBB66e47A791180832D25"
+      "0x3058c4197C56c9a9c92d3516F2D4Bb8a76c46672"
     ],
     "value": "0"
   },
@@ -27,7 +27,7 @@
     "contract": "DoubleSigningSlasherProxy",
     "function": "_setImplementation",
     "args": [
-      "0x078d04807E1A2ab0a1fbe75e7dcF7cE60C82FfDf"
+      "0xD6d73e1D025b85d1aB4589a0D407eA6D9132f0CB"
     ],
     "value": "0"
   },
@@ -35,7 +35,7 @@
     "contract": "DowntimeSlasherProxy",
     "function": "_setImplementation",
     "args": [
-      "0x7Ae1Bd4c5c399961092e1b497395cB1Bfdb3145E"
+      "0xB07329c36197758e4917862c034E0122558e4c4b"
     ],
     "value": "0"
   },
@@ -43,7 +43,7 @@
     "contract": "ElectionProxy",
     "function": "_setImplementation",
     "args": [
-      "0x99DE1B63aD43041564Ec13C76FeaaC41A661E2ff"
+      "0x5AD30f1E90e4Da75b9330E12F095220CBec0d10B"
     ],
     "value": "0"
   },
@@ -51,7 +51,7 @@
     "contract": "EpochRewardsProxy",
     "function": "_setImplementation",
     "args": [
-      "0x755C148F5A41772355407E4834a8771F5c73ff33"
+      "0x97F1B919Cf2cE812D7884e28d0d0f3CdF7382E89"
     ],
     "value": "0"
   },
@@ -59,7 +59,7 @@
     "contract": "FeeCurrencyWhitelistProxy",
     "function": "_setImplementation",
     "args": [
-      "0x07bD1d6c15c9CAed92bEdEC84f1Ae0Fc54619f58"
+      "0xa9d6092327DD0caB3c513B24925A5925f7881AFD"
     ],
     "value": "0"
   },
@@ -67,7 +67,7 @@
     "contract": "FeeHandlerProxy",
     "function": "_setImplementation",
     "args": [
-      "0xEa8f097779d287ACcC3A5E1EC0D0263A240Fa97f"
+      "0x558C209B246D5f21cc32a11DA29a1cdBDCFEA36c"
     ],
     "value": "0"
   },
@@ -75,7 +75,7 @@
     "contract": "GoldTokenProxy",
     "function": "_setImplementation",
     "args": [
-      "0x8F5eca5296EB6AEAc70eC97226ddfF784831255E"
+      "0xFa77529cD8F0dD86df93CC0d53ed9Bb5Db0ad6D5"
     ],
     "value": "0"
   },
@@ -83,7 +83,7 @@
     "contract": "GovernanceProxy",
     "function": "_setImplementation",
     "args": [
-      "0xa987A677aC161af6648f961D0b1ba5B7cddc5752"
+      "0xd8476f998c87899600645811FB02d67dFf490966"
     ],
     "value": "0"
   },
@@ -91,7 +91,7 @@
     "contract": "GovernanceSlasherProxy",
     "function": "_setImplementation",
     "args": [
-      "0xF9CC292ed655fA7fcc28eEc56D9a8D6DB6DcFFDf"
+      "0x71993613925ED3c0dB49F492236D003492B2FE87"
     ],
     "value": "0"
   },
@@ -99,7 +99,7 @@
     "contract": "LockedGoldProxy",
     "function": "_setImplementation",
     "args": [
-      "0xe1B236a7577f9A4E7324a99e7B00bF2C63A5831B"
+      "0x55E1A0C8f376964bd339167476063bFED7f213d5"
     ],
     "value": "0"
   },
@@ -107,7 +107,7 @@
     "contract": "MentoFeeHandlerSellerProxy",
     "function": "_setImplementation",
     "args": [
-      "0xd1B23793c823D9Ac1e0C64A03Dc512eba0037AaD"
+      "0x86142c00B71B504E853e32A768a8B8be61e12b82"
     ],
     "value": "0"
   },
@@ -115,7 +115,7 @@
     "contract": "RandomProxy",
     "function": "_setImplementation",
     "args": [
-      "0x42e0749442a6daeE233B320B23f6B52b0365bAcd"
+      "0x221A13E96D5C0cecB17fFD8a4a458C47ECe3bdab"
     ],
     "value": "0"
   },
@@ -123,7 +123,7 @@
     "contract": "SortedOraclesProxy",
     "function": "_setImplementation",
     "args": [
-      "0x311A6b981BE6D3f112A523B6709f81191F106F74"
+      "0x93da60DCdDA3229246769CcE307076C181F41F72"
     ],
     "value": "0"
   },
@@ -132,16 +132,16 @@
     "function": "setAddressFor",
     "args": [
       "UniswapFeeHandlerSeller",
-      "0xAB8650992D45aaEAd10C2E9856805e2F9c703C23"
+      "0x399e78488ecC13794f4a4d9534c20a8c1A6e5A8b"
     ],
     "value": "0",
-    "description": "Registry: UniswapFeeHandlerSeller -> 0xAB8650992D45aaEAd10C2E9856805e2F9c703C23"
+    "description": "Registry: UniswapFeeHandlerSeller -> 0x399e78488ecC13794f4a4d9534c20a8c1A6e5A8b"
   },
   {
     "contract": "UniswapFeeHandlerSellerProxy",
     "function": "_setAndInitializeImplementation",
     "args": [
-      "0xB511Ed0D709546CB5321449a722981Ad9852B488",
+      "0x4F86a6fC9a40beDBcD3ec15Ee67aF5865C2cC01A",
       "0xff1d5752000000000000000000000000000000000000000000000000000000000000ce100000000000000000000000000000000000000000000000000000000000000060000000000000000000000000000000000000000000000000000000000000008000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
     ],
     "value": "0"
@@ -151,16 +151,16 @@
     "function": "setAddressFor",
     "args": [
       "CeloUnreleasedTreasury",
-      "0xc50a466C23641D70E6BcedabE71CC8C87Cc90c12"
+      "0x7A8c7a833565fc428cdFBa20FE03fAfb178A434f"
     ],
     "value": "0",
-    "description": "Registry: CeloUnreleasedTreasury -> 0xc50a466C23641D70E6BcedabE71CC8C87Cc90c12"
+    "description": "Registry: CeloUnreleasedTreasury -> 0x7A8c7a833565fc428cdFBa20FE03fAfb178A434f"
   },
   {
     "contract": "CeloUnreleasedTreasuryProxy",
     "function": "_setAndInitializeImplementation",
     "args": [
-      "0xa58ce5f1bfc76B37d980Cf7313D342f1cCF2fAE5",
+      "0x0148a25D13CbD39D2fF5749369356cBDE20EC9d7",
       "0xc4d66de8000000000000000000000000000000000000000000000000000000000000ce10"
     ],
     "value": "0"
@@ -170,16 +170,16 @@
     "function": "setAddressFor",
     "args": [
       "EpochManager",
-      "0x2Efd9E29CfBFAF32713fBE53fd9033217eE86C03"
+      "0xF424B5e85B290b66aC20f8A9EAB75E25a526725E"
     ],
     "value": "0",
-    "description": "Registry: EpochManager -> 0x2Efd9E29CfBFAF32713fBE53fd9033217eE86C03"
+    "description": "Registry: EpochManager -> 0xF424B5e85B290b66aC20f8A9EAB75E25a526725E"
   },
   {
     "contract": "EpochManagerProxy",
     "function": "_setAndInitializeImplementation",
     "args": [
-      "0xd390c7D245550B681F260062Ce4D364Fd5010787",
+      "0x0007fce3FE6D2F84f2EADDcdaC8e8AA1605eDb5B",
       "0xcd6dc687000000000000000000000000000000000000000000000000000000000000ce100000000000000000000000000000000000000000000000000000000000015180"
     ],
     "value": "0"
@@ -189,16 +189,16 @@
     "function": "setAddressFor",
     "args": [
       "EpochManagerEnabler",
-      "0xB50216C8225b0802F0197CC8C7e567a6D5f223a3"
+      "0x2d4148c3500F696aA5a83dd4cc35c289b738B687"
     ],
     "value": "0",
-    "description": "Registry: EpochManagerEnabler -> 0xB50216C8225b0802F0197CC8C7e567a6D5f223a3"
+    "description": "Registry: EpochManagerEnabler -> 0x2d4148c3500F696aA5a83dd4cc35c289b738B687"
   },
   {
     "contract": "EpochManagerEnablerProxy",
     "function": "_setAndInitializeImplementation",
     "args": [
-      "0x6D78C7EB729a336fFB34F6019f13156Aa7015312",
+      "0x27075B83A1df9DCC098C95f0bc45F079F05bF0e3",
       "0xc4d66de8000000000000000000000000000000000000000000000000000000000000ce10"
     ],
     "value": "0"
@@ -208,16 +208,16 @@
     "function": "setAddressFor",
     "args": [
       "FeeCurrencyDirectory",
-      "0x60F6362550868FD1D6E92B2F680f5e02f4d210Fa"
+      "0x15F344b9E6c3Cb6F0376A36A64928b13F62C6276"
     ],
     "value": "0",
-    "description": "Registry: FeeCurrencyDirectory -> 0x60F6362550868FD1D6E92B2F680f5e02f4d210Fa"
+    "description": "Registry: FeeCurrencyDirectory -> 0x15F344b9E6c3Cb6F0376A36A64928b13F62C6276"
   },
   {
     "contract": "FeeCurrencyDirectoryProxy",
     "function": "_setAndInitializeImplementation",
     "args": [
-      "0x8a9aCfFB9F7EEd8Aa0bbC89f2Fc8280Ba3ae24B6",
+      "0xF6fb745A01A14cd23F926E7F9E517f8f086d0463",
       "0x8129fc1c"
     ],
     "value": "0"
@@ -226,7 +226,7 @@
     "contract": "GasPriceMinimumProxy",
     "function": "_setImplementation",
     "args": [
-      "0x0B8464659baA4e12A2Eee42745e1131a6eDa1B0f"
+      "0x8c3d2a4Fe21c21d52Ff42a415b34bc0000E3BA90"
     ],
     "value": "0"
   },
@@ -235,16 +235,16 @@
     "function": "setAddressFor",
     "args": [
       "ScoreManager",
-      "0x19Cdf4689D9eE3590FDBE75ADefEE375B4620505"
+      "0xef3B9CC0FA4717aF6f412d39dBcEb89bf92f603B"
     ],
     "value": "0",
-    "description": "Registry: ScoreManager -> 0x19Cdf4689D9eE3590FDBE75ADefEE375B4620505"
+    "description": "Registry: ScoreManager -> 0xef3B9CC0FA4717aF6f412d39dBcEb89bf92f603B"
   },
   {
     "contract": "ScoreManagerProxy",
     "function": "_setAndInitializeImplementation",
     "args": [
-      "0xBa8332115f446FA15Ed5141AF65A8F58411BF3eb",
+      "0x1077E8bd92B2FE31f605631390CB7436aEd5a937",
       "0x8129fc1c"
     ],
     "value": "0"
@@ -253,7 +253,7 @@
     "contract": "ValidatorsProxy",
     "function": "_setImplementation",
     "args": [
-      "0x843fDC92a3a758185A10Fbe159Ef25AE0f4E49e6"
+      "0xbC8ca2220F72719A12cA64a4B5e8cFBD43b88D1A"
     ],
     "value": "0"
   }
