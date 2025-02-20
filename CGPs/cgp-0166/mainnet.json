@@ -1,0 +1,260 @@
+[
+  {
+    "contract": "AccountsProxy",
+    "function": "_setImplementation",
+    "args": [
+      "0x6606687DdC0dB4c2D46266461D78B49F2921E73E"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "AttestationsProxy",
+    "function": "_setImplementation",
+    "args": [
+      "0xDbfA3EfDf2dDBcf6CacCb8D61BaBEe144376f1Bc"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "BlockchainParametersProxy",
+    "function": "_setImplementation",
+    "args": [
+      "0xf338546b93c4266EB0DcBB66e47A791180832D25"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "DoubleSigningSlasherProxy",
+    "function": "_setImplementation",
+    "args": [
+      "0x078d04807E1A2ab0a1fbe75e7dcF7cE60C82FfDf"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "DowntimeSlasherProxy",
+    "function": "_setImplementation",
+    "args": [
+      "0x7Ae1Bd4c5c399961092e1b497395cB1Bfdb3145E"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "ElectionProxy",
+    "function": "_setImplementation",
+    "args": [
+      "0x99DE1B63aD43041564Ec13C76FeaaC41A661E2ff"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "EpochRewardsProxy",
+    "function": "_setImplementation",
+    "args": [
+      "0x755C148F5A41772355407E4834a8771F5c73ff33"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "FeeCurrencyWhitelistProxy",
+    "function": "_setImplementation",
+    "args": [
+      "0x07bD1d6c15c9CAed92bEdEC84f1Ae0Fc54619f58"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "FeeHandlerProxy",
+    "function": "_setImplementation",
+    "args": [
+      "0xEa8f097779d287ACcC3A5E1EC0D0263A240Fa97f"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "GoldTokenProxy",
+    "function": "_setImplementation",
+    "args": [
+      "0x8F5eca5296EB6AEAc70eC97226ddfF784831255E"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "GovernanceProxy",
+    "function": "_setImplementation",
+    "args": [
+      "0xa987A677aC161af6648f961D0b1ba5B7cddc5752"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "GovernanceSlasherProxy",
+    "function": "_setImplementation",
+    "args": [
+      "0xF9CC292ed655fA7fcc28eEc56D9a8D6DB6DcFFDf"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "LockedGoldProxy",
+    "function": "_setImplementation",
+    "args": [
+      "0xe1B236a7577f9A4E7324a99e7B00bF2C63A5831B"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "MentoFeeHandlerSellerProxy",
+    "function": "_setImplementation",
+    "args": [
+      "0xd1B23793c823D9Ac1e0C64A03Dc512eba0037AaD"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "RandomProxy",
+    "function": "_setImplementation",
+    "args": [
+      "0x42e0749442a6daeE233B320B23f6B52b0365bAcd"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "SortedOraclesProxy",
+    "function": "_setImplementation",
+    "args": [
+      "0x311A6b981BE6D3f112A523B6709f81191F106F74"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "Registry",
+    "function": "setAddressFor",
+    "args": [
+      "UniswapFeeHandlerSeller",
+      "0xAB8650992D45aaEAd10C2E9856805e2F9c703C23"
+    ],
+    "value": "0",
+    "description": "Registry: UniswapFeeHandlerSeller -> 0xAB8650992D45aaEAd10C2E9856805e2F9c703C23"
+  },
+  {
+    "contract": "UniswapFeeHandlerSellerProxy",
+    "function": "_setAndInitializeImplementation",
+    "args": [
+      "0xB511Ed0D709546CB5321449a722981Ad9852B488",
+      "0xff1d5752000000000000000000000000000000000000000000000000000000000000ce100000000000000000000000000000000000000000000000000000000000000060000000000000000000000000000000000000000000000000000000000000008000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "Registry",
+    "function": "setAddressFor",
+    "args": [
+      "CeloUnreleasedTreasury",
+      "0xc50a466C23641D70E6BcedabE71CC8C87Cc90c12"
+    ],
+    "value": "0",
+    "description": "Registry: CeloUnreleasedTreasury -> 0xc50a466C23641D70E6BcedabE71CC8C87Cc90c12"
+  },
+  {
+    "contract": "CeloUnreleasedTreasuryProxy",
+    "function": "_setAndInitializeImplementation",
+    "args": [
+      "0xa58ce5f1bfc76B37d980Cf7313D342f1cCF2fAE5",
+      "0xc4d66de8000000000000000000000000000000000000000000000000000000000000ce10"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "Registry",
+    "function": "setAddressFor",
+    "args": [
+      "EpochManager",
+      "0x2Efd9E29CfBFAF32713fBE53fd9033217eE86C03"
+    ],
+    "value": "0",
+    "description": "Registry: EpochManager -> 0x2Efd9E29CfBFAF32713fBE53fd9033217eE86C03"
+  },
+  {
+    "contract": "EpochManagerProxy",
+    "function": "_setAndInitializeImplementation",
+    "args": [
+      "0xd390c7D245550B681F260062Ce4D364Fd5010787",
+      "0xcd6dc687000000000000000000000000000000000000000000000000000000000000ce100000000000000000000000000000000000000000000000000000000000015180"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "Registry",
+    "function": "setAddressFor",
+    "args": [
+      "EpochManagerEnabler",
+      "0xB50216C8225b0802F0197CC8C7e567a6D5f223a3"
+    ],
+    "value": "0",
+    "description": "Registry: EpochManagerEnabler -> 0xB50216C8225b0802F0197CC8C7e567a6D5f223a3"
+  },
+  {
+    "contract": "EpochManagerEnablerProxy",
+    "function": "_setAndInitializeImplementation",
+    "args": [
+      "0x6D78C7EB729a336fFB34F6019f13156Aa7015312",
+      "0xc4d66de8000000000000000000000000000000000000000000000000000000000000ce10"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "Registry",
+    "function": "setAddressFor",
+    "args": [
+      "FeeCurrencyDirectory",
+      "0x60F6362550868FD1D6E92B2F680f5e02f4d210Fa"
+    ],
+    "value": "0",
+    "description": "Registry: FeeCurrencyDirectory -> 0x60F6362550868FD1D6E92B2F680f5e02f4d210Fa"
+  },
+  {
+    "contract": "FeeCurrencyDirectoryProxy",
+    "function": "_setAndInitializeImplementation",
+    "args": [
+      "0x8a9aCfFB9F7EEd8Aa0bbC89f2Fc8280Ba3ae24B6",
+      "0x8129fc1c"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "GasPriceMinimumProxy",
+    "function": "_setImplementation",
+    "args": [
+      "0x0B8464659baA4e12A2Eee42745e1131a6eDa1B0f"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "Registry",
+    "function": "setAddressFor",
+    "args": [
+      "ScoreManager",
+      "0x19Cdf4689D9eE3590FDBE75ADefEE375B4620505"
+    ],
+    "value": "0",
+    "description": "Registry: ScoreManager -> 0x19Cdf4689D9eE3590FDBE75ADefEE375B4620505"
+  },
+  {
+    "contract": "ScoreManagerProxy",
+    "function": "_setAndInitializeImplementation",
+    "args": [
+      "0xBa8332115f446FA15Ed5141AF65A8F58411BF3eb",
+      "0x8129fc1c"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "ValidatorsProxy",
+    "function": "_setImplementation",
+    "args": [
+      "0x843fDC92a3a758185A10Fbe159Ef25AE0f4E49e6"
+    ],
+    "value": "0"
+  }
+]
