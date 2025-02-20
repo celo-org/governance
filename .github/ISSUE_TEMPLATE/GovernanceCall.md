@@ -1,7 +1,7 @@
 ---
 name: "Governance Call Issue"
 about: "Create an Issue for the next Governance Call"
-title: "[Celo Governance Call] "
+title: "Celo Governance Call #XX | MONTH XXth, YEAR"
 labels: Governance Call
 assignees: ""
 ---
