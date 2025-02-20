@@ -1,7 +1,7 @@
 ---
-name: "Bug Report"
-about: "Report a bug to help us improve"
-title: "[Bug] "
+name: "Governance Call Issue"
+about: "Create an Issue for the next Governance Call"
+title: "[Celo Governance Call] "
 labels: Governance Call
 assignees: ""
 ---
