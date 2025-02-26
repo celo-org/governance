@@ -1,0 +1,20 @@
+[
+    {
+        "contract": "Registry",
+        "function": "setAddressFor",
+        "args": [
+            "CeloToken",
+            "0x471EcE3750Da237f93B8E339c536989b8978a438"
+        ],
+        "value": "0"
+    },
+    {
+        "contract": "Registry",
+        "function": "setAddressFor",
+        "args": [
+            "LockedCelo",
+            "0x6cC083Aed9e3ebe302A6336dBC7c921C9f03349E"
+        ],
+        "value": "0"
+    }
+]
