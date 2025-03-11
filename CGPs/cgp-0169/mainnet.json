@@ -1,0 +1,85 @@
+[
+    {
+        "contract": "EpochRewards",
+        "function": "setTargetVotingYieldParameters",
+        "args": [
+            "250000000000000000000",
+            "0"
+        ],
+        "value": "0"
+    },
+    {
+        "contract": "EpochRewards",
+        "function": "setTargetVotingYield",
+        "args": [
+            "51500000000000000000"
+        ],
+        "value": "0"
+    },
+    {
+        "contract": "EpochRewards",
+        "function": "setTargetValidatorEpochPayment",
+        "args": [
+            "82191780820000000000"
+        ],
+        "value": "0"
+    },
+    {
+        "contract": "FeeHandler",
+        "function": "setCarbonFraction",
+        "args": [
+            "200000000000000000000000"
+        ],
+        "value": "0"
+    },
+    {
+        "contract": "FeeHandler",
+        "function": "addOtherBeneficiary",
+        "args": [
+            "address TODO",
+            "fraction TODO"
+        ],
+        "value": "0"
+    },
+    {
+        "contract": "EpochRewards",
+        "function": "setCarbonOffsettingFund",
+        "args": [
+            "0xCe10d577295d34782815919843a3a4ef70Dc33ce",
+            "500000000000000000000"
+        ],
+        "value": "0"
+    },
+    {
+        "contract": "Validators",
+        "function": "setCommissionUpdateDelay",
+        "args": [
+            "259200"
+        ],
+        "value": "0"
+    },
+    {
+        "contract": "GovernanceSlasher",
+        "function": "setSlasherExecuter",
+        "args": [
+            "address TODO"
+        ],
+        "value": "0"
+    },
+    {
+        "contract": "ScoreManager",
+        "function": "setScoreManagerSetter",
+        "args": [
+            "address TODO"
+        ],
+        "value": "0"
+    },
+    {
+        "contract": "StableToken",
+        "function": "approve",
+        "args": [
+            "address TODO"
+        ],
+        "value": "0"
+    }
+]
