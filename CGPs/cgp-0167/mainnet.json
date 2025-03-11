@@ -115,4 +115,12 @@
       ],
       "value": "0"
     },
+    {
+      "contract": "Governance",
+      "function": "setSecurityCouncil",
+      "args": [
+        "TODO"
+      ],
+      "value": "0"
+    }
 ]
