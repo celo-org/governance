@@ -4,8 +4,8 @@
     "address": "0xefB84935239dAcdecF7c5bA76d8dE40b077B7b33",
     "function": "addOracle",
     "args": [
-      "0x5AD3817fE11971c1fd79c7D88485af560eD5470C",
-      "0xC7fFB4F9b377472075705A4f5347B618c527ECc2"
+      "0xF3CAaE71EAc2DA8D78372A62DDb3acdDaf3Df416",
+      "0xd5bAF8D2072B2dB54Bed9c4763D591a44C408A98"
     ],
     "value": "0"
   },
@@ -13,34 +13,7 @@
     "contract": "SortedOracles",
     "address": "0xefB84935239dAcdecF7c5bA76d8dE40b077B7b33",
     "function": "setTokenReportExpiry",
-    "args": ["0x5AD3817fE11971c1fd79c7D88485af560eD5470C", "360"],
-    "value": "0"
-  },
-  {
-    "contract": "SortedOracles",
-    "address": "0xefB84935239dAcdecF7c5bA76d8dE40b077B7b33",
-    "function": "addOracle",
-    "args": [
-      "0x44D99a013a0DAdbB4C06F9Cc9397BFd3AC12b017",
-      "0x1485C0E710ff9EF059834F42b312F10e7af823bd"
-    ],
-    "value": "0"
-  },
-  {
-    "contract": "SortedOracles",
-    "address": "0xefB84935239dAcdecF7c5bA76d8dE40b077B7b33",
-    "function": "setTokenReportExpiry",
-    "args": ["0x44D99a013a0DAdbB4C06F9Cc9397BFd3AC12b017", "360"],
-    "value": "0"
-  },
-  {
-    "contract": "SortedOracles",
-    "address": "0xefB84935239dAcdecF7c5bA76d8dE40b077B7b33",
-    "function": "setEquivalentToken",
-    "args": [
-      "0xfAeA5F3404bbA20D3cc2f8C4B0A888F55a3c7313",
-      "0x5AD3817fE11971c1fd79c7D88485af560eD5470C"
-    ],
+    "args": ["0xF3CAaE71EAc2DA8D78372A62DDb3acdDaf3Df416", "360"],
     "value": "0"
   }
 ]
