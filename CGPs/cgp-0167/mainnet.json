@@ -114,13 +114,5 @@
         "0xF424B5e85B290b66aC20f8A9EAB75E25a526725E"
       ],
       "value": "0"
-    },
-    {
-      "contract": "Governance",
-      "function": "setSecurityCouncil",
-      "args": [
-        "TODO ALIASED"
-      ],
-      "value": "0"
     }
 ]
