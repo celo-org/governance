@@ -1,0 +1,8 @@
+[
+  {
+    "contract": "Governance",
+    "function": "setSecurityCouncil",
+    "args": ["0x...TBD..."],
+    "value": "0"
+  }
+]
