@@ -1,0 +1,128 @@
+[
+    {
+      "contract": "FeeCurrencyDirectory",
+      "function": "setCurrencyConfig",
+      "address": "0x15F344b9E6c3Cb6F0376A36A64928b13F62C6276",
+      "args": [
+        "0x765DE816845861e75A25fCA122bb6898B8B1282a",
+        "0xefB84935239dAcdecF7c5bA76d8dE40b077B7b33",
+        "50000"
+      ],
+      "value": "0"
+    },
+    {
+      "contract": "FeeCurrencyDirectory",
+      "function": "setCurrencyConfig",
+      "address": "0x15F344b9E6c3Cb6F0376A36A64928b13F62C6276",
+      "args": [
+        "0xD8763CBa276a3738E6DE85b4b3bF5FDed6D6cA73",
+        "0xefB84935239dAcdecF7c5bA76d8dE40b077B7b33",
+        "50000"
+      ],
+      "value": "0"
+    },
+    {
+      "contract": "FeeCurrencyDirectory",
+      "function": "setCurrencyConfig",
+      "address": "0x15F344b9E6c3Cb6F0376A36A64928b13F62C6276",
+      "args": [
+        "0xe8537a3d056DA446677B9E9d6c5dB704EaAb4787",
+        "0xefB84935239dAcdecF7c5bA76d8dE40b077B7b33",
+        "50000"
+      ],
+      "value": "0"
+    },
+    {
+      "contract": "FeeCurrencyDirectory",
+      "function": "setCurrencyConfig",
+      "address": "0x15F344b9E6c3Cb6F0376A36A64928b13F62C6276",
+      "args": [
+        "0x73F93dcc49cB8A239e2032663e9475dd5ef29A08",
+        "0xefB84935239dAcdecF7c5bA76d8dE40b077B7b33",
+        "50000"
+      ],
+      "value": "0"
+    },
+    {
+      "contract": "FeeCurrencyDirectory",
+      "function": "setCurrencyConfig",
+      "address": "0x15F344b9E6c3Cb6F0376A36A64928b13F62C6276",
+      "args": [
+        "0x2F25deB3848C207fc8E0c34035B3Ba7fC157602B",
+        "0xefB84935239dAcdecF7c5bA76d8dE40b077B7b33",
+        "50000"
+      ],
+      "value": "0"
+    },
+    {
+      "contract": "FeeCurrencyDirectory",
+      "function": "setCurrencyConfig",
+      "address": "0x15F344b9E6c3Cb6F0376A36A64928b13F62C6276",
+      "args": [
+        "0x0E2A3e05bc9A16F5292A6170456A710cb89C6f72",
+        "0xefB84935239dAcdecF7c5bA76d8dE40b077B7b33",
+        "50000"
+      ],
+      "value": "0"
+    },
+    {
+      "contract": "FeeCurrencyDirectory",
+      "function": "setCurrencyConfig",
+      "address": "0x15F344b9E6c3Cb6F0376A36A64928b13F62C6276",
+      "args": [
+        "0x456a3D042C0DbD3db53D5489e98dFb038553B0d0",
+        "0xefB84935239dAcdecF7c5bA76d8dE40b077B7b33",
+        "50000"
+      ],
+      "value": "0"
+    },
+    {
+      "contract": "FeeCurrencyDirectory",
+      "function": "setCurrencyConfig",
+      "address": "0x15F344b9E6c3Cb6F0376A36A64928b13F62C6276",
+      "args": [
+        "0x105d4A9306D2E55a71d2Eb95B81553AE1dC20d7B",
+        "0xefB84935239dAcdecF7c5bA76d8dE40b077B7b33",
+        "50000"
+      ],
+      "value": "0"
+    },
+    {
+      "contract": "FeeCurrencyDirectory",
+      "function": "setCurrencyConfig",
+      "address": "0x15F344b9E6c3Cb6F0376A36A64928b13F62C6276",
+      "args": [
+        "0x8A567e2aE79CA692Bd748aB832081C45de4041eA",
+        "0xefB84935239dAcdecF7c5bA76d8dE40b077B7b33",
+        "50000"
+      ],
+      "value": "0"
+    },
+    {
+      "contract": "FeeCurrencyDirectory",
+      "function": "setCurrencyConfig",
+      "address": "0x15F344b9E6c3Cb6F0376A36A64928b13F62C6276",
+      "args": [
+        "0xfAeA5F3404bbA20D3cc2f8C4B0A888F55a3c7313",
+        "0xefB84935239dAcdecF7c5bA76d8dE40b077B7b33",
+        "50000"
+      ],
+      "value": "0"
+    },
+    {
+      "contract": "Election",
+      "function": "setBlockedByContract",
+      "args": [
+        "0xF424B5e85B290b66aC20f8A9EAB75E25a526725E"
+      ],
+      "value": "0"
+    },
+    {
+      "contract": "LockedGold",
+      "function": "setBlockedByContract",
+      "args": [
+        "0xF424B5e85B290b66aC20f8A9EAB75E25a526725E"
+      ],
+      "value": "0"
+    }
+]
