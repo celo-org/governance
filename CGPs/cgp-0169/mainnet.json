@@ -28,7 +28,7 @@
         "contract": "FeeHandler",
         "function": "setCarbonFraction",
         "args": [
-            "200000000000000000000000"
+            "100000000000000000000000"
         ],
         "value": "0"
     },
@@ -36,8 +36,8 @@
         "contract": "FeeHandler",
         "function": "addOtherBeneficiary",
         "args": [
-            "address TODO",
-            "fraction TODO"
+            "0x7A1E98FC9a008107DbD1f430a05Ace8cf6f3FE19",
+            "900000000000000000000000"
         ],
         "value": "0"
     },
