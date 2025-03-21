@@ -37,7 +37,8 @@
         "function": "addOtherBeneficiary",
         "args": [
             "0x7A1E98FC9a008107DbD1f430a05Ace8cf6f3FE19",
-            "900000000000000000000000"
+            "900000000000000000000000",
+            "cLabs"
         ],
         "value": "0"
     },
