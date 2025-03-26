@@ -12,7 +12,7 @@
         "contract": "EpochRewards",
         "function": "setTargetVotingYield",
         "args": [
-            "51500000000000000000"
+            "50750000000000000000"
         ],
         "value": "0"
     },
@@ -37,7 +37,8 @@
         "function": "addOtherBeneficiary",
         "args": [
             "0x7A1E98FC9a008107DbD1f430a05Ace8cf6f3FE19",
-            "900000000000000000000000"
+            "900000000000000000000000",
+            "cLabs"
         ],
         "value": "0"
     },
@@ -62,7 +63,7 @@
         "contract": "GovernanceSlasher",
         "function": "setSlasherExecuter",
         "args": [
-            "address TODO"
+            "0x68ce71d4CECA3003701ca6844D9a345925407455"
         ],
         "value": "0"
     },
@@ -70,7 +71,7 @@
         "contract": "ScoreManager",
         "function": "setScoreManagerSetter",
         "args": [
-            "address TODO"
+            "0x68ce71d4CECA3003701ca6844D9a345925407455"
         ],
         "value": "0"
     },
@@ -78,7 +79,8 @@
         "contract": "StableToken",
         "function": "approve",
         "args": [
-            "address TODO"
+            "0x68ce71d4CECA3003701ca6844D9a345925407455",
+            "36000000000000000000000"
         ],
         "value": "0"
     }
