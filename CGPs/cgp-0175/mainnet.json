@@ -1,0 +1,8 @@
+[
+  {
+    "contract": "Governance",
+    "function": "setSecurityCouncil",
+    "args": ["0x51a3a77baF58fef0309452CeaCB09221e556f223"],
+    "value": "0"
+  }
+]
