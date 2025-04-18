@@ -1,0 +1,90 @@
+[
+  {
+    "contract": "SortedOracles",
+    "address": "0xefB84935239dAcdecF7c5bA76d8dE40b077B7b33",
+    "function": "addOracle",
+    "args": [
+      "0xd5800BbeC4Fb58b549C8de50635654E919c3Cd5D",
+      "0x522D100Ce28b150fBfcB90551d8822789ff53886"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "SortedOracles",
+    "address": "0xefB84935239dAcdecF7c5bA76d8dE40b077B7b33",
+    "function": "setTokenReportExpiry",
+    "args": ["0xd5800BbeC4Fb58b549C8de50635654E919c3Cd5D", "360"],
+    "value": "0"
+  },
+  {
+    "contract": "SortedOracles",
+    "address": "0xefB84935239dAcdecF7c5bA76d8dE40b077B7b33",
+    "function": "addOracle",
+    "args": [
+      "0xFDE35B45cBd2504FB5dC514F007bC2DE27034274",
+      "0x1327A32fA7e3a0C3c0a5828D4f3ff16CE9E13Ee9"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "SortedOracles",
+    "address": "0xefB84935239dAcdecF7c5bA76d8dE40b077B7b33",
+    "function": "setTokenReportExpiry",
+    "args": ["0xFDE35B45cBd2504FB5dC514F007bC2DE27034274", "360"],
+    "value": "0"
+  },
+  {
+    "contract": "SortedOracles",
+    "address": "0xefB84935239dAcdecF7c5bA76d8dE40b077B7b33",
+    "function": "setEquivalentToken",
+    "args": [
+      "0xc45eCF20f3CD864B32D9794d6f76814aE8892e20",
+      "0xd5800BbeC4Fb58b549C8de50635654E919c3Cd5D"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "SortedOracles",
+    "address": "0xefB84935239dAcdecF7c5bA76d8dE40b077B7b33",
+    "function": "addOracle",
+    "args": [
+      "0xd9D1A7FAA5deFe7E0301Ac5363E6ca18eB78c9D7",
+      "0x75Ba8f6855e54F36282067b185f2b9c0baC8A588"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "SortedOracles",
+    "address": "0xefB84935239dAcdecF7c5bA76d8dE40b077B7b33",
+    "function": "setTokenReportExpiry",
+    "args": ["0xd9D1A7FAA5deFe7E0301Ac5363E6ca18eB78c9D7", "360"],
+    "value": "0"
+  },
+  {
+    "contract": "SortedOracles",
+    "address": "0xefB84935239dAcdecF7c5bA76d8dE40b077B7b33",
+    "function": "addOracle",
+    "args": [
+      "0xC13D42556f1baeab4a8600C735afcd5344048d3C",
+      "0xce35D1F69523a0672b9281dF1675D5b5D4004feF"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "SortedOracles",
+    "address": "0xefB84935239dAcdecF7c5bA76d8dE40b077B7b33",
+    "function": "setTokenReportExpiry",
+    "args": ["0xC13D42556f1baeab4a8600C735afcd5344048d3C", "360"],
+    "value": "0"
+  },
+  {
+    "contract": "SortedOracles",
+    "address": "0xefB84935239dAcdecF7c5bA76d8dE40b077B7b33",
+    "function": "setEquivalentToken",
+    "args": [
+      "0xE2702Bd97ee33c88c8f6f92DA3B733608aa76F71",
+      "0xd9D1A7FAA5deFe7E0301Ac5363E6ca18eB78c9D7"
+    ],
+    "value": "0"
+  }
+]
