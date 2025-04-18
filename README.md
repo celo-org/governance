@@ -22,7 +22,10 @@ We regularly hold governance calls to discuss proposals. See below for a summary
 |  №  |      Date       | Agenda | Notes | Recording |
 |:---:|:---------------:|:------:|:-----:|:---------:|
 | XX  | Month DD, YYYY | [Agenda]() | [Notes-TBU]() | [Video-TBU]() |
-| 63  | Mar 13, 2025 | [Agenda](https://github.com/celo-org/governance/issues/571) | [Notes-TBU]() | [Video-TBU]() |
+| 66  | Apr 17, 2025 | [Agenda](https://github.com/celo-org/governance/issues/596) | [Notes](https://docs.google.com/document/d/11qVnzxHSQxmRtyVV3ocW7OLqF1CNMzxwf1sGiDJXdYo) | [Video](https://drive.google.com/file/d/1mbZA7--9OAHTbMxgR0qDt706uNnjsTdk) |
+| 65  | Mar 27, 2025 | [Agenda](https://github.com/celo-org/governance/issues/591) | [Notes](https://docs.google.com/document/d/1D43C6L4Egkh-h0U5S7Jn-rcKLvbpmrWjRaDyC4C-uBg) | [Video](https://drive.google.com/file/d/1wKn-fLNBZuiodyY9Rk058HtkqUkqUel_) |
+| 64  | Mar 20, 2025 | [Agenda](https://github.com/celo-org/governance/issues/581) | [Notes](https://docs.google.com/document/d/1QSkq_Mr4KGgAuRhxc4AtVKI9RqgJNNj6lRxKFKiyGVg) | [Video](https://drive.google.com/file/d/1rhFyhOsYtEZPa42zAtisemXm4sCkvs47) |
+| 63  | Mar 13, 2025 | [Agenda](https://github.com/celo-org/governance/issues/571) | [Notes](https://docs.google.com/document/d/1ce69MidiW6rWMtNCa5Iie_RsFqej8FesrbB-v31IJu4) | [Video](https://drive.google.com/file/d/1pg7gKO6Iukgbex1NewF2zVHYpSql8vsi) |
 | 62  | Mar3, 2025 | [Agenda](https://github.com/celo-org/governance/issues/561) | N/A | N/A |
 | 61  | Feb 27, 2025 | [Agenda](https://github.com/celo-org/governance/issues/560) | [Notes](https://docs.google.com/document/d/1ZK0dfnJCMOWbsmgUc1KB3BrjyF6mCAeXlo6u-7eqBY4/) | [Video](https://drive.google.com/drive/folders/1MK3gK1S_idHVpc61ejqH0VWDQZ79xzCE) |
 | 60  | Feb 20, 2025 | [Agenda](https://github.com/celo-org/governance/issues/539) | [Notes](https://docs.google.com/document/d/1585LkplKIyE9dlVJX2c5sEEIT2mjpT9UXnLGSJRMEGk) | [Video](https://drive.google.com/drive/folders/1MK3gK1S_idHVpc61ejqH0VWDQZ79xzCE) |
