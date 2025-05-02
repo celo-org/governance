@@ -1,0 +1,11 @@
+[
+    {
+        "contract": "StableToken",
+        "function": "approve",
+        "args": [
+            "0x68ce71d4CECA3003701ca6844D9a345925407455",
+            "24000000000000000000000"
+        ],
+        "value": "0"
+    }
+]
