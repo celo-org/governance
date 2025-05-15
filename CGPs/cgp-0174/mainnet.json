@@ -1,0 +1,23 @@
+[
+  {
+    "contract": "StableTokenGHSProxy",
+    "address": "0xfAeA5F3404bbA20D3cc2f8C4B0A888F55a3c7313",
+    "function": "_setImplementation",
+    "args": ["0x8F7F590A0DD9D978065B9021006a242a4Dc56e1e"],
+    "value": "0"
+  },
+  {
+    "contract": "TempStable",
+    "address": "0xfAeA5F3404bbA20D3cc2f8C4B0A888F55a3c7313",
+    "function": "setName",
+    "args": ["Celo Ghanaian Cedi"],
+    "value": "0"
+  },
+  {
+    "contract": "StableTokenGHSProxy",
+    "address": "0xfAeA5F3404bbA20D3cc2f8C4B0A888F55a3c7313",
+    "function": "_setImplementation",
+    "args": ["0x434563B0604BE100F04B7Ae485BcafE3c9D8850E"],
+    "value": "0"
+  }
+]
