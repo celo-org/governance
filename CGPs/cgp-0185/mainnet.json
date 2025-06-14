@@ -1,0 +1,14 @@
+[
+    {
+      "contract": "GoldToken",
+      "function": "transferFrom",
+      "args": ["0x38DBAB5C651F352C8f5F765fDA292E9B92d850Ff", "0xD533Ca259b330c7A88f74E000a3FaEa2d63B7972", "347000000000000000000000"],
+      "value": "0"
+    },
+    {
+      "contract": "StableToken",
+      "function": "transfer",
+      "args": ["0x38DBAB5C651F352C8f5F765fDA292E9B92d850Ff", "220000000000000000000000"],
+      "value": "0"
+    }
+]
