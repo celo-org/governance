@@ -1058,5 +1058,17 @@
       "5000000000000000000000"
     ],
     "value": "0"
+  },
+  {
+    "contract": "BreakerBox",
+    "address": "0x303ED1df62Fa067659B586EbEe8De0EcE824Ab39",
+    "function": "setRateFeedDependencies",
+    "args": [
+      "0x43620310c2FEADbFEcFd71b5A93E6e28946d64a5",
+      [
+        "0x40dC8528167557353fdcD98548AB2139A670Dd0b"
+      ]
+    ],
+    "value": "0"
   }
 ]
