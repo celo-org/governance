@@ -1,0 +1,19 @@
+[
+    {
+      "contract": "SortedOracles",
+      "function": "setEquivalentToken",
+      "args": [
+        "0x4f604735c1cf31399c6e711d5962b2b3e0225ad3",
+        "0x765DE816845861e75A25fCA122bb6898B8B1282a"
+      ],
+      "value": "0"
+    },
+    {
+        "contract": "FeeCurrencyWhitelist",
+        "function": "addToken",
+        "args": [
+            "0x4f604735c1cf31399c6e711d5962b2b3e0225ad3"
+        ],
+        "value": "0"
+    }
+]
