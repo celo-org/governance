@@ -1,0 +1,787 @@
+[
+  {
+    "contract": "SortedOracles",
+    "address": "0xefB84935239dAcdecF7c5bA76d8dE40b077B7b33",
+    "function": "addOracle",
+    "args": [
+      "0x73F93dcc49cB8A239e2032663e9475dd5ef29A08",
+      "0x242631D81A6eb2516a2A51C31240929d514Ea202"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "SortedOracles",
+    "address": "0xefB84935239dAcdecF7c5bA76d8dE40b077B7b33",
+    "function": "addOracle",
+    "args": [
+      "0xeD35e46b095197dA30DdFFA5B91d386886d5ce0d",
+      "0x9B5B7e9CE62b465C627EDd088E8907C1CBFCAa80"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "SortedOracles",
+    "address": "0xefB84935239dAcdecF7c5bA76d8dE40b077B7b33",
+    "function": "addOracle",
+    "args": [
+      "0x40dC8528167557353fdcD98548AB2139A670Dd0b",
+      "0x22e78caFCD7eaDD7907328Be22E0C6D66Ce363B3"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "SortedOracles",
+    "address": "0xefB84935239dAcdecF7c5bA76d8dE40b077B7b33",
+    "function": "addOracle",
+    "args": [
+      "0x456a3D042C0DbD3db53D5489e98dFb038553B0d0",
+      "0x698Ac749cF4Eb5E9E8D903e2F222275E53416B54"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "SortedOracles",
+    "address": "0xefB84935239dAcdecF7c5bA76d8dE40b077B7b33",
+    "function": "addOracle",
+    "args": [
+      "0xbAcEE37d31b9f022Ef5d232B9fD53F05a531c169",
+      "0x4920101408D129a1A7B33fB0ECA4FB0233FD00D4"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "SortedOracles",
+    "address": "0xefB84935239dAcdecF7c5bA76d8dE40b077B7b33",
+    "function": "addOracle",
+    "args": [
+      "0xE06C10C63377cD098b589c0b90314bFb55751558",
+      "0x564dD5fec58E7103C2A6041B7dD1BB3074a4616b"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "SortedOracles",
+    "address": "0xefB84935239dAcdecF7c5bA76d8dE40b077B7b33",
+    "function": "addOracle",
+    "args": [
+      "0xF4f9bBdA9CD6841fCB9b1510f9269E2dB42a6e3a",
+      "0xC4918A76A7fdB113f2dFa9B162e875f271A2f7b8"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "SortedOracles",
+    "address": "0xefB84935239dAcdecF7c5bA76d8dE40b077B7b33",
+    "function": "addOracle",
+    "args": [
+      "0x9dB83bE97C82912cB342407dd7b880983052B9c1",
+      "0x6322A90B468C14d1091CC91bC42FAd5584312220"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "SortedOracles",
+    "address": "0xefB84935239dAcdecF7c5bA76d8dE40b077B7b33",
+    "function": "addOracle",
+    "args": [
+      "0x43620310c2FEADbFEcFd71b5A93E6e28946d64a5",
+      "0xF2772e9EF0C1bc2794f7c21cf35843391bC32A5A"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "SortedOracles",
+    "address": "0xefB84935239dAcdecF7c5bA76d8dE40b077B7b33",
+    "function": "setTokenReportExpiry",
+    "args": [
+      "0x765DE816845861e75A25fCA122bb6898B8B1282a",
+      "360"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "SortedOracles",
+    "address": "0xefB84935239dAcdecF7c5bA76d8dE40b077B7b33",
+    "function": "setTokenReportExpiry",
+    "args": [
+      "0xD8763CBa276a3738E6DE85b4b3bF5FDed6D6cA73",
+      "360"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "SortedOracles",
+    "address": "0xefB84935239dAcdecF7c5bA76d8dE40b077B7b33",
+    "function": "setTokenReportExpiry",
+    "args": [
+      "0xe8537a3d056DA446677B9E9d6c5dB704EaAb4787",
+      "360"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "SortedOracles",
+    "address": "0xefB84935239dAcdecF7c5bA76d8dE40b077B7b33",
+    "function": "setTokenReportExpiry",
+    "args": [
+      "0xA1A8003936862E7a15092A91898D69fa8bCE290c",
+      "360"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "SortedOracles",
+    "address": "0xefB84935239dAcdecF7c5bA76d8dE40b077B7b33",
+    "function": "setTokenReportExpiry",
+    "args": [
+      "0x206B25Ea01E188Ee243131aFdE526bA6E131a016",
+      "360"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "SortedOracles",
+    "address": "0xefB84935239dAcdecF7c5bA76d8dE40b077B7b33",
+    "function": "setTokenReportExpiry",
+    "args": [
+      "0x25F21A1f97607Edf6852339fad709728cffb9a9d",
+      "360"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "SortedOracles",
+    "address": "0xefB84935239dAcdecF7c5bA76d8dE40b077B7b33",
+    "function": "setTokenReportExpiry",
+    "args": [
+      "0x26076B9702885d475ac8c3dB3Bd9F250Dc5A318B",
+      "360"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "SortedOracles",
+    "address": "0xefB84935239dAcdecF7c5bA76d8dE40b077B7b33",
+    "function": "setTokenReportExpiry",
+    "args": [
+      "0x73F93dcc49cB8A239e2032663e9475dd5ef29A08",
+      "360"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "SortedOracles",
+    "address": "0xefB84935239dAcdecF7c5bA76d8dE40b077B7b33",
+    "function": "setTokenReportExpiry",
+    "args": [
+      "0xeD35e46b095197dA30DdFFA5B91d386886d5ce0d",
+      "360"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "SortedOracles",
+    "address": "0xefB84935239dAcdecF7c5bA76d8dE40b077B7b33",
+    "function": "setTokenReportExpiry",
+    "args": [
+      "0x40dC8528167557353fdcD98548AB2139A670Dd0b",
+      "360"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "SortedOracles",
+    "address": "0xefB84935239dAcdecF7c5bA76d8dE40b077B7b33",
+    "function": "setTokenReportExpiry",
+    "args": [
+      "0x456a3D042C0DbD3db53D5489e98dFb038553B0d0",
+      "360"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "SortedOracles",
+    "address": "0xefB84935239dAcdecF7c5bA76d8dE40b077B7b33",
+    "function": "setTokenReportExpiry",
+    "args": [
+      "0xbAcEE37d31b9f022Ef5d232B9fD53F05a531c169",
+      "360"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "SortedOracles",
+    "address": "0xefB84935239dAcdecF7c5bA76d8dE40b077B7b33",
+    "function": "setTokenReportExpiry",
+    "args": [
+      "0xE06C10C63377cD098b589c0b90314bFb55751558",
+      "360"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "SortedOracles",
+    "address": "0xefB84935239dAcdecF7c5bA76d8dE40b077B7b33",
+    "function": "setTokenReportExpiry",
+    "args": [
+      "0xF4f9bBdA9CD6841fCB9b1510f9269E2dB42a6e3a",
+      "360"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "SortedOracles",
+    "address": "0xefB84935239dAcdecF7c5bA76d8dE40b077B7b33",
+    "function": "setTokenReportExpiry",
+    "args": [
+      "0x9dB83bE97C82912cB342407dd7b880983052B9c1",
+      "360"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "SortedOracles",
+    "address": "0xefB84935239dAcdecF7c5bA76d8dE40b077B7b33",
+    "function": "setTokenReportExpiry",
+    "args": [
+      "0x43620310c2FEADbFEcFd71b5A93E6e28946d64a5",
+      "360"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "SortedOracles",
+    "address": "0xefB84935239dAcdecF7c5bA76d8dE40b077B7b33",
+    "function": "setTokenReportExpiry",
+    "args": [
+      "0xab921d6ab1057601A9ae19879b111fC381a2a8E9",
+      "360"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "BiPoolManager",
+    "address": "0x22d9db95E6Ae61c104A7B6F6C78D7993B94ec901",
+    "function": "destroyExchange",
+    "args": [
+      "0x7952984d7278ca3417febf52815c321984ac3147ced2c02bb6a02b0bcab08413",
+      "14"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "BiPoolManager",
+    "address": "0x22d9db95E6Ae61c104A7B6F6C78D7993B94ec901",
+    "function": "createExchange",
+    "args": [
+      [
+        "0x765DE816845861e75A25fCA122bb6898B8B1282a",
+        "0x105d4A9306D2E55a71d2Eb95B81553AE1dC20d7B",
+        "0xDebED1F6f6ce9F6e73AA25F95acBFFE2397550Fb",
+        "0",
+        "0",
+        "0",
+        [
+          [
+            "3000000000000000000000"
+          ],
+          "0xab921d6ab1057601A9ae19879b111fC381a2a8E9",
+          "360",
+          "1",
+          "10000000000000000000000000"
+        ]
+      ]
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "BiPoolManager",
+    "address": "0x22d9db95E6Ae61c104A7B6F6C78D7993B94ec901",
+    "function": "destroyExchange",
+    "args": [
+      "0x773bcec109cee923b5e04706044fd9d6a5121b1a6a4c059c36fdbe5b845d4e9b",
+      "13"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "BiPoolManager",
+    "address": "0x22d9db95E6Ae61c104A7B6F6C78D7993B94ec901",
+    "function": "createExchange",
+    "args": [
+      [
+        "0x765DE816845861e75A25fCA122bb6898B8B1282a",
+        "0x48065fbBE25f71C9282ddf5e1cD6D6A887483D5e",
+        "0xDebED1F6f6ce9F6e73AA25F95acBFFE2397550Fb",
+        "0",
+        "0",
+        "0",
+        [
+          [
+            "500000000000000000000"
+          ],
+          "0xE06C10C63377cD098b589c0b90314bFb55751558",
+          "360",
+          "1",
+          "12000000000000000000000000"
+        ]
+      ]
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "BiPoolManager",
+    "address": "0x22d9db95E6Ae61c104A7B6F6C78D7993B94ec901",
+    "function": "destroyExchange",
+    "args": [
+      "0x0d739efbfc30f303e8d1976c213b4040850d1af40f174f4169b846f6fd3d2f20",
+      "12"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "BiPoolManager",
+    "address": "0x22d9db95E6Ae61c104A7B6F6C78D7993B94ec901",
+    "function": "createExchange",
+    "args": [
+      [
+        "0x765DE816845861e75A25fCA122bb6898B8B1282a",
+        "0xEB466342C4d449BC9f53A865D5Cb90586f405215",
+        "0xDebED1F6f6ce9F6e73AA25F95acBFFE2397550Fb",
+        "0",
+        "0",
+        "0",
+        [
+          [
+            "2500000000000000000000"
+          ],
+          "0xA1A8003936862E7a15092A91898D69fa8bCE290c",
+          "360",
+          "1",
+          "12000000000000000000000000"
+        ]
+      ]
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "BiPoolManager",
+    "address": "0x22d9db95E6Ae61c104A7B6F6C78D7993B94ec901",
+    "function": "destroyExchange",
+    "args": [
+      "0xacc988382b66ee5456086643dcfd9a5ca43dd8f428f6ef22503d8b8013bcffd7",
+      "11"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "BiPoolManager",
+    "address": "0x22d9db95E6Ae61c104A7B6F6C78D7993B94ec901",
+    "function": "createExchange",
+    "args": [
+      [
+        "0x765DE816845861e75A25fCA122bb6898B8B1282a",
+        "0xcebA9300f2b948710d2653dD7B07f33A8B32118C",
+        "0xDebED1F6f6ce9F6e73AA25F95acBFFE2397550Fb",
+        "0",
+        "0",
+        "0",
+        [
+          [
+            "500000000000000000000"
+          ],
+          "0xA1A8003936862E7a15092A91898D69fa8bCE290c",
+          "360",
+          "1",
+          "12000000000000000000000000"
+        ]
+      ]
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "BiPoolManager",
+    "address": "0x22d9db95E6Ae61c104A7B6F6C78D7993B94ec901",
+    "function": "destroyExchange",
+    "args": [
+      "0x99be8b8341ba00914600cda701568ab27eea9aca7a32fa48c26e07b86841020c",
+      "10"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "BiPoolManager",
+    "address": "0x22d9db95E6Ae61c104A7B6F6C78D7993B94ec901",
+    "function": "createExchange",
+    "args": [
+      [
+        "0xD8763CBa276a3738E6DE85b4b3bF5FDed6D6cA73",
+        "0xcebA9300f2b948710d2653dD7B07f33A8B32118C",
+        "0xDebED1F6f6ce9F6e73AA25F95acBFFE2397550Fb",
+        "0",
+        "0",
+        "0",
+        [
+          [
+            "2500000000000000000000"
+          ],
+          "0x206B25Ea01E188Ee243131aFdE526bA6E131a016",
+          "360",
+          "1",
+          "1800000000000000000000000"
+        ]
+      ]
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "BiPoolManager",
+    "address": "0x22d9db95E6Ae61c104A7B6F6C78D7993B94ec901",
+    "function": "destroyExchange",
+    "args": [
+      "0x89de88b8eb790de26f4649f543cb6893d93635c728ac857f0926e842fb0d298b",
+      "9"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "BiPoolManager",
+    "address": "0x22d9db95E6Ae61c104A7B6F6C78D7993B94ec901",
+    "function": "createExchange",
+    "args": [
+      [
+        "0x765DE816845861e75A25fCA122bb6898B8B1282a",
+        "0x456a3D042C0DbD3db53D5489e98dFb038553B0d0",
+        "0xDebED1F6f6ce9F6e73AA25F95acBFFE2397550Fb",
+        "0",
+        "0",
+        "0",
+        [
+          [
+            "10000000000000000000000"
+          ],
+          "0xbAcEE37d31b9f022Ef5d232B9fD53F05a531c169",
+          "360",
+          "1",
+          "10000000000000000000000000"
+        ]
+      ]
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "BiPoolManager",
+    "address": "0x22d9db95E6Ae61c104A7B6F6C78D7993B94ec901",
+    "function": "destroyExchange",
+    "args": [
+      "0xcc68743c58a31c4ec3c56bca3d579409b4e2424e5f37e54a85f917b22af74e7c",
+      "8"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "BiPoolManager",
+    "address": "0x22d9db95E6Ae61c104A7B6F6C78D7993B94ec901",
+    "function": "createExchange",
+    "args": [
+      [
+        "0x73F93dcc49cB8A239e2032663e9475dd5ef29A08",
+        "0x061cc5a2C863E0C1Cb404006D559dB18A34C762d",
+        "0xDebED1F6f6ce9F6e73AA25F95acBFFE2397550Fb",
+        "0",
+        "0",
+        "0",
+        [
+          [
+            "20000000000000000000000"
+          ],
+          "0xeD35e46b095197dA30DdFFA5B91d386886d5ce0d",
+          "360",
+          "1",
+          "656000000000000000000000000"
+        ]
+      ]
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "BiPoolManager",
+    "address": "0x22d9db95E6Ae61c104A7B6F6C78D7993B94ec901",
+    "function": "destroyExchange",
+    "args": [
+      "0x269dcbdbc07fff1a4aaab9c7c03b3f629cd9bbed49aa0efebab874e4da1ffd07",
+      "7"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "BiPoolManager",
+    "address": "0x22d9db95E6Ae61c104A7B6F6C78D7993B94ec901",
+    "function": "createExchange",
+    "args": [
+      [
+        "0x73F93dcc49cB8A239e2032663e9475dd5ef29A08",
+        "0x471EcE3750Da237f93B8E339c536989b8978a438",
+        "0x0c07126d0CB30E66eF7553Cc7C37143B4f06DddB",
+        "0",
+        "0",
+        "0",
+        [
+          [
+            "20000000000000000000000"
+          ],
+          "0x73F93dcc49cB8A239e2032663e9475dd5ef29A08",
+          "360",
+          "1",
+          "164000000000000000000000000"
+        ]
+      ]
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "BiPoolManager",
+    "address": "0x22d9db95E6Ae61c104A7B6F6C78D7993B94ec901",
+    "function": "destroyExchange",
+    "args": [
+      "0xfca6d94b46122eb9a4b86cf9d3e1e856fea8a826d0fc26c5baf17c43fbaf0f48",
+      "6"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "BiPoolManager",
+    "address": "0x22d9db95E6Ae61c104A7B6F6C78D7993B94ec901",
+    "function": "createExchange",
+    "args": [
+      [
+        "0xD8763CBa276a3738E6DE85b4b3bF5FDed6D6cA73",
+        "0x061cc5a2C863E0C1Cb404006D559dB18A34C762d",
+        "0xDebED1F6f6ce9F6e73AA25F95acBFFE2397550Fb",
+        "0",
+        "0",
+        "0",
+        [
+          [
+            "5000000000000000000000"
+          ],
+          "0x26076B9702885d475ac8c3dB3Bd9F250Dc5A318B",
+          "360",
+          "1",
+          "12000000000000000000000000"
+        ]
+      ]
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "BiPoolManager",
+    "address": "0x22d9db95E6Ae61c104A7B6F6C78D7993B94ec901",
+    "function": "destroyExchange",
+    "args": [
+      "0x40c8472edd23f2976b0503db2692e8f06f0eb52db690e84697cad36a6b44e2df",
+      "5"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "BiPoolManager",
+    "address": "0x22d9db95E6Ae61c104A7B6F6C78D7993B94ec901",
+    "function": "createExchange",
+    "args": [
+      [
+        "0xe8537a3d056DA446677B9E9d6c5dB704EaAb4787",
+        "0xEB466342C4d449BC9f53A865D5Cb90586f405215",
+        "0xDebED1F6f6ce9F6e73AA25F95acBFFE2397550Fb",
+        "0",
+        "0",
+        "0",
+        [
+          [
+            "5000000000000000000000"
+          ],
+          "0x25F21A1f97607Edf6852339fad709728cffb9a9d",
+          "360",
+          "1",
+          "1800000000000000000000000"
+        ]
+      ]
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "BiPoolManager",
+    "address": "0x22d9db95E6Ae61c104A7B6F6C78D7993B94ec901",
+    "function": "destroyExchange",
+    "args": [
+      "0xf418803158d881fda22694067bf6479476cec22ecfeeca2f6a65a6259bdbb9c0",
+      "4"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "BiPoolManager",
+    "address": "0x22d9db95E6Ae61c104A7B6F6C78D7993B94ec901",
+    "function": "createExchange",
+    "args": [
+      [
+        "0xD8763CBa276a3738E6DE85b4b3bF5FDed6D6cA73",
+        "0xEB466342C4d449BC9f53A865D5Cb90586f405215",
+        "0xDebED1F6f6ce9F6e73AA25F95acBFFE2397550Fb",
+        "0",
+        "0",
+        "0",
+        [
+          [
+            "5000000000000000000000"
+          ],
+          "0x206B25Ea01E188Ee243131aFdE526bA6E131a016",
+          "360",
+          "1",
+          "1800000000000000000000000"
+        ]
+      ]
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "BiPoolManager",
+    "address": "0x22d9db95E6Ae61c104A7B6F6C78D7993B94ec901",
+    "function": "destroyExchange",
+    "args": [
+      "0xe8693b17c0f002f6a2fe839525557cef10dfeacef9e16c9bbdcb01c57933ce58",
+      "3"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "BiPoolManager",
+    "address": "0x22d9db95E6Ae61c104A7B6F6C78D7993B94ec901",
+    "function": "createExchange",
+    "args": [
+      [
+        "0xe8537a3d056DA446677B9E9d6c5dB704EaAb4787",
+        "0xcebA9300f2b948710d2653dD7B07f33A8B32118C",
+        "0xDebED1F6f6ce9F6e73AA25F95acBFFE2397550Fb",
+        "0",
+        "0",
+        "0",
+        [
+          [
+            "2500000000000000000000"
+          ],
+          "0x25F21A1f97607Edf6852339fad709728cffb9a9d",
+          "360",
+          "1",
+          "1800000000000000000000000"
+        ]
+      ]
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "BiPoolManager",
+    "address": "0x22d9db95E6Ae61c104A7B6F6C78D7993B94ec901",
+    "function": "destroyExchange",
+    "args": [
+      "0xed0528e42b9ecae538aab34b93813e08de03f8ac4a894b277ef193e67275bbae",
+      "2"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "BiPoolManager",
+    "address": "0x22d9db95E6Ae61c104A7B6F6C78D7993B94ec901",
+    "function": "createExchange",
+    "args": [
+      [
+        "0xe8537a3d056DA446677B9E9d6c5dB704EaAb4787",
+        "0x471EcE3750Da237f93B8E339c536989b8978a438",
+        "0x0c07126d0CB30E66eF7553Cc7C37143B4f06DddB",
+        "0",
+        "0",
+        "0",
+        [
+          [
+            "2500000000000000000000"
+          ],
+          "0xe8537a3d056DA446677B9E9d6c5dB704EaAb4787",
+          "360",
+          "1",
+          "3000000000000000000000000"
+        ]
+      ]
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "BiPoolManager",
+    "address": "0x22d9db95E6Ae61c104A7B6F6C78D7993B94ec901",
+    "function": "destroyExchange",
+    "args": [
+      "0xb73ffc6b5123de3c8e460490543ab93a3be7d70824f1666343df49e219199b8c",
+      "1"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "BiPoolManager",
+    "address": "0x22d9db95E6Ae61c104A7B6F6C78D7993B94ec901",
+    "function": "createExchange",
+    "args": [
+      [
+        "0xD8763CBa276a3738E6DE85b4b3bF5FDed6D6cA73",
+        "0x471EcE3750Da237f93B8E339c536989b8978a438",
+        "0x0c07126d0CB30E66eF7553Cc7C37143B4f06DddB",
+        "0",
+        "0",
+        "0",
+        [
+          [
+            "2500000000000000000000"
+          ],
+          "0xD8763CBa276a3738E6DE85b4b3bF5FDed6D6cA73",
+          "360",
+          "1",
+          "1800000000000000000000000"
+        ]
+      ]
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "BiPoolManager",
+    "address": "0x22d9db95E6Ae61c104A7B6F6C78D7993B94ec901",
+    "function": "destroyExchange",
+    "args": [
+      "0x3135b662c38265d0655177091f1b647b4fef511103d06c016efdf18b46930d2c",
+      "0"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "BiPoolManager",
+    "address": "0x22d9db95E6Ae61c104A7B6F6C78D7993B94ec901",
+    "function": "createExchange",
+    "args": [
+      [
+        "0x765DE816845861e75A25fCA122bb6898B8B1282a",
+        "0x471EcE3750Da237f93B8E339c536989b8978a438",
+        "0x0c07126d0CB30E66eF7553Cc7C37143B4f06DddB",
+        "0",
+        "0",
+        "0",
+        [
+          [
+            "2500000000000000000000"
+          ],
+          "0x765DE816845861e75A25fCA122bb6898B8B1282a",
+          "360",
+          "1",
+          "3000000000000000000000000"
+        ]
+      ]
+    ],
+    "value": "0"
+  }
+]
