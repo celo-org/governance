@@ -1,0 +1,222 @@
+**Receiver Entity:** Celo Governance
+**Status:** DRAFT
+**Title:** Stabila Season 1 Funding Request: DeFi Flywheel Infrastructure & Incentives
+**Authors:** @MichaelKwan
+**Type of Request:** Funding
+**Funding Request:** 500,000 cUSD + 2,885,246 CELO
+
+---
+## Overview *(please provide an overview of your proposal)*
+ 
+- CGP193
+ 
+### Status *(Please pick the status of your proposal, first status is always DRAFT)*
+
+- DRAFT 
+ 
+### Proposal Description
+
+**Summary:**
+On behalf of the Stabila Foundation, this proposal requests $1,380,000 USD equivalent in funding to support DeFi infrastructure and incentive programs from July to December 2025. This proposal falls under the “DeFi Flywheel Infrastructure & Incentives” category and directly supports [Celo Governance Season 1](https://forum.celo.org/t/celo-governance-season-1-intent/11573) Intent to grow TVL on Celo.
+
+**Funding Breakdown:**
+* 500,000 cUSD
+* 2,885,246 CELO (equivalent to $880,000 USD, using the 30-day trailing average CELO price of $0.305 from June 24 - July 23, 2025)
+
+**Key goals:**
+* Deepen stablecoin liquidity and FX trading on Celo
+* Strengthen lending markets and collateral options
+* Launch and scale infrastructure critical to long-term DeFi growth
+---
+**Motivation:**
+[Celo’s Vision 2030](https://forum.celo.org/t/celebrating-celo-s-five-years-vision-2030-a-trillion-dollar-onchain-economy-built-on-celo-a-battle-for-crypto-s-soul/11041) charts a path toward a trillion-dollar onchain economy - driven by real world use cases such as stablecoin payments, FX trading, lending, and identity. A composable DeFi stack is essential to realizing this vision, starting with stablecoins and expanding to borrowing/lending, perpetuals, and broader capital markets (e.g., blue-chip assets, RWAs).
+
+Originally focused on accelerating stablecoin adoption, Stabila has already begun broadening its mandate, connecting the dots across DeFi infrastructure to support a more composable and capital-efficient ecosystem on Celo.
+
+**Since launching in May 2024, Stabila has:**
+
+* Helped position Celo as the home of stablecoins with 25+ assets across 15+ currencies (e.g. BRLA, cCOP, vEUR, cCHF, COPM)
+* Coordinated incentives across 30+ Uniswap v3 pools to grow Celo’s onchain FX market to hundreds of millions in monthly volume
+* Co-launched a [$750K liquidity incentive campaign](https://x.com/growuniswap/status/1915487067905417498) with the Uniswap DAO (running through Oct 2025)
+* Supported Aave’s growth on Celo, including onboarding new collateral (e.g. wETH) and co-designing incentive strategies
+* Launching Celo’s first FX perpetuals platform, [Lynx Finance](https://app.lynx.finance/leverage?pairId=1&chainId=42220&sa=celo&mode=perps)
+* Built an active pipeline of perps, lending markets, and stablecoin issuers launching or scaling on Celo
+* (More in the → [Stabila progress report](https://forum.celo.org/t/stabila-foundation-progress-report-may-2024-june-2025/11579))
+With renewed funding, Stabila will continue scaling liquidity and expanding integrations - accelerating the DeFi flywheel and anchoring long-term TVL growth on Celo.
+
+
+---
+
+**Specification**
+This proposal funds the first half of Stabila’s 12-month roadmap with efforts expected to continue and expand in Season 2 (January - June 2026).
+
+**Scope of Work Season 1:**
+
+**1) DeFi Protocol Incentives:**
+
+* **Uniswap v3/v4:** Deepen FX stablecoin pools using Merkl incentives and complete the ongoing Uniswap DAO co-incentive campaign (through [Oct 2025](https://x.com/growuniswap/status/1915487067905417498). Explore launching Uniswap v4 on Celo to enable more advanced liquidity strategies.
+* **Velodrome:** Bootstrap liquidity for wETH and other blue-chip assets to enhance cross-chain liquidity between L2s.
+* **Aave:** Extend incentive support as part of Celo’s [$3M, 3-year incentive commitment](https://governance.aave.com/t/arfc-aave-deployment-on-celo/17636) (targeting ~$1M for July 2025 - June 2026) with a focus on deepening lending markets and onboarding new collateral (e.g., stablecoins, wETH).
+* **Morpho** (pending launch): Support Morpho’s deployment on Celo and curate FX/stablecoin lending markets to complement Aave.
+
+**2) Ad-Hoc Initiatives & Marketing (w/ Buffer)**
+
+* Scale FX-focused perpetuals on Celo, including the launch of a larger-scale platform to complement Lynx Finance
+* Collaborate with Self Protocol to pilot Sybil-resistant onboarding and targeted user incentives
+* Sponsor strategic ecosystem events aligned with DeFi, identity, or stablecoin adoption
+
+**3) Operational Capacity**
+Engage contractors/agencies to support program execution, partnerships, reporting, and community engagement.
+
+**4) Management & Administration:**
+Cover legal, compliance, and operational overhead required for program delivery.
+
+**Looking Ahead:**
+Season 1 activates core pillars of Celo’s DeFi stack, including FX perpetuals, lending markets, and onchain identity. As these initiatives scale, Stabila will focus on expanding blue-chip and real-world asset collateral, while advancing infrastructure that improves capital efficiency across trading and lending.
+
+By deepening liquidity, broadening collateral, and increasing trading activity, Celo is positioned for sustained TVL growth and greater protocol usage in Season 1 and beyond.
+
+
+---
+
+**Metrics and KPIs**
+**TVL Growth**
+* Achieve +45% growth in Celo’s DeFi TVL (measured in USD) by December 31, 2025
+* Baseline: $65.65M TVL as of June 30, 2025 (DefiLlama), with the CELO portion normalized at $0.27 per token to account for price volatility
+
+**Morpho Deployment:**
+* Successfully launch and scale Morpho on Celo with FX and blue-chip lending markets that complement Aave.
+
+**Perpetual Expansion:**
+* Launch and/or scale a Celo-native FX perpetuals exchange, expanding use cases for leveraged onchain FX trading
+
+**Self Protocol Integration:**
+* Deliver 2 live DeFi use cases that leverage [Self](https://self.xyz/) Protocol’s identity primitives for Sybil-resistant onboarding or rewards
+
+**Seasonal Reporting:** Publish forum update on spend, KPIs, and outcomes
+
+
+---
+
+**Current Status**
+Stabila currently manages several active liquidity, incentive, and user onboarding initiatives, including:
+
+* Uniswap v3 Merkl incentives, powering Celo’s on-chain FX market, including a[ 6-month co-incentive campaign](https://x.com/growuniswap/status/1915487067905417498) with the Uniswap DAO, running through October 2025.
+* [Aave liquidity and incentive support](https://forum.celo.org/t/stabila-funding-request-aave-liquidity-incentives/10163), supporting stablecoin and blue-chip collateral markets:
+* Valora Learn & Earn campaign continues onboarding new users into the Celo stablecoin ecosystem.
+
+See [Progress Report](https://forum.celo.org/t/stabila-foundation-progress-report-may-2024-june-2025/11579) for more details
+
+
+---
+
+**Timeline and Milestones**
+**Season 1 (July - December 2025):**
+Funding requested: 500,000 cUSD + 2,885,246 CELO (2,885,246 CELO = $880,000 USD equivalent using 30D trailing average price of $0.305 from June 24 - July 23, 2025)
+
+Funds will be withdrawn upon governance approval, with the exception of the **$150K allocated for Uniswap incentives for November–December**, which will not be withdrawn immediately.
+These funds are reserved for later deployment and may **be reallocated to other protocols** based on a performance review of the ongoing Uniswap DAO co-incentive campaign.
+This allows Stabila to direct incentives toward the protocols with the strongest ROI.
+
+**Key Milestones:**
+
+* Launch and or scale protocol incentives across Uniswap, Aave, Velodrome, and Morpho
+* Deploy Morpho markets
+* Launch Celo-native FX perpetuals exchange
+* Launch 2 new DeFi use cases with Self Protocol
+* Publish Season 1 progress report and KPI review by early January 2026
+
+**Season 2 (January - June 2026):**
+Pending clarity on Season 2 Governance Intents and available budget, Stabila expects to continue scaling existing initiatives while potentially supporting new programs aligned with ecosystem priorities. A follow-up funding request may be submitted, refined based on Season 1 outcomes, TVL growth, and evolving ecosystem needs.
+
+
+---
+
+**Detailed Budget**
+![image (1)](https://hackmd.io/_uploads/BywSJN-wgx.png)
+
+**Budget Notes:**
+
+**Uniswap Incentives:**
+* Stabila is midway through a **6-month, $750K co-incentive campaign** with the Uniswap DAO (Stabila: $500K, Uniswap DAO: $250K), supporting 10 pools through October 2025. In parallel, ~16 additional pools are funded solely by Stabila. Pools with UNI token incentives are DAO-matched: [Explore opportunities](https://app.merkl.xyz/?chain=42220)
+* $150K is allocated for November - December 2025 Uniswap incentives, but will not be withdrawn immediately. These funds are reserved for late Season deployment and may be reallocated to other protocols based on a performance review of the Uniswap DAO co-incentive campaign. This ensures incentives remain flexible and are directed toward the highest-performing protocols in the Celo ecosystem
+
+**Aave Incentives:**
+
+* As part of [Celo’s 3-year, $3M ecosystem incentive commitment](https://governance.aave.com/t/arfc-aave-deployment-on-celo/17636) to Aave, approximately $1M is targeted for deployment over the upcoming 12 months (July 2025–June 2026). Stabila has already deployed ~$50K in CELO incentives and holds an additional ~$250K worth of CELO from [CGP 162](https://mondo.celo.org/governance/cgp-162), earmarked for this purpose.
+* This proposal requests $200K in additional funding to stay on track with the ~$500K target for Season 1 (July–December 2025), assuming a roughly linear distribution of incentives throughout the year.
+
+**Velodrome Incentives:**
+* Velodrome, as the Superchain-native DEX, will play a key role in onboarding blue-chip assets such as wrapped ETH to the Celo ecosystem. To support this effort, Stabila is requesting $200K in funding.
+* Additionally, 750K OP tokens previously allocated to the Celo Foundation (CF) will be unlocked later this season and directed toward liquidity provision and incentive programs on Velodrome. Through this initiative, Stabila will support CF in fulfilling its commitment to Velodrome to help bootstrap growth in wETH and other native assets on Celo
+
+**Liquidity Incentives Flexibility:** Allocations may adjust mid-season based on co-incentive opportunities, market conditions, and strategic priorities. Updates will be shared in the Season 1 report.
+
+**Partner Matching Incentives:**
+Stabila has secured a 1:1 matching agreement with Mento Labs to co-incentivize Mento-issued assets across protocols such as Uniswap and Aave, aiming to amplify impact and deepen stablecoin liquidity.
+
+
+---
+
+**Payment Terms**
+Season 1 Funding Total: 500,000 cUSD and 2,885,246 CELO (equivalent to $880,000 USD using the 30-day trailing average CELO price of $0.305 from June 24 - July 23, 2025).
+
+Funds will be withdrawn immediately upon proposal approval and sent to the Stabila multisig wallet:
+* 0x9C257bDC314dc516e673728D70F45444F6e22412
+
+However, the $150K allocated for Uniswap incentives (planned for November- December 2025) will not be withdrawn immediately. These funds are reserved for later deployment and may be reallocated to other protocols based on a performance review of the current Uniswap DAO co-incentive campaign.
+
+
+---
+
+**Team**
+The Stabila Foundation manages fund allocation and oversight. At the time of this proposal, Stabila operates a 2-of-4 multisig composed of trusted Celo contributors and is in the process of onboarding an additional signer to expand to a 3 of 5 multi sig to strengthen operational security.
+
+Current Signers:
+
+Kevin Tharayil – 0x3489A2Fe2924275c6A4b05508C77802f272d6D00
+
+Productmatt – 0x1f5979355411dF24c5Ce21Df5bD9f2fff418c194
+
+Martin Volpe – 0x0159B8f51fA6eDEF721d6D87002587130CD8246c
+
+Michael Kwan – 0x78670759E39E955E55EFA52d6d4BECa86F40b498
+
+Tomer Bariach (pending) – General Partner at Flori Ventures and Chairman of Credit Collective. We will provide an update with wallet address once onboarding is complete.
+
+
+---
+
+**Additional Support/Resources**
+N/A
+
+ 
+## Proposed Changes
+ 
+Fill out the following template for each transaction in the proposal
+ 
+1. Description of transaction 1
+  - Destination:0x471EcE3750Da237f93B8E339c536989b8978a438
+  - Data: Increase CELO allowance 
+  - Value: 2885246000000000000000000 (2,885,246)
+
+2. Description of transaction 2
+  - Destination:0x765DE816845861e75A25fCA122bb6898B8B1282a
+  - Data: Increase cUSD allowance
+  - Value: 500000000000000000000000 (500,000)
+ 
+
+## Verification
+A human readable version of this proposal can be found using the following command (on-chain ID determined after submission):
+
+`$ celocli governance:show --proposalID xxx --node https://forno.celo.org`## 
+ 
+## Risks
+ 
+This proposal does not deploy or upgrade contracts or change network parameters so represent minimal risk to the network.
+
+This proposal does transfer funds from the Community Fund, but rather seeks an approval to pull funds from the fund, which means that the funds will not be lost if the approval address has a typo. 
+ 
+## Useful Links
+ 
+https://forum.celo.org/t/stabila-season-1-funding-request-defi-flywheel-infrastructure-incentives/11693
