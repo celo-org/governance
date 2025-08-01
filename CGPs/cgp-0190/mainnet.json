@@ -17,5 +17,14 @@
             60000
         ],
         "value": "0"
+    },
+    {
+        "contract": "FeeHandler",
+        "function": "addToken",
+        "args": [
+            "0x4f604735c1cf31399c6e711d5962b2b3e0225ad3",
+            "0x399e78488ecC13794f4a4d9534c20a8c1A6e5A8b"
+        ],
+        "value": "0"
     }
 ]
