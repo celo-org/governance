@@ -16,16 +16,18 @@ date-executed: 0000-00-00 - <ISO 8601 (yyyy-mm-dd) if executed, or empty>
 - Explain what benefits the enhancement this change will bring. To the extent possible, enumerate use cases affected by this CGP.
 - Once the proposal is successfully proposed on chain, update this file so that the title number matches the proposal ID.
  
-#Proposed Changes
+# Proposed Changes
 Fill out the following template for each transaction in the proposal
- 
+
+## Transaction Descriptions
 1. Description of transaction 1
   - Destination: A human readable description of the address and method being called
   - Data: A human readable description of the transaction data
   - Value: How much CELO is being sent, and why?
 
 ## Jsoon Script
- 
+<!-- Please include here the json script to be executed -->
+
 # Verification
 An explanation of how voters can verify that this CGP does what it intends to do. Can be left as “TODO” until the proposal is made. Include things like CLI commands to run and pointers to code.
  
