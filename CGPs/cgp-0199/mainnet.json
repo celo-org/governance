@@ -1,0 +1,22 @@
+[
+  {
+    "contract": "GoldToken",
+    "address": "0x471EcE3750Da237f93B8E339c536989b8978a438",
+    "function": "approve",
+    "args": [
+      "0x9D7BC0ED7E53C9d8bDdaC8Ce7DfF77ABA54022D5",
+      "9147160000000000000000000"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "StableToken",
+    "address": "0x765DE816845861e75A25fCA122bb6898B8B1282a",
+    "function": "approve",
+    "args": [
+      "0x9D7BC0ED7E53C9d8bDdaC8Ce7DfF77ABA54022D5",
+      "300000000000000000000000"
+    ],
+    "value": "0"
+  }
+]
