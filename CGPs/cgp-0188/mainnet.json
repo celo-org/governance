@@ -1,0 +1,66 @@
+[
+  {
+    "contract": "AccountsProxy",
+    "function": "_setImplementation",
+    "args": [
+      "0x907f5C53C0E31dB06aF45BC58F076563469c525a"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "ElectionProxy",
+    "function": "_setImplementation",
+    "args": [
+      "0xbD7d392BB2eF07063256E875f363d4fb2931780e"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "EpochRewardsProxy",
+    "function": "_setImplementation",
+    "args": [
+      "0x33285Cab4Df24F37899DC14f324530661c63464b"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "GoldTokenProxy",
+    "function": "_setImplementation",
+    "args": [
+      "0xFeA1B35f1D5f2A58532a70e7A32e6F2D3Bc4F7B1"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "GovernanceProxy",
+    "function": "_setImplementation",
+    "args": [
+      "0x40bCA46d9f7DB71ECaa1e76655C3038A5a1824e6"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "GovernanceSlasherProxy",
+    "function": "_setImplementation",
+    "args": [
+      "0xed1073CE5fe09F2310F0993C0b558A92d46Dbe14"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "EpochManagerProxy",
+    "function": "_setImplementation",
+    "args": [
+      "0x2f95928BCb41C4BC9468F95189cccEEbED530c0e"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "ValidatorsProxy",
+    "function": "_setImplementation",
+    "args": [
+      "0xA47961bf08da4267825866757f6e469a40c8dC95"
+    ],
+    "value": "0"
+  }
+]
