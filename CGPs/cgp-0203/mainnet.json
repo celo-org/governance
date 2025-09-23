@@ -1,0 +1,21 @@
+[
+    {
+        "contract": "FeeCurrencyDirectory",
+        "function": "setCurrencyConfig",
+        "args": [
+            "0xD221812de1BD094f35587EE8E174B07B6167D9Af",
+            "0xFdd8bD58115FfBf04e47411c1d228eCC45E93075",
+            90000
+        ],
+        "value": "0"
+    },
+    {
+        "contract": "FeeHandler",
+        "function": "addToken",
+        "args": [
+            "0xD221812de1BD094f35587EE8E174B07B6167D9Af",
+            "0x4eFa274B7e33476C961065000D58ee09F7921A74"
+        ],
+        "value": "0"
+    }
+]
