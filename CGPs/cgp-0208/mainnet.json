@@ -1,0 +1,10 @@
+[
+  {
+    "contract": "EpochManagerProxy",
+    "function": "_setImplementation",
+    "args": [
+      "0x4EFa94F406F528EC092B896ea8b0DdffE38BC05e"
+    ],
+    "value": "0"
+  }
+]

@@ -1,0 +1,29 @@
+[
+   {
+      "contract": "Registry",
+      "function": "setAddressFor",
+      "args": [
+        "EpochManager",
+        "0xD533Ca259b330c7A88f74E000a3FaEa2d63B7972"
+      ],
+      "value": "0",
+      "description": "Registry: EpochManager -> 0xD533Ca259b330c7A88f74E000a3FaEa2d63B7972"
+    },
+    {
+        "contract": "CeloUnreleasedTreasury",
+        "function": "release",
+        "args": ["0x9380fA34Fd9e4Fd14c06305fd7B6199089eD4eb9", "4152769047528496500000000"],
+        "value": "0",
+        "description": "CeloUnreleasedTreasury: release 4152769.0475284965 CELO to 0x9380fA34Fd9e4Fd14c06305fd7B6199089eD4eb9"
+    },
+    {
+      "contract": "Registry",
+      "function": "setAddressFor",
+      "args": [
+        "EpochManager",
+        "0xF424B5e85B290b66aC20f8A9EAB75E25a526725E"
+      ],
+      "value": "0",
+      "description": "Registry: EpochManager -> 0xF424B5e85B290b66aC20f8A9EAB75E25a526725E"
+    }
+]
