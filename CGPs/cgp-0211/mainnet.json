@@ -1,0 +1,21 @@
+[
+    {
+        "contract": "FeeCurrencyDirectory",
+        "function": "removeCurrencies",
+        "args": [
+            "0xD221812de1BD094f35587EE8E174B07B6167D9Af",
+            17
+        ],
+        "value": "0"
+    },
+    {
+        "contract": "FeeCurrencyDirectory",
+        "function": "setCurrencyConfig",
+        "args": [
+            "0xD221812de1BD094f35587EE8E174B07B6167D9Af",
+            "0xefB84935239dAcdecF7c5bA76d8dE40b077B7b33",
+            90000
+        ],
+        "value": "0"
+    }
+]
