@@ -8,7 +8,7 @@ Each entry includes the agenda, meeting notes, and a recording (when available).
 |  №  |      Date       | Agenda | Notes | Recording |
 |:---:|:---------------:|:------:|:-----:|:---------:|
 | XX  | Month DD, YYYY | [Agenda]() | [Notes-TBU]() | [Video-TBU]() |
-| 80  | Nov 6, 2025 | [Agenda](https://github.com/celo-org/governance/issues/731)           | [Notes](TBU)                            | [Video](TBU)                 |
+| 80  | Nov 6, 2025 | [Agenda](https://github.com/celo-org/governance/issues/731)           | [Notes](https://docs.google.com/document/d/145DJCNc9bBTlLho6iGj7YdQA8dzDIM2AHm0CvtNKtVA)                            | [Video](https://drive.google.com/file/d/1OmEce_o0rdlbdilhDSjHPHxQKOLXxlCQ)                 |
 | 79  | Oct 23, 2025 | [Agenda](https://github.com/celo-org/governance/issues/727)           | [Notes](https://docs.google.com/document/d/1_Q-TObPOfTf1KYvKPc5JDZ7r4bX_jzBkfsK4JxnNgt8)                            | [Video](https://drive.google.com/file/d/1NgA52VhzQaIHyw8bC7l24IRr0dobch4G)                 |
 | 78  | Oct 9, 2025 | [Agenda](https://github.com/celo-org/governance/issues/723)           | [Notes](https://docs.google.com/document/d/1MhOBR2GwkypLBbh_zxg0jfgvcZ1maRnzmKjB79pynjs)                            | [Video](https://drive.google.com/file/d/1R_S5UeqH4EwedNC9Q1LRo1KI-GX2LCwi)                 |
 | 77  | Sep 18, 2025 | [Agenda](https://github.com/celo-org/governance/issues/716)           | [Notes](https://docs.google.com/document/d/1x60TrWW8RKP6tTYWcEjdkLTxClP6l8sL-cILHy3UoIM)                            | [Video](https://drive.google.com/file/d/1apECSHX2c989YysyzqW-rqjJ7Y_OmTRS)                 |
