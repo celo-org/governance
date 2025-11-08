@@ -19,9 +19,8 @@ Emeritus CGP Editors are:
 
 We regularly hold governance calls to discuss proposals. 
 
-## Historical Call Summary
-
-Find the summary of past calls [here](https://github.com/celo-org/governance/blob/main/Call%20Log.md).
+# Historical Call Summary
+- Find the summary of past calls [here](https://github.com/celo-org/governance/blob/main/Call_Log.md).
 
 
 
