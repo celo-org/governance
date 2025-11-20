@@ -5,11 +5,7 @@
 
 ### Submission
 
-Any Celo account can submit a proposal to the [Governance smart contract](https://docs.celo.org/cli/governance#celocli-governancebuild-proposal) to change features on Celo. Using Celo CLI, an account must send a transaction that includes the following: title, link to the proposal description in GitHub, the json file attached to the proposal *(If needed)* and a deposit of 10,000 CELO. Once the proposal is issued on-chain, the proposals enter a queue. Each day, the top 3 proposals in the queue move on to the Approval phase. If there are fewer than three proposals in the queue, all of them may move onto the approval phase.
-
-### Approval
-
-If the proposal moves onto this stage, the original proposer can withdraw the 10,000 CELO deposit. In this phase, 3 of 9 multi-signature addresses held by individuals selected from the Celo Foundation must approve the proposal within one day. If the Approvers do not approve the proposal within one day, the proposal expires.
+Any Celo account can submit a proposal to the [Governance smart contract](https://docs.celo.org/cli/governance#celocli-governancebuild-proposal) to change features on Celo. Using Celo CLI, an account must send a transaction that includes the following: title, link to the proposal description in GitHub, the json file attached to the proposal *(If needed)* and a deposit of 10,000 CELO. Once the proposal is issued on-chain, the proposals enter a queue. Each day, the top 3 proposals in the queue are eligible to be dequeueds and move on to the Referendum phase. If there are fewer than three proposals in the queue, all of them may move on to the Referendum phase. Once dequeued, the original proposer can withdraw the 10,000 CELO deposit. 
 
 ### Referendum
 
@@ -23,6 +19,10 @@ The proposal must pass a minimum threshold for participation and agreement:
 
 * A proposal must have a majority of "yes" votes relative to “no” votes to pass. 
 
+### Approval (Required Before Execution)
+
+**Approval is not a separate stage**, but rather a requirement that must be satisfied before a proposal can be executed. During the Referendum or Execution phases, 3 of 9 approvers on the Approve Multisig must confirm the proposal.  A proposal cannot be executed until it receives this approval, regardless of when the approval is granted.
+
 ### Execution
 
-If the proposal passes the Referendum stage, it moves to the Execution phase. Any Celo account can [issue a special transaction](https://docs.celo.org/cli/governance#celocli-governanceexecute) that upgrades the protocol code *(executes the json file submitted in previous steps)*, but the proposal creator is typically responsible for executing the proposal. If no Celo account sends the execution transaction within three days after it passes, the proposal will be automatically rejected.
+If the proposal passes the Referendum stage, it moves to the Execution phase. However, the proposal must also receive approval from the Approvers before it can be executed. Once approved, any Celo account can [issue a special transaction](https://docs.celo.org/cli/governance#celocli-governanceexecute) that upgrades the protocol code *(executes the json file submitted in previous steps)*, but the proposal creator is typically responsible for executing the proposal. If no Celo account sends the execution transaction within three days after it passes, the proposal will be automatically rejected.

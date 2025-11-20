@@ -86,32 +86,33 @@ These are the minimum steps needed to move a proposal through the governance pro
 
 <details>
 	<summary>2. Submission</summary>
-    
+
 1. Submit your proposal using the Celo Command Line Interface *(Celo CLI)*. This includes a 10,000 CELO deposit.
-1. Locked CELO holders vote on proposals in this phase each day, and the top 3 proposals each day move on to the Approval phase.
+1. Locked CELO holders upvote proposals in this phase each day, and the top 3 proposals each day are dequeued and move on to the Referendum phase.
 1. If your proposal is not in the top 3 on any day for 28 days, it expires and your deposit is burned. In practice, the volume of proposals is low enough that proposals generally clear this phase *(i.e. not dozens of proposals per month)*.
+1. Once dequeued, you can withdraw your deposit using Celo CLI.
 </details>
 
 <details>
-	<summary>3. Approval</summary>
-
-1. Withdraw your deposit using Celo CLI.
-1. To move on from this phase, the proposal needs to be approved by the Approvers *(a 3 of 9 multi-signature address held by individuals selected by the Celo Foundation)*.
-1. Approvers have 1 day to review the proposal.
-1. The Approvers may reach out with questions, so be ready to communicate with them.
-</details>
-
-<details>
-	<summary>4. Referendum</summary>
+	<summary>3. Referendum</summary>
 
 1. This is the main phase of the governance process, as it determines whether the community will adopt your proposal.
 1. This phase is a community vote that lasts one week, and any Locked CELO holder can vote. Their votes are weighted by the number of Locked CELO they have.
 </details>
 
 <details>
+	<summary>4. Approval Requirement (Not a Separate Stage)</summary>
+
+1. **Approval is not a separate stage**, but rather a requirement that must be satisfied before execution.
+1. During the Referendum or Execution phases, the Approvers *(a 3 of 9 multi-signature address held by individuals selected by the Celo Foundation)* must approve the proposal.
+1. The Approvers may reach out with questions, so be ready to communicate with them.
+1. A proposal cannot be executed until it receives this approval, regardless of when the approval is granted.
+</details>
+
+<details>
 	<summary>5. Execution</summary>
 
-1. The proposal creator is generally responsible for implementing the proposal when it passes the referendum.
+1. The proposal creator is generally responsible for implementing the proposal when it passes the referendum and receives approval.
 1. The proposal must be executed within 3 days of passing the referendum. The proposal is executed using the Celo CLI.
 </details>
 
@@ -174,7 +175,7 @@ Celo Governance Guardians *(formerly known as 'CGP Editors')* review proposal dr
 	<summary>Approvers</summary>
 
 &nbsp;
-Before a proposal is voted on, it must be approved by Approvers to ensure the proposal is in the best interests of the community and that it’s worth voting on. Nominees of the Celo Foundation serve to approve proposals via a 3 of 9 multi-sig approval.
+Before a proposal can be executed, it must be approved by Approvers to ensure the proposal is in the best interests of the community. Approval can happen during the Referendum or Execution phases. Nominees of the Celo Foundation serve to approve proposals via a 3 of 9 multi-sig approval.
 </details>
 
 <details>
