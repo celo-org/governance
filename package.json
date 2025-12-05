@@ -25,6 +25,7 @@
     "zod": "^3.22.4"
   },
   "scripts": {
-    "validate": "node ./scripts/validate.js"
+    "validate": "node ./scripts/validate.js",
+    "update-stages": "node scripts/update-cgp-status.js"
   }
 }
