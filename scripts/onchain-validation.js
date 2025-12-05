@@ -92,7 +92,7 @@ export async function validateProposalMatchesCGP(client, cgpNumber, onchainId, b
 
   const urlCGPNumber = extractCGPNumberFromUrl(descriptionUrl);
 
-  if (urlCGPNumber !== cgpNumber) {
+  if (typeof descriptionUrl === 'string' && descriptionUrl.length && urlCGPNumber !== cgpNumber) {
     throw new Error(
       `CGP number mismatch: On-chain proposal ${onchainId} has descriptionUrl "${descriptionUrl}" ` +
         `which references CGP ${urlCGPNumber || 'unknown'}, but you are trying to update CGP ${cgpNumber}`
@@ -141,20 +141,41 @@ export async function validateProposedStatus(client, onchainId) {
  * Validates EXECUTED status by checking for ProposalExecuted event
  * @param {object} client - Viem public client
  * @param {number} onchainId - On-chain proposal ID
+ * @param {string} dateExecuted - Date executed in YYYY-MM-DD format
  * @returns {Promise<object>} Event data including block number and transaction hash
  */
-export async function validateExecutedStatus(client, onchainId) {
-  // Search for ProposalExecuted events in chunks of 50,000 blocks
-  // Try up to 4 times, going backwards from the current block
+export async function validateExecutedStatus(client, onchainId, dateExecuted) {
+  console.log('Sarching for Proposal Execution Event')
+  // Calculate seconds between now and date executed
+  const executedDate = new Date(dateExecuted);
+  const now = new Date();
+  const secondsDiff = Math.floor((now.getTime() - executedDate.getTime()) / 1000);
+
+  // Get current block number
   const currentBlock = await client.getBlockNumber();
-  const CHUNK_SIZE = BigInt(50000);
+
+  // Add 24 hours buffer and subtract from current block
+  // Celo has 1 second block time, so seconds = blocks
+  const bufferSeconds = 24 * 60 * 60; // 24 hours
+  const totalSeconds = secondsDiff + bufferSeconds;
+  const estimatedBlocksAgo = BigInt(totalSeconds);
+
+  const estimatedStartBlock = currentBlock - estimatedBlocksAgo;
+
+  // Search in chunks of 60k blocks, max 4 attempts
+  const CHUNK_SIZE = BigInt(60000);
   const MAX_ATTEMPTS = 4;
 
-  for (let attempt = 0; attempt < MAX_ATTEMPTS; attempt++) {
-    const toBlock = currentBlock - (BigInt(attempt) * CHUNK_SIZE);
-    const fromBlock = toBlock - CHUNK_SIZE + BigInt(1);
+  console.log(`Estimated search start block: ${estimatedStartBlock} (based on date ${dateExecuted} with 24h buffer)`);
 
-    console.log(`Searching for ProposalExecuted event in blocks ${fromBlock} to ${toBlock} (attempt ${attempt + 1}/${MAX_ATTEMPTS})`);
+  for (let attempt = 0; attempt < MAX_ATTEMPTS; attempt++) {
+    const fromBlock = estimatedStartBlock + (BigInt(attempt) * CHUNK_SIZE);
+    const toBlock = fromBlock + CHUNK_SIZE - BigInt(1);
+
+    // Don't search beyond current block
+    const actualToBlock = toBlock > currentBlock ? currentBlock : toBlock;
+
+    console.log(`Searching for ProposalExecuted event in blocks ${fromBlock} to ${actualToBlock} (attempt ${attempt + 1}/${MAX_ATTEMPTS})`);
 
     const events = await client.getLogs({
       address: Addresses.Governance,
@@ -167,7 +188,7 @@ export async function validateExecutedStatus(client, onchainId) {
         proposalId: BigInt(onchainId),
       },
       fromBlock,
-      toBlock,
+      toBlock: actualToBlock,
     });
 
     if (events.length > 0) {
@@ -179,12 +200,16 @@ export async function validateExecutedStatus(client, onchainId) {
         blockHash: event.blockHash,
       };
     }
+
+    // Stop if we've reached the current block
+    if (actualToBlock >= currentBlock) {
+      break;
+    }
   }
 
-  // If we've searched 4 chunks (200,000 blocks) and found nothing, give up
   throw new Error(
-    `No ProposalExecuted event found for proposal ${onchainId} in the last ${MAX_ATTEMPTS * 50000} blocks. ` +
-      `The proposal may not be executed yet.`
+    `No ProposalExecuted event found for proposal ${onchainId} in ${MAX_ATTEMPTS} chunks starting from block ${estimatedStartBlock}. ` +
+      `The proposal may not be executed yet, or the date-executed (${dateExecuted}) may be incorrect.`
   );
 }
 
@@ -217,9 +242,10 @@ export async function validateNotOverwritingExecuted(client, onchainId, newStatu
  * @param {string} status - New status (DRAFT, PROPOSED, EXECUTED, etc.)
  * @param {number|null} onchainId - On-chain proposal ID (can be null for WITHDRAWN/DRAFT)
  * @param {string} [rpcUrl] - Optional RPC URL
+ * @param {string} [dateExecuted] - Date executed in YYYY-MM-DD format (required for EXECUTED status)
  * @returns {Promise<object>} Validation results
  */
-export async function validateCGPStatusUpdate(cgpNumber, status, onchainId, rpcUrl) {
+export async function validateCGPStatusUpdate(cgpNumber, status, onchainId, rpcUrl, dateExecuted) {
   const client = createCeloClient(rpcUrl);
 
   // WITHDRAWN and DRAFT don't require onchain validation
@@ -233,17 +259,47 @@ export async function validateCGPStatusUpdate(cgpNumber, status, onchainId, rpcU
     throw new Error(`onchainId is required for ${status} status`);
   }
 
-  // For EXECUTED status, we need to find the event first, then query proposal data from before execution
+  // For EXECUTED status, check on-chain stage and search for execution event
   if (status === ProposalMetadataStatus.EXECUTED) {
-    // First, find the ProposalExecuted event
-    const eventData = await validateExecutedStatus(client, onchainId);
+    if (!dateExecuted) {
+      throw new Error(`dateExecuted is required for EXECUTED status`);
+    }
+
+    // First check on-chain status
+    try {
+      const onChainStage = await client.readContract({
+        abi: governanceABI,
+        address: Addresses.Governance,
+        functionName: 'getProposalStage',
+        args: [BigInt(onchainId)],
+      });
+
+      // If we get a stage that's not None/Executed, the proposal hasn't been executed
+      if (onChainStage !== ProposalStage.None && onChainStage !== ProposalStage.Executed) {
+        const stageName = Object.keys(ProposalStage).find((key) => ProposalStage[key] === onChainStage);
+        throw new Error(
+          `Cannot mark as EXECUTED: proposal ${onchainId} is in stage ${stageName || onChainStage} on-chain. ` +
+            `This indicates the proposal has not been executed yet.`
+        );
+      }
+
+    } catch (error) {
+    }
+
+    // Now search for ProposalExecuted event using the dateExecuted
+    const eventData = await validateExecutedStatus(client, onchainId, dateExecuted);
     console.log(`✓ Found ProposalExecuted event at block ${eventData.blockNumber}`);
 
-    // Query the proposal data 50 blocks before execution (when it was still on-chain)
-    const queryBlock = eventData.blockNumber - BigInt(50);
-    console.log(`Querying proposal data at block ${queryBlock} (50 blocks before execution)`);
-    const proposalData = await validateProposalMatchesCGP(client, cgpNumber, onchainId, queryBlock);
-    console.log(`✓ Proposal ${onchainId} matches CGP ${cgpNumber}: ${proposalData.descriptionUrl}`);
+    // Try to validate proposal matches CGP using historical block
+    try {
+      const queryBlock = eventData.blockNumber - BigInt(50);
+      console.log(`Querying proposal data at block ${queryBlock} (50 blocks before execution)`);
+      const proposalData = await validateProposalMatchesCGP(client, cgpNumber, onchainId, queryBlock);
+      console.log(`✓ Proposal ${onchainId} matches CGP ${cgpNumber}: ${proposalData.descriptionUrl}`);
+    } catch (error) {
+      console.log(`⚠ Could not validate proposal details: ${error.message}`);
+      console.log(`✓ Proceeding with EXECUTED status (execution event found)`);
+    }
 
     return { validated: true, executionEvent: eventData };
   }

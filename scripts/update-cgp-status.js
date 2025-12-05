@@ -125,7 +125,7 @@ export async function updateCGPStatus(cgpNumber, status, onchainId, dateExecuted
 
   // Perform on-chain validation
   console.log(`\nPerforming on-chain validation...`);
-  await validateCGPStatusUpdate(cgpNumber, status, onchainId, rpcUrl);
+  await validateCGPStatusUpdate(cgpNumber, status, onchainId, rpcUrl, dateExecuted);
   console.log(`✓ On-chain validation passed\n`);
 
   // Prepare updates
@@ -143,14 +143,45 @@ export async function updateCGPStatus(cgpNumber, status, onchainId, dateExecuted
     updates["date-executed"] = dateExecuted;
   }
 
+  // Read current frontmatter to check if changes are actually needed
+  const content = fs.readFileSync(cgpFile.filePath, "utf8");
+  const { frontMatter } = separateYamlFrontMatter(content);
+
+  // Check if the updates would actually change anything
+  const hasChanges = Object.keys(updates).some(key => {
+    return frontMatter[key] !== updates[key];
+  });
+
+  if (!hasChanges) {
+    console.log(`\nℹ️  No changes needed - the file already has the requested values:`);
+    console.log(`  status: ${frontMatter.status}`);
+    if (onchainId) {
+      console.log(`  governance-proposal-id: ${frontMatter["governance-proposal-id"]}`);
+    }
+    if (status === ProposalMetadataStatus.EXECUTED && dateExecuted) {
+      console.log(`  date-executed: ${frontMatter["date-executed"]}`);
+    }
+
+    if (dryRun) {
+      console.log(`\n✓ Dry run complete - no changes needed`);
+    } else {
+      console.log(`\n✓ File already up to date - no changes made`);
+    }
+
+    return {
+      file: cgpFile.fileName,
+      updates,
+      noChangesNeeded: true,
+      dryRun,
+    };
+  }
+
   // Update the file (or just show what would be updated in dry-run mode)
   if (dryRun) {
     console.log(`\n📋 Changes that would be applied:`);
     console.log(`File: ${cgpFile.fileName}`);
     console.log(`Updates:`, updates);
 
-    const content = fs.readFileSync(cgpFile.filePath, "utf8");
-    const { frontMatter } = separateYamlFrontMatter(content);
     const wouldBeFrontMatter = { ...frontMatter, ...updates };
 
     console.log(`\n--- Current Front Matter ---`);
