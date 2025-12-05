@@ -145,7 +145,7 @@ export async function validateProposedStatus(client, onchainId) {
  * @returns {Promise<object>} Event data including block number and transaction hash
  */
 export async function validateExecutedStatus(client, onchainId, dateExecuted) {
-  console.log('Sarching for Proposal Execution Event')
+  console.log('Searching for Proposal Execution Event')
   // Calculate seconds between now and date executed
   const executedDate = new Date(dateExecuted);
   const now = new Date();
@@ -266,25 +266,23 @@ export async function validateCGPStatusUpdate(cgpNumber, status, onchainId, rpcU
     }
 
     // First check on-chain status
-    try {
-      const onChainStage = await client.readContract({
-        abi: governanceABI,
-        address: Addresses.Governance,
-        functionName: 'getProposalStage',
-        args: [BigInt(onchainId)],
-      });
+    const onChainStage = await client.readContract({
+      abi: governanceABI,
+      address: Addresses.Governance,
+      functionName: 'getProposalStage',
+      args: [BigInt(onchainId)],
+    });
 
-      // If we get a stage that's not None/Executed, the proposal hasn't been executed
-      if (onChainStage !== ProposalStage.None && onChainStage !== ProposalStage.Executed) {
-        const stageName = Object.keys(ProposalStage).find((key) => ProposalStage[key] === onChainStage);
-        throw new Error(
-          `Cannot mark as EXECUTED: proposal ${onchainId} is in stage ${stageName || onChainStage} on-chain. ` +
-            `This indicates the proposal has not been executed yet.`
-        );
-      }
-
-    } catch (error) {
+    if (onChainStage < ProposalStage.Referendum) {
+      const stageName = Object.keys(ProposalStage).find((key) => ProposalStage[key] === onChainStage);
+      throw new Error(
+        `Cannot mark as EXECUTED: proposal ${onchainId} is in stage ${stageName || onChainStage} on-chain. ` +
+          `This indicates the proposal has not been executed yet.`
+      );
     }
+
+    const stageName = Object.keys(ProposalStage).find((key) => ProposalStage[key] === onChainStage);
+    console.log(`✓ Proposal stage on-chain is ${stageName || onChainStage}`)
 
     // Now search for ProposalExecuted event using the dateExecuted
     const eventData = await validateExecutedStatus(client, onchainId, dateExecuted);

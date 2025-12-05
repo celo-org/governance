@@ -115,8 +115,20 @@ export async function updateCGPStatus(cgpNumber, status, onchainId, dateExecuted
     }
   }
 
+  // EXECUTED status requires dateExecuted
+  if (status === ProposalMetadataStatus.EXECUTED && !dateExecuted) {
+    throw new Error(`dateExecuted is required for EXECUTED status`);
+  }
+
   if (dateExecuted) {
     validateDate(dateExecuted);
+
+    // Ensure dateExecuted is in 2025 or later (script doesn't support older proposals)
+    const executedDate = new Date(dateExecuted);
+    const year = executedDate.getFullYear();
+    if (year < 2025) {
+      throw new Error(`dateExecuted must be in 2025 or later. Got: ${dateExecuted} (${year})`);
+    }
   }
 
   // Find the CGP file
