@@ -20,10 +20,12 @@
   "devDependencies": {
     "micromark": "^4.0.0",
     "micromark-extension-gfm-table": "^2.0.0",
+    "viem": "^2.21.54",
     "yaml": "^2.4.1",
     "zod": "^3.22.4"
   },
   "scripts": {
-    "validate": "node ./scripts/validate.js"
+    "validate": "node ./scripts/validate.js",
+    "update-stages": "node scripts/update-cgp-status.js"
   }
 }

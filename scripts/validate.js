@@ -2,8 +2,12 @@ import fs from "fs";
 import path from "path";
 import { micromark } from "micromark";
 import { gfmTable, gfmTableHtml } from "micromark-extension-gfm-table";
-import { parse as parseYaml } from "yaml";
-import { z } from "zod";
+import {
+  ProposalMetadataStatus,
+  ProposalMetadataSchema,
+  separateYamlFrontMatter,
+  validateDate,
+} from "./cgp-utils.js";
 
 const CGP_FOLDER = "./CGPs";
 const CGP_FOLDER_REGEX = /^cgp-(\d+)$/;
@@ -58,49 +62,6 @@ function validateCgpFile(fileName) {
   markdownToHtml(body, fileName);
 }
 
-function separateYamlFrontMatter(content) {
-  const frontMatterRegex = /^---\s*\n([\s\S]*?)\n---\s*\n/;
-  const match = content.match(frontMatterRegex);
-  if (!match) throw new Error("No YAML front matter found");
-
-  try {
-    const frontMatterString = match[1];
-    const frontMatter = parseYaml(frontMatterString);
-    const body = content.slice(match[0].length);
-    return { frontMatter, body };
-  } catch (error) {
-    console.error("Error parsing YAML front matter", error);
-    throw new Error(`Error parsing front matter for: ${filename}`);
-  }
-}
-
-// The enum of possible statuses for a CGP
-const ProposalMetadataStatus = {
-  DRAFT: "DRAFT",
-  PROPOSED: "PROPOSED",
-  EXECUTED: "EXECUTED",
-  EXPIRED: "EXPIRED",
-  REJECTED: "REJECTED",
-  WITHDRAWN: "WITHDRAWN",
-};
-
-/**
- * The schema as used in the CGP front matter
- */
-const DateString = z.string().regex(/^\d{4}-\d{2}-\d{2}$/);
-
-export const ProposalMetadataSchema = z
-  .object({
-    cgp: z.number().min(1),
-    title: z.string().min(1),
-    author: z.string().min(1),
-    status: z.nativeEnum(ProposalMetadataStatus),
-    "date-created": DateString.optional().or(z.null()),
-    "discussions-to": z.string().url().optional().or(z.null()),
-    "governance-proposal-id": z.number().min(1).optional().or(z.null()),
-    "date-executed": DateString.optional().or(z.null()),
-  })
-  .strict();
 
 function validateFrontMatter(data, filename) {
   try {
@@ -135,11 +96,6 @@ function validateFrontMatter(data, filename) {
   }
 }
 
-function validateDate(value) {
-  const date = new Date(value);
-  if (date instanceof Date && !isNaN(date.getTime())) return;
-  throw new Error(`Invalid date: ${value}`);
-}
 
 function markdownToHtml(body, filename) {
   try {
