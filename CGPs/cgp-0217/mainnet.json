@@ -3,7 +3,7 @@
         "contract": "EpochRewards",
         "function": "setTargetValidatorEpochPayment",
         "args": [
-            "0"
+            "41095890410000000000"
         ],
         "value": "0"
     }
