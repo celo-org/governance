@@ -1,0 +1,11 @@
+[
+    {
+        "contract": "Election",
+        "function": "setElectableValidators",
+        "args": [
+            "22",
+            "55"
+        ],
+        "value": "0"
+    }
+]
