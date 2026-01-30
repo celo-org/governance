@@ -1,0 +1,13 @@
+[
+  {
+    "contract": "GoldToken",
+    "address": "0x471EcE3750Da237f93B8E339c536989b8978a438",
+    "function": "increaseAllowance",
+    "args": [
+      "0x9C257bDC314dc516e673728D70F45444F6e22412",
+      "5622470430000000000000000"
+    ],
+    "value": "0"
+  }
+ 
+]
