@@ -1,0 +1,18 @@
+[    {
+        "contract": "ReserveProxy",
+        "address": "0x9d65E69aC940dCB469fd7C46368C1e094250a400",
+        "function": "transferCollateralAsset",
+        "args": [
+            "0x471EcE3750Da237f93B8E339c536989b8978a438",
+            "0xD533Ca259b330c7A88f74E000a3FaEa2d63B7972",
+            "4355627000000000000000000"
+        ],
+        "value": "0"
+    },
+    {
+    "contract": "GoldToken",
+    "function": "transfer",
+    "args": ["0x488deBD4B7646A44cAC389Dae4c6b55aD26C8fA6", "4355627000000000000000000"],
+    "value": "0"
+    }
+]
