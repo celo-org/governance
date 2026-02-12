@@ -1,0 +1,34 @@
+[
+  {
+    "contract": "FeeCurrencyDirectory",
+    "function": "removeCurrencies",
+    "args": ["0x0E2A3e05bc9A16F5292A6170456A710cb89C6f72", 5],
+    "value": "0"
+  },
+  {
+    "contract": "FeeCurrencyDirectory",
+    "function": "setCurrencyConfig",
+    "args": [
+      "0x0E2A3e05bc9A16F5292A6170456A710cb89C6f72",
+      "0xefB84935239dAcdecF7c5bA76d8dE40b077B7b33",
+      "85000"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "FeeCurrencyDirectory",
+    "function": "removeCurrencies",
+    "args": ["0x2F25deB3848C207fc8E0c34035B3Ba7fC157602B", 4],
+    "value": "0"
+  },
+  {
+    "contract": "FeeCurrencyDirectory",
+    "function": "setCurrencyConfig",
+    "args": [
+      "0x2F25deB3848C207fc8E0c34035B3Ba7fC157602B",
+      "0xefB84935239dAcdecF7c5bA76d8dE40b077B7b33",
+      "128000"
+    ],
+    "value": "0"
+  }
+]
