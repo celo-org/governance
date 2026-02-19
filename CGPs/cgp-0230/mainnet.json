@@ -1,18 +1,23 @@
-[    {
-        "contract": "ReserveProxy",
-        "address": "0x9d65E69aC940dCB469fd7C46368C1e094250a400",
-        "function": "transferCollateralAsset",
-        "args": [
-            "0x471EcE3750Da237f93B8E339c536989b8978a438",
-            "0xD533Ca259b330c7A88f74E000a3FaEa2d63B7972",
-            "43012777340972869827370586"
-        ],
-        "value": "0"
-    },
-    {
-    "contract": "GoldToken",
-    "function": "transfer",
-    "args": ["0xd71efa410B6EaAB0bAc3b515B393C886BE70F09E", "21738286000000000000000000"],
+[
+  {
+    "contract": "ReserveProxy",
+    "address": "0x9d65E69aC940dCB469fd7C46368C1e094250a400",
+    "function": "transferCollateralAsset",
+    "args": [
+      "0x471EcE3750Da237f93B8E339c536989b8978a438",
+      "0xD533Ca259b330c7A88f74E000a3FaEa2d63B7972",
+      "43012777340972869827370586"
+    ],
     "value": "0"
-    }
+  },
+  {
+    "contract": "GoldToken",
+    "address": "0x471EcE3750Da237f93B8E339c536989b8978a438",
+    "function": "increaseAllowance",
+    "args": [
+      "0xd71efa410B6EaAB0bAc3b515B393C886BE70F09E",
+      "21738286000000000000000000"
+    ],
+    "value": "0"
+  }
 ]
