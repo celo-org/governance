@@ -8,6 +8,8 @@ Each entry includes the agenda, meeting notes, and a recording (when available).
 |  №  |      Date       | Agenda | Notes | Recording |
 |:---:|:---------------:|:------:|:-----:|:---------:|
 | XX  | Month DD, YYYY | [Agenda]() | [Notes-TBU]() | [Video-TBU]() |
+| 86  | Feb 19, 2026 | [Agenda](https://github.com/celo-org/governance/issues/778) | [Notes](https://docs.google.com/document/d/1ZDQ3X1__hj_RTe_mdM_5Jih_EN7Cy-oU6LkRtPpz_MA) | [Video](https://drive.google.com/file/d/1YnNuE0sokZE39IHTXMFIm6jYmxOeIf2M) |
+| 85  | Feb 12, 2026 | [Agenda](https://github.com/celo-org/governance/issues/772) | [Notes](https://docs.google.com/document/d/1PSwMgWZQi6rCJAIvm1suAhf01oUVMYmrQv2-Vjr5kaU) | [Video](https://drive.google.com/file/d/1fRM9V_7UAenqui5kTb-_0J28sNNTY7_V) |
 | 84  | Feb 5, 2026 | [Agenda](https://github.com/celo-org/governance/issues/758) | [Notes](https://docs.google.com/document/d/1HOABUo3etEPh4W3ttHvEyUkdTI0LE4ttRDeYx3Pg0Ns) | [Video](https://drive.google.com/file/d/11Id_ohBCv4aMyTNFZ60b4NfzPchTUcDC) |
 | 83  | Jan 29, 2026 | [Agenda](https://github.com/celo-org/governance/issues/757) | [Notes](https://docs.google.com/document/d/1Z8eElXpEdwpX9I_GzxGW93utecWEl8XvlSAh6DGyfsQ) | [Video](https://drive.google.com/file/d/1MlpDL1bN8g5c11s_l_8EA7hzDRPisLps) |
 | 82  | Jan 22, 2026 | [Agenda](https://github.com/celo-org/governance/issues/751) | [Notes](https://docs.google.com/document/d/1GzwfiN1D2HcW3cjBiOabt9hAWG6zdm-UfuOQRgP2B1k) | [Video](https://drive.google.com/file/d/1y8diRrr3Rzj3L2jrOp4vs7fna1qpAY5i) |
