@@ -1,0 +1,10 @@
+[
+  {
+    "contract": "GovernanceProxy",
+    "function": "_setImplementation",
+    "args": [
+      "0x40cac0be7e25b14e39f782d5b7e5c3076aa6c57a"
+    ],
+    "value": "0"
+  }
+]
