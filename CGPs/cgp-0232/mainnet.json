@@ -1,0 +1,48 @@
+[
+  {
+    "contract": "CeloUnreleasedTreasuryProxy",
+    "address": "0x7A8c7a833565fc428cdFBa20FE03fAfb178A434f",
+    "function": "_setAndInitializeImplementation",
+    "args": [
+      "0x555Bece14898D5cf5D7927F0E1D943C725793A4f",
+      "0x4e91db0800000000000000000000000000000000000000000000000000000000000000030000000000000000000000000000000000000000000000000000000000000001"
+    ],
+    "value": "0",
+    "description": "Temporarily point CeloUnreleasedTreasury proxy to StorageSetter and reset hasAlreadyReleased to false (slot 3: initialized=true, hasAlreadyReleased=false)"
+  },
+  {
+    "contract": "CeloUnreleasedTreasuryProxy",
+    "address": "0x7A8c7a833565fc428cdFBa20FE03fAfb178A434f",
+    "function": "_setImplementation",
+    "args": ["0x0148a25D13CbD39D2fF5749369356cBDE20EC9d7"],
+    "value": "0",
+    "description": "Restore CeloUnreleasedTreasury original implementation"
+  },
+  {
+    "contract": "Registry",
+    "address": "0x000000000000000000000000000000000000ce10",
+    "function": "setAddressFor",
+    "args": ["EpochManager", "0xD533Ca259b330c7A88f74E000a3FaEa2d63B7972"],
+    "value": "0",
+    "description": "Temporarily set Governance as EpochManager in Registry"
+  },
+  {
+    "contract": "CeloUnreleasedTreasury",
+    "address": "0x7A8c7a833565fc428cdFBa20FE03fAfb178A434f",
+    "function": "release",
+    "args": [
+      "0x000000000000000000000000000000000000dEaD",
+      "150000000000000000000000000"
+    ],
+    "value": "0",
+    "description": "Transfer 150,000,000 CELO to 0x...dEaD (re-snapshots balance since hasAlreadyReleased was reset)"
+  },
+  {
+    "contract": "Registry",
+    "address": "0x000000000000000000000000000000000000ce10",
+    "function": "setAddressFor",
+    "args": ["EpochManager", "0xF424B5e85B290b66aC20f8A9EAB75E25a526725E"],
+    "value": "0",
+    "description": "Restore EpochManager in Registry to original address"
+  }
+]
