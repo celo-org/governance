@@ -1,0 +1,29 @@
+[
+  {
+    "contract": "Registry",
+    "address": "0x000000000000000000000000000000000000ce10",
+    "function": "setAddressFor",
+    "args": ["EpochManager", "0xD533Ca259b330c7A88f74E000a3FaEa2d63B7972"],
+    "value": "0",
+    "description": "Temporarily set Governance as EpochManager in Registry"
+  },
+  {
+    "contract": "CeloUnreleasedTreasury",
+    "address": "0x7A8c7a833565fc428cdFBa20FE03fAfb178A434f",
+    "function": "release",
+    "args": [
+      "0xF2eb5933F4585625157Fa8624a9AB91152aBD751",
+      "160000000000000000000000000"
+    ],
+    "value": "0",
+    "description": "Transfer 160,000,000 CELO to Opera Safe (0xF2eb5933F4585625157Fa8624a9AB91152aBD751)"
+  },
+  {
+    "contract": "Registry",
+    "address": "0x000000000000000000000000000000000000ce10",
+    "function": "setAddressFor",
+    "args": ["EpochManager", "0xF424B5e85B290b66aC20f8A9EAB75E25a526725E"],
+    "value": "0",
+    "description": "Restore EpochManager in Registry to original address"
+  }
+]
