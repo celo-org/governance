@@ -1,5 +1,8 @@
 # Celo Governance Repository
 
+## 🧭 Purpose
+
+This repository enables transparent and decentralized governance by allowing community members to propose, discuss, and review changes to the Celo protocol.
 This is the Celo Governance repository used for coordination by the community members.
 
 The Celo Governance Guardians *(Previously named CGP Editors)* are:
@@ -22,7 +25,9 @@ We regularly hold governance calls to discuss proposals.
 # Historical Call Summary
 - Find the summary of past calls [here](https://github.com/celo-org/governance/blob/main/Call_Log.md).
 
+## 🤝 Get Involved
 
+Celo governance is open to everyone. Whether you're a developer, validator, or community member, you can contribute by reviewing proposals, sharing feedback, and helping shape the future of the network.
 
 # Governance Overview
 Governance is, at its core, all about how a group of people working together makes decisions. Celo has an on-chain governance mechanism for working as a community to make decisions. 
@@ -32,7 +37,12 @@ This documentation is designed for proposal creators and people interested in cr
 * [Types of Celo Governance Proposals](https://github.com/celo-org/governance/blob/main/Types%20of%20Celo%20Governance%20Proposals.md)
 * [Technical Guide - Nuts & Bolts of CGP Process](https://github.com/celo-org/governance/blob/main/Technical%20Guide%20-%20Nuts%20%26%20Bolts%20of%20the%20CGP%20Process.md)
 
+## 📂 What’s Included
 
+- Governance Proposals (CEPs)  
+- Discussions and community feedback  
+- Protocol upgrades and changes  
+- Governance documentation  
 The following points summarize the key context for Celo governance:
 <details>
 	<summary>What is Celo Governance?</summary>
