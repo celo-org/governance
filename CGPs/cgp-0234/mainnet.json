@@ -1,0 +1,12 @@
+[
+  {
+    "contract": "GoldToken",
+    "address": "0x471EcE3750Da237f93B8E339c536989b8978a438",
+    "function": "burn",
+    "args": [
+      "1748950000000000000000000"
+    ],
+    "value": "0",
+    "description": "Burn 1,748,950 CELO from the Governance contract by calling GoldToken.burn(uint256), which transfers the amount to the hardcoded BURN_ADDRESS (0x000000000000000000000000000000000000dEaD)"
+  }
+]
