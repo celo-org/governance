@@ -1,0 +1,20 @@
+[
+    {
+      "contract": "Validators",
+      "function": "setGroupLockedGoldRequirements",
+      "args": [
+        "10000000000000000000000",
+        "604800"
+      ],
+      "value": "0"
+    },
+    {
+        "contract": "Validators",
+        "function": "setValidatorLockedGoldRequirements",
+        "args": [
+            "10000000000000000000000",
+            "259200"
+        ],
+        "value": "0"
+    }
+]
