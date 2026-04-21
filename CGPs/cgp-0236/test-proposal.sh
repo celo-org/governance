@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
-# CGP-0235: Pause Carbon Fund Payments — Anvil Fork Test
+# CGP-0236: Pause Carbon Fund Payments — Anvil Fork Test
 #
 # Forks Celo mainnet, executes the proposal via governance impersonation,
 # and verifies epoch processing and fee distribution still work correctly.
 #
 # Prerequisites: foundry (anvil + cast) installed
-# Usage: bash CGPs/cgp-0235/test-proposal.sh
+# Usage: bash CGPs/cgp-0236/test-proposal.sh
 
 set -euo pipefail
 
@@ -167,7 +167,7 @@ log "  Current carbon reward per epoch: $PRE_CARBON_REWARD wei (~$(echo "scale=4
 
 # ── 3. Execute Proposal ─────────────────────────────────────────────────────
 
-section "Executing CGP-0235 Proposal Transactions"
+section "Executing CGP-0236 Proposal Transactions"
 
 log "Tx 1/2: EpochRewards.setCarbonOffsettingFund(partner, 0)..."
 TX1=$(cast_send_gov "$EPOCH_REWARDS" \
