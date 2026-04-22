@@ -1,16 +1,5 @@
 [
   {
-    "contract": "EpochRewards",
-    "address": "0x07F007d389883622Ef8D4d347b3f78007f28d8b7",
-    "function": "setCarbonOffsettingFund",
-    "args": [
-      "0xCe10d577295d34782815919843a3a4ef70Dc33ce",
-      "0"
-    ],
-    "value": "0",
-    "description": "Set the carbon offsetting fraction to 0 on EpochRewards, pausing epoch-based carbon fund payments. The partner address is kept unchanged."
-  },
-  {
     "contract": "FeeHandler",
     "address": "0xcD437749E43A154C07F3553504c68fBfD56B8778",
     "function": "setCarbonFraction",
