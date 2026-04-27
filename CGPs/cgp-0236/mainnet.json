@@ -1,0 +1,12 @@
+[
+  {
+    "contract": "FeeHandler",
+    "address": "0xcD437749E43A154C07F3553504c68fBfD56B8778",
+    "function": "setCarbonFraction",
+    "args": [
+      "0"
+    ],
+    "value": "0",
+    "description": "Set the carbon fraction to 0 on FeeHandler, pausing fee-based carbon fund payments. The freed fraction is redirected to the burn."
+  }
+]
