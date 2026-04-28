@@ -11,7 +11,6 @@
   },
   {
     "contract": "FeeHandler",
-    "address": "0xcD437749E43A154C07F3553504c68fBfD56B8778",
     "function": "removeOtherBeneficiary",
     "args": [
       "0x7A1E98FC9a008107DbD1f430a05Ace8cf6f3FE19"
@@ -21,7 +20,6 @@
   },
   {
     "contract": "FeeHandler",
-    "address": "0xcD437749E43A154C07F3553504c68fBfD56B8778",
     "function": "addOtherBeneficiary",
     "args": [
       "0x7A1E98FC9a008107DbD1f430a05Ace8cf6f3FE19",
