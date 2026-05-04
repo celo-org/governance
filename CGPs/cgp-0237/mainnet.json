@@ -1,0 +1,20 @@
+[
+  {
+    "contract": "GoldToken",
+    "function": "increaseAllowance",
+    "args": [
+      "0xd71efa410B6EaAB0bAc3b515B393C886BE70F09E",
+      "697777000000000000000000"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "StableToken",
+    "function": "increaseAllowance",
+    "args": [
+      "0xd71efa410B6EaAB0bAc3b515B393C886BE70F09E",
+      "101298000000000000000000"
+    ],
+    "value": "0"
+  }
+]
