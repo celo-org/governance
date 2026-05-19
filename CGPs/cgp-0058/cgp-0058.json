@@ -1,8 +1,0 @@
-[
-      {
-        "contract": "ExchangeBRL",
-        "function": "setReserveFraction",
-        "args": ["5000000000000000000000"],
-        "value": "0"
-      }
-]

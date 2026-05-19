@@ -1,8 +1,0 @@
-[
-    {
-      "contract": "BlockchainParameters",
-      "function": "setBlockGasLimit",
-      "args": ["32000000"],
-      "value": "0"
-    }
-  ]

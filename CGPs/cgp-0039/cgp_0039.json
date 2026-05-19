@@ -1,8 +1,0 @@
-[
-  {
-    "contract": "GasPriceMinimum",
-    "function": "setTargetDensity",
-    "args": ["800000000000000000000000"],
-    "value": "0"
-  }
-]
