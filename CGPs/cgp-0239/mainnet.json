@@ -1,6 +1,6 @@
 [
   {
-    "contract": "0x78DaA21FcE4D30E74fF745Da3204764a0ad40179",
+    "contract": "StakedCeloMultiSig",
     "function": "governanceProposeAndExecute(address[],uint256[],bytes[])",
     "args": [
       [
@@ -28,6 +28,7 @@
       ]
     ],
     "value": "0",
-    "description": "Via StakedCelo MultiSig (0x78DaA21F...), call DefaultStrategy.addActivatableGroup(group) for each of the nine validator groups. Each inner payload uses selector 0xb95de2d6 (addActivatableGroup(address)). Authorization: MultiSig.governanceProposeAndExecute is onlyGovernance — only the Celo Governance proxy (0xD533Ca25...) can invoke it; the MultiSig then re-emits each call so msg.sender at DefaultStrategy is the MultiSig (= DefaultStrategy.owner())."
+    "description": "Via StakedCelo MultiSig (0x78DaA21F...), call DefaultStrategy.addActivatableGroup(group) for each of the nine validator groups. Each inner payload uses selector 0xb95de2d6 (addActivatableGroup(address)). Authorization: MultiSig.governanceProposeAndExecute is onlyGovernance — only the Celo Governance proxy (0xD533Ca25...) can invoke it; the MultiSig then re-emits each call so msg.sender at DefaultStrategy is the MultiSig (= DefaultStrategy.owner()).",
+    "address": "0x78DaA21FcE4D30E74fF745Da3204764a0ad40179"
   }
 ]
