@@ -1,0 +1,44 @@
+[
+  {
+    "contract": "FeeCurrencyDirectory",
+    "function": "setCurrencyConfig",
+    "args": [
+      "0x0357EE22278c922e1D36cFe6b899269b161880C4",
+      "0xefB84935239dAcdecF7c5bA76d8dE40b077B7b33",
+      85000
+    ],
+    "value": "0",
+    "description": "Register USA₮ FeeCurrencyWrapper as gas currency with SortedOracles (oracle) and intrinsicGas matching USDT (CGP-0230). Requires Mento governance prerequisite MGP-17: SortedOracles.setEquivalentToken(USA₮ wrapper, cUSD)."
+  },
+  {
+    "contract": "FeeHandler",
+    "function": "addToken",
+    "args": [
+      "0x0357EE22278c922e1D36cFe6b899269b161880C4",
+      "0xD3aeE28548Dbb65DF03981f0dC0713BfCBd10a97"
+    ],
+    "value": "0",
+    "description": "Add USA₮ FeeCurrencyWrapper to FeeHandler with the canonical UniswapFeeHandlerSeller as handler."
+  },
+  {
+    "contract": "FeeCurrencyDirectory",
+    "function": "setCurrencyConfig",
+    "args": [
+      "0x857BF24e29da0773687E804a743c2E421a394C16",
+      "0xefB84935239dAcdecF7c5bA76d8dE40b077B7b33",
+      85000
+    ],
+    "value": "0",
+    "description": "Register XAU₮0 FeeWrapper as gas currency with SortedOracles (oracle) and intrinsicGas matching USDT. Requires Mento governance prerequisite MGP-17: addOracle + setTokenReportExpiry + setEquivalentToken(XAU₮0 wrapper, CELO/XAUt rateFeedId)."
+  },
+  {
+    "contract": "FeeHandler",
+    "function": "addToken",
+    "args": [
+      "0x857BF24e29da0773687E804a743c2E421a394C16",
+      "0xD3aeE28548Dbb65DF03981f0dC0713BfCBd10a97"
+    ],
+    "value": "0",
+    "description": "Add XAU₮0 FeeWrapper to FeeHandler with the canonical UniswapFeeHandlerSeller as handler."
+  }
+]

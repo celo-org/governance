@@ -1,0 +1,34 @@
+[
+  {
+    "contract": "StakedCeloMultiSig",
+    "function": "governanceProposeAndExecute(address[],uint256[],bytes[])",
+    "args": [
+      [
+        "0x3A3ed74B1cC543D5EB323f70ac2F19977a0eA088",
+        "0x3A3ed74B1cC543D5EB323f70ac2F19977a0eA088",
+        "0x3A3ed74B1cC543D5EB323f70ac2F19977a0eA088",
+        "0x3A3ed74B1cC543D5EB323f70ac2F19977a0eA088",
+        "0x3A3ed74B1cC543D5EB323f70ac2F19977a0eA088",
+        "0x3A3ed74B1cC543D5EB323f70ac2F19977a0eA088",
+        "0x3A3ed74B1cC543D5EB323f70ac2F19977a0eA088",
+        "0x3A3ed74B1cC543D5EB323f70ac2F19977a0eA088",
+        "0x3A3ed74B1cC543D5EB323f70ac2F19977a0eA088"
+      ],
+      ["0", "0", "0", "0", "0", "0", "0", "0", "0"],
+      [
+        "0xb95de2d60000000000000000000000000339df3fe4f5ccc864eae8491e5c8aec4611a631",
+        "0xb95de2d600000000000000000000000070fc0b021dfdbb9a106d1ed8f35f59d3f23ecb7b",
+        "0xb95de2d6000000000000000000000000b434feb47d6154b4b4058df5c9fced123db9abf6",
+        "0xb95de2d6000000000000000000000000e141831c2c1198d79b9ff61cd97c3baca7f071e0",
+        "0xb95de2d6000000000000000000000000580f29ab04b7ed4e5aa86584d38c9317d9cf0358",
+        "0xb95de2d6000000000000000000000000481eade762d6d0b49580189b78709c9347b395bf",
+        "0xb95de2d600000000000000000000000021fb4411fa5828344c2788ab07d4cc12a12571b9",
+        "0xb95de2d60000000000000000000000003dcf2ed8dc84a63ffd2bfdc3cdb2fa0b1aeafe5c",
+        "0xb95de2d60000000000000000000000000f66619058bb9675f3d394fcc2ce236a29901571"
+      ]
+    ],
+    "value": "0",
+    "description": "Via StakedCelo MultiSig (0x78DaA21F...), call DefaultStrategy.addActivatableGroup(group) for each of the nine validator groups. Each inner payload uses selector 0xb95de2d6 (addActivatableGroup(address)). Authorization: MultiSig.governanceProposeAndExecute is onlyGovernance — only the Celo Governance proxy (0xD533Ca25...) can invoke it; the MultiSig then re-emits each call so msg.sender at DefaultStrategy is the MultiSig (= DefaultStrategy.owner()).",
+    "address": "0x78DaA21FcE4D30E74fF745Da3204764a0ad40179"
+  }
+]
