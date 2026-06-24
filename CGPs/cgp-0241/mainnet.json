@@ -1,0 +1,35 @@
+[
+  {
+    "contract": "ElectionProxy",
+    "function": "_setImplementation",
+    "args": [
+      "0x74f9e5ee4071b9b35d127000a20f8e964009cb57"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "EpochManagerProxy",
+    "function": "_setImplementation",
+    "args": [
+      "0xf31beee5e104bf62fb14f783ca31cddaaddea788"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "ValidatorsProxy",
+    "function": "_setImplementation",
+    "args": [
+      "0x13b0b89f3242f815c1fc6c9cf56e1ab5aea4dc58"
+    ],
+    "value": "0"
+  },
+  {
+    "contract": "ValidatorsProxy",
+    "function": "setMaxVoterRewardCommission",
+    "args": [
+      "1000000000000000000000000"
+    ],
+    "value": "0",
+    "description": "Set max voter reward commission to 100%"
+  }
+]
