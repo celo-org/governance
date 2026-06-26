@@ -1,0 +1,24 @@
+[
+  {
+    "contract": "StakedCeloMultiSig",
+    "function": "governanceProposeAndExecute(address[],uint256[],bytes[])",
+    "args": [
+      [
+        "0x4aAD04D41FD7fd495503731C5a2579e19054C432",
+        "0x3A3ed74B1cC543D5EB323f70ac2F19977a0eA088",
+        "0xb88af6EAc9cd146D8b03b66708EF76beBD937871",
+        "0x0239b96D10a434a56CC9E09383077A0490cF9398"
+      ],
+      ["0", "0", "0", "0"],
+      [
+        "0x3659cfe60000000000000000000000003a81b5bd5c719cd57d9122d34a093119d61c8117",
+        "0x3659cfe6000000000000000000000000ac294abf757dd2890c65751dcc095152c27b3416",
+        "0x3659cfe60000000000000000000000009cbbb5b84dc3dec31daea36c53bdfe145cb40e9d",
+        "0x3659cfe6000000000000000000000000bc465bbf2e2d71c62eda1b24061916877f6ae15e"
+      ]
+    ],
+    "value": "0",
+    "description": "Upgrade the four stCELO core contracts to new implementations via the StakedCelo MultiSig (0x78DaA21FcE4D30E74fF745Da3204764a0ad40179). The single governanceProposeAndExecute call forwards four upgradeTo(address) calls (selector 0x3659cfe6) to the OZ-UUPS proxies, in order: Account (0x4aAD04D41FD7fd495503731C5a2579e19054C432) -> 0x3a81b5bd5c719cd57d9122d34a093119d61c8117; DefaultStrategy (0x3A3ed74B1cC543D5EB323f70ac2F19977a0eA088) -> 0xac294abf757dd2890c65751dcc095152c27b3416; SpecificGroupStrategy (0xb88af6EAc9cd146D8b03b66708EF76beBD937871) -> 0x9cbbb5b84dc3dec31daea36c53bdfe145cb40e9d; Manager (0x0239b96D10a434a56CC9E09383077A0490cF9398) -> 0xbc465bbf2e2d71c62eda1b24061916877f6ae15e. Authorization: MultiSig.governanceProposeAndExecute is onlyGovernance - only the Celo Governance proxy (0xD533Ca259b330c7A88f74E000a3FaEa2d63B7972) can invoke it; the MultiSig then forwards each call so msg.sender at each proxy is the MultiSig (= proxy owner), satisfying upgradeTo's onlyOwner.",
+    "address": "0x78DaA21FcE4D30E74fF745Da3204764a0ad40179"
+  }
+]
