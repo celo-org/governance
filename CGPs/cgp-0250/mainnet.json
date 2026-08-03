@@ -1,0 +1,40 @@
+[
+  {
+    "contract": "Registry",
+    "address": "0x000000000000000000000000000000000000ce10",
+    "function": "setAddressFor",
+    "args": ["EpochManager", "0xD533Ca259b330c7A88f74E000a3FaEa2d63B7972"],
+    "value": "0",
+    "description": "Temporarily set Governance as EpochManager in Registry"
+  },
+  {
+    "contract": "CeloUnreleasedTreasury",
+    "address": "0x7A8c7a833565fc428cdFBa20FE03fAfb178A434f",
+    "function": "release",
+    "args": [
+      "0xD533Ca259b330c7A88f74E000a3FaEa2d63B7972",
+      "330000000000000000000000"
+    ],
+    "value": "0",
+    "description": "Release 330,000 CELO from the unreleased treasury to Governance (Community Fund)"
+  },
+  {
+    "contract": "Registry",
+    "address": "0x000000000000000000000000000000000000ce10",
+    "function": "setAddressFor",
+    "args": ["EpochManager", "0xF424B5e85B290b66aC20f8A9EAB75E25a526725E"],
+    "value": "0",
+    "description": "Restore EpochManager in Registry to original address"
+  },
+  {
+    "contract": "GoldToken",
+    "address": "0x471EcE3750Da237f93B8E339c536989b8978a438",
+    "function": "increaseAllowance",
+    "args": [
+      "0xc733285e8e4db433d4cd641f99C46Bf108DCb54F",
+      "330000000000000000000000"
+    ],
+    "value": "0",
+    "description": "Increase the Celo Governance Guild Safe CELO allowance by 330,000"
+  }
+]
