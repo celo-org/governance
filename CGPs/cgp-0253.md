@@ -4,7 +4,7 @@ title: "Proxy Vote for MGP-19 - Bringing Stable Asset Issuance Home to Celo Gove
 date-created: 2026-08-24
 author: "@mentoLabs"
 status: DRAFT
-discussions-to:
+discussions-to: https://forum.celo.org/t/mgp-19-bringing-mento-stable-asset-issuance-home-to-celo-governance/13750
 governance-proposal-id:
 date-executed:
 ---
@@ -15,7 +15,7 @@ This CGP lets Celo token holders direct how the Celo Community Fund's MENTO allo
 
 ## TL;DR
 
-**MGP-19: Bringing Stable Asset Issuance Home to Celo Governance** (forum link TBD) transfers on-chain ownership of the Mento stable asset issuance protocol to Celo Governance and returns 90% of the Mento Reserve's CELO position (~$3.12M) to the Celo Community Fund. Specifically, it:
+[**MGP-19: Bringing Stable Asset Issuance Home to Celo Governance**](https://forum.mento.org/t/mgp-19-bringing-stable-asset-issuance-home-to-celo-governance/139) transfers on-chain ownership of the Mento stable asset issuance protocol to Celo Governance and returns 90% of the Mento Reserve's CELO position (~$3.12M) to the Celo Community Fund. Specifically, it:
 
 1. **Transfers on-chain governance of the issuance protocol** (stable assets, elastic mint/burn, CDPs, and associated reserve parameters) **to Celo Governance.** The FX DEX, the MENTO token, and all other functions remain under Mento Governance.
 2. **Confirms the AP Reserve Foundation as steward of the Mento Reserve and its revenue**, operating under standing principles Celo Governance can alter at any time: principal is never drawn, reserve yield funds the Foundation's stewardship mandate, and the Foundation reports publicly every quarter.
@@ -60,8 +60,8 @@ The CELO transfer to the Community Fund is executed as described in MGP-19. The 
 
 ## Useful Links
 
-- MGP-19 proposal text (authoritative reference): link TBD
-- MGP-19 forum post (Mento): link TBD
-- MGP-19 forum post (Celo): link TBD
+- MGP-19 proposal text (authoritative reference): [MGP-19 on the Mento forum](https://forum.mento.org/t/mgp-19-bringing-stable-asset-issuance-home-to-celo-governance/139) — will be superseded by the on-chain proposal text once MGP-19 is submitted to Mento Governance
+- MGP-19 forum post (Mento): [https://forum.mento.org/t/mgp-19-bringing-stable-asset-issuance-home-to-celo-governance/139](https://forum.mento.org/t/mgp-19-bringing-stable-asset-issuance-home-to-celo-governance/139)
+- MGP-19 forum post (Celo): [https://forum.celo.org/t/mgp-19-bringing-mento-stable-asset-issuance-home-to-celo-governance/13750](https://forum.celo.org/t/mgp-19-bringing-mento-stable-asset-issuance-home-to-celo-governance/13750)
 - Mento Reserve Dashboard: [reserve.mento.org](https://reserve.mento.org/)
 - Deployments repository: [github.com/mento-protocol/deployments-v2](https://github.com/mento-protocol/deployments-v2)
