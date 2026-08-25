@@ -46,7 +46,7 @@ This CGP contains no transactions: it is a proxy (signaling) vote, and its outco
 
 On approval of MGP-19 by Mento Governance, ownership of the issuance contracts is transferred on-chain to the Celo Governance contract ([`0xD533Ca259b330c7A88f74E000a3FaEa2d63B7972`](https://celoscan.io/address/0xD533Ca259b330c7A88f74E000a3FaEa2d63B7972), Celo Registry entry `Governance`) in two legs, both generated from a single script (`script/migration/MGP19.sol` in the [deployments repository](https://github.com/mento-protocol/deployments-v2)):
 
-1. **Mento Governance proposal (27 transactions)** — everything held by the Mento Governance timelock, executed on approval of MGP-19.
+1. **Mento Governance proposal (26 transactions)** — everything held by the Mento Governance timelock, executed on approval of MGP-19.
 2. **Migration multisig batch (35 transactions)** — everything still held by the migration multisig ([`0x58099B74F4ACd642Da77b4B7966b4138ec5Ba458`](https://celoscan.io/address/0x58099B74F4ACd642Da77b4B7966b4138ec5Ba458)) from the V3 rollout, transferred to Celo Governance directly thereafter.
 
 The CELO transfer to the Community Fund is executed as described in MGP-19. The full contract list, per-transaction details, and security considerations are attached to the MGP-19 proposal text.
