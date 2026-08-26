@@ -66,7 +66,7 @@ This command has several parameters:
 
 Here’s an example:
 > propose --jsonTransactions ./transactions.json --deposit 10000000000000000000000 --from 
-YourAddres --descriptionURL
+YourAddress --descriptionURL
 https://github.com/celo-org/governance/blob/main/CGPs/cgp-XXXX.md
 
 ## Submission Stage
@@ -80,7 +80,7 @@ Submitted proposals are added to a queue of proposals in the Submission stage. W
 
 ### Dequeueing 
 
-A dequeing happens automatically for all eligible proposals when *any* proposal is:
+A dequeueing happens automatically for all eligible proposals when *any* proposal is:
 
 * upvoted
 * voted-on
