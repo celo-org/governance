@@ -1,0 +1,67 @@
+---
+cgp: 253
+title: "Proxy Vote for MGP-19 - Bringing Stable Asset Issuance Home to Celo Governance"
+date-created: 2026-08-24
+author: "@mentoLabs"
+status: DRAFT
+discussions-to: https://forum.celo.org/t/mgp-19-bringing-mento-stable-asset-issuance-home-to-celo-governance/13750
+governance-proposal-id:
+date-executed:
+---
+
+## Celo proxy vote
+
+This CGP lets Celo token holders direct how the Celo Community Fund's MENTO allocation votes on Mento Governance Proposal 19 (MGP-19). It includes no Celo governance transactions; the Celo governance vote determines the Community Fund's MGP-19 proxy vote, recording the Celo community's acceptance of the transfer and of the governance role that comes with it. The MGP-19 proposal text as voted on in Mento Governance is the final and authoritative reference for this proposal, and prevails over this summary in case of any discrepancy.
+
+## TL;DR
+
+[**MGP-19: Bringing Stable Asset Issuance Home to Celo Governance**](https://forum.mento.org/t/mgp-19-bringing-stable-asset-issuance-home-to-celo-governance/139) transfers on-chain ownership of the Mento stable asset issuance protocol to Celo Governance and returns 90% of the Mento Reserve's CELO position (~$3.12M) to the Celo Community Fund. Specifically, it:
+
+1. **Transfers on-chain governance of the issuance protocol** (stable assets, elastic mint/burn, CDPs, and associated reserve parameters) **to Celo Governance.** The FX DEX, the MENTO token, and all other functions remain under Mento Governance.
+2. **Confirms the AP Reserve Foundation as steward of the Mento Reserve and its revenue**, operating under standing principles Celo Governance can alter at any time: principal is never drawn, reserve yield funds the Foundation's stewardship mandate, and the Foundation reports publicly every quarter.
+3. **Ratifies a 2-year Reserve Operations Services Agreement** between the Mento Protocol Foundation and Mento Labs GmbH, covering reserve rebalancing as well as oracle relaying and the maintenance and monitoring of the oracle system. Consideration is 95% of the Reserve's remaining ETH-family holdings (~$771,000), drawn against the existing MGP-15 authorization — no new allocation is requested.
+4. **Resolves the Reserve's CELO position** (~$3.47M): **90% returns to the Celo Community Fund**; the remaining 10% stays in the Reserve as an asset of last resort, removed from active rebalancing and staked for stCELO.
+
+The contract handover executes from the Mento side once MGP-19 passes; no Celo Governance transaction is required to receive it. All dollar amounts are as of 21 August 2026.
+
+## Overview
+
+The Mento stables were created on Celo and have grown up with it: held in local wallets, moved in everyday payments, relied on by communities for whom a stablecoin is a working currency. MGP-19 returns governance of their issuance to the community closest to them, while Mento Labs refocuses on the Mento FX DEX and continues to operate the Reserve under a term-limited services agreement.
+
+### What Celo Governance receives
+
+- **Ownership and upgrade authority over the issuance protocol**: all 15 Mento stable assets (USDm, EURm, GBPm, CHFm, JPYm, BRLm, XOFm, KESm, PHPm, COPm, GHSm, ZARm, CADm, AUDm, NGNm), the reserve mint/burn path (Broker, BiPoolManager, Reserve, ReserveV2 and its liquidity strategies), the CDP branches, and the oracle and circuit-breaker layer that gates minting and burning. Future changes go through regular Celo governance proposals.
+- **90% of the Reserve's CELO position (~$3.12M)**, transferred to the Celo Community Fund.
+- **Authority over the AP Reserve Foundation's standing principles**, including the use of reserve yield, which can be altered at any time through Celo Governance.
+
+### What acceptance entails
+
+- By accepting ownership of the stable assets and their reserve, Celo Governance commits to evaluating any emergency involving the protocol's reserve assets on a case-by-case basis, at its sole discretion — the Community Fund standing behind the issuance protocol as its reserve of last resort. Nothing is automatic and nothing is pre-committed. For context: in roughly six years of operation, the Reserve has never been underwater.
+- Day-to-day operations remain delegated: the AP Reserve Foundation stewards the Reserve under standing principles Celo Governance can change (principal never drawn, quarterly public reporting), and Mento Labs GmbH operates rebalancing and the oracle system under a 2-year services agreement with the Mento Protocol Foundation.
+- 10% of the Reserve's CELO (~$347k) remains in the Reserve as an asset of last resort, removed from active rebalancing and staked for stCELO.
+
+## Transaction Details
+
+This CGP contains no transactions: it is a proxy (signaling) vote, and its outcome directs the delegates of the Celo Community Fund's MENTO allocation, who cast the corresponding vote on MGP-19 in Mento Governance.
+
+On approval of MGP-19 by Mento Governance, ownership of the issuance contracts is transferred on-chain to the Celo Governance contract ([`0xD533Ca259b330c7A88f74E000a3FaEa2d63B7972`](https://celoscan.io/address/0xD533Ca259b330c7A88f74E000a3FaEa2d63B7972), Celo Registry entry `Governance`) in two legs, both generated from a single script (`script/migration/MGP19.sol` in the [deployments repository](https://github.com/mento-protocol/deployments-v2)):
+
+1. **Mento Governance proposal (26 transactions)** — everything held by the Mento Governance timelock, executed on approval of MGP-19.
+2. **Migration multisig batch (35 transactions)** — everything still held by the migration multisig ([`0x58099B74F4ACd642Da77b4B7966b4138ec5Ba458`](https://celoscan.io/address/0x58099B74F4ACd642Da77b4B7966b4138ec5Ba458)) from the V3 rollout, transferred to Celo Governance directly thereafter.
+
+The CELO transfer to the Community Fund is executed as described in MGP-19. The full contract list, per-transaction details, and security considerations are attached to the MGP-19 proposal text.
+
+## Security Considerations
+
+- This CGP executes nothing on Celo. The binding vote happens in Mento Governance, and the contract handover is executed from the Mento side.
+- The transfer changes no implementation and modifies no parameter; only ownership and upgrade rights move. Swaps, minting, burning and CDP operations continue exactly as before.
+- After the transfer, all changes to the issuance protocol go through regular Celo governance proposals, with Celo Governance's own proposal, referendum and execution stages.
+- The transfer script verifies after execution that Celo Governance holds every transferred right and that out-of-scope contracts (the Mento FX DEX and the Mento DAO) are unchanged. Transaction hashes will be shared on the forum for community verification.
+
+## Useful Links
+
+- MGP-19 proposal text (authoritative reference): [MGP-19 on the Mento forum](https://forum.mento.org/t/mgp-19-bringing-stable-asset-issuance-home-to-celo-governance/139) — will be superseded by the on-chain proposal text once MGP-19 is submitted to Mento Governance
+- MGP-19 forum post (Mento): [https://forum.mento.org/t/mgp-19-bringing-stable-asset-issuance-home-to-celo-governance/139](https://forum.mento.org/t/mgp-19-bringing-stable-asset-issuance-home-to-celo-governance/139)
+- MGP-19 forum post (Celo): [https://forum.celo.org/t/mgp-19-bringing-mento-stable-asset-issuance-home-to-celo-governance/13750](https://forum.celo.org/t/mgp-19-bringing-mento-stable-asset-issuance-home-to-celo-governance/13750)
+- Mento Reserve Dashboard: [reserve.mento.org](https://reserve.mento.org/)
+- Deployments repository: [github.com/mento-protocol/deployments-v2](https://github.com/mento-protocol/deployments-v2)
