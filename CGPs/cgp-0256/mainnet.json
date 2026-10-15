@@ -1,0 +1,44 @@
+[
+  {
+    "contract": "FeeHandler",
+    "address": "0xcD437749E43A154C07F3553504c68fBfD56B8778",
+    "function": "addToken",
+    "args": [
+      "0xD2ab3C9A02DBBAB236BfEC45D1d755DF4267F771",
+      "0xD3aeE28548Dbb65DF03981f0dC0713BfCBd10a97"
+    ],
+    "value": "0",
+    "description": "Add USA₮ (underlying token) to FeeHandler with UniswapFeeHandlerSeller as handler."
+  },
+  {
+    "contract": "FeeHandler",
+    "address": "0xcD437749E43A154C07F3553504c68fBfD56B8778",
+    "function": "addToken",
+    "args": [
+      "0xaf37E8B6C9ED7f6318979f56Fc287d76c30847ff",
+      "0xD3aeE28548Dbb65DF03981f0dC0713BfCBd10a97"
+    ],
+    "value": "0",
+    "description": "Add XAU₮0 (underlying token) to FeeHandler with UniswapFeeHandlerSeller as handler."
+  },
+  {
+    "contract": "FeeHandler",
+    "address": "0xcD437749E43A154C07F3553504c68fBfD56B8778",
+    "function": "removeToken",
+    "args": [
+      "0x0357EE22278c922e1D36cFe6b899269b161880C4"
+    ],
+    "value": "0",
+    "description": "Remove USA₮ fee currency adapter from FeeHandler (has no transfer method)."
+  },
+  {
+    "contract": "FeeHandler",
+    "address": "0xcD437749E43A154C07F3553504c68fBfD56B8778",
+    "function": "removeToken",
+    "args": [
+      "0x857BF24e29da0773687E804a743c2E421a394C16"
+    ],
+    "value": "0",
+    "description": "Remove XAU₮0 fee currency adapter from FeeHandler (has no transfer method)."
+  }
+]
