@@ -1,0 +1,12 @@
+[
+  {
+    "contract": "Governance",
+    "address": "0xD533Ca259b330c7A88f74E000a3FaEa2d63B7972",
+    "function": "setHotfixExecutionTimeWindow",
+    "args": [
+      "86400"
+    ],
+    "value": "0",
+    "description": "Set hotfixExecutionTimeWindow to 24 hours so approved hotfixes can be prepared and executed."
+  }
+]
